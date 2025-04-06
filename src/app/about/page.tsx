@@ -65,7 +65,7 @@ export default function AboutPage() {
     {/* Testimonial Text */}
     <div className="text-base md:text-lg leading-relaxed text-black">
       <p>
-        Hey Tanishq, i don't say this often but thank you so much for everything you have done and do for me,
+        Hey Tanishq, i don&apos;t say this often but thank you so much for everything you have done and do for me,
         for being there for me, for looking up to me, for cheering me and many such things. I love you for all
         this and for the person you are. It’s been a great ride through the last one year and I am looking forward
         to many more
@@ -264,7 +264,7 @@ export default function AboutPage() {
           YOUR WIN, MY WIN
         </p>
         <p className="text-base max-w-md mx-auto">
-          When I work with you, it's not just business. I put myself in your shoes. I care deeply about your success and am committed to helping you thrive.
+          When I work with you, it&apos;s not just business. I put myself in your shoes. I care deeply about your success and am committed to helping you thrive.
         </p>
       </div>
     </div>
@@ -292,7 +292,7 @@ export default function AboutPage() {
         BUILDING YOUR SUCCESS WITH INTEGRITY
       </p>
       <p className="text-base max-w-md mx-auto">
-        I value honesty above all else. I don't claim to be perfect, and I do make mistakes. But, I will always be the first to acknowledge and take responsibility for them. I strive to honour my commitments. My goal is to ensure you receive the best service possible.
+        I value honesty above all else. I don&apos;t claim to be perfect, and I do make mistakes. But, I will always be the first to acknowledge and take responsibility for them. I strive to honour my commitments. My goal is to ensure you receive the best service possible.
       </p>
     </div>
   </div>

@@ -90,9 +90,9 @@ export default function Home() {
 
       <div className="space-y-4 text-base font-light italic leading-relaxed">
         <p>WHAT IF YOU COULD BRING IN THE RIGHT EXPERTISE TODAY?</p>
-        <p>YOU’D FINALLY FEEL AT EASE. NO MORE BEING WIRED 24/7.</p>
-        <p>YOUR BUSINESS WOULD KEEP MOVING FORWARD, EVEN WHEN YOU’RE NOT GLUED TO IT.</p>
-        <p>DON’T LET HESITATION HOLD YOU BACK FROM ACHIEVING YOUR BUSINESS GOALS.</p>
+        <p>YOU&apos;D FINALLY FEEL AT EASE. NO MORE BEING WIRED 24/7.</p>
+        <p>YOUR BUSINESS WOULD KEEP MOVING FORWARD, EVEN WHEN YOU&apos;RE NOT GLUED TO IT.</p>
+        <p>DON&apos;T LET HESITATION HOLD YOU BACK FROM ACHIEVING YOUR BUSINESS GOALS.</p>
       </div>
     </div>
   </div>
