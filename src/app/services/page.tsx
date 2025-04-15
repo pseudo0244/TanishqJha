@@ -87,7 +87,7 @@ const ServicesPage = () => {
             <p className="text-sm md:text-base mb-4">
               She took care of all the details and challenges, allowing me to focus on my first digital product and
               creating content. If you need someone to help you organise and grow your online business, I highly
-              recommend Tanishq!"
+              recommend Tanishq!
             </p>
             <p className="text-sm md:text-base font-semibold">Anmol, Coach, Company Name</p>
           </div>
@@ -469,14 +469,13 @@ const ServicesPage = () => {
             {/* Testimonial Text */}
             <div className="text-[#3a2d2c] text-center md:text-left">
               <p className="text-xl font-semibold mb-4">
-                "THE BEST PART IS YOU WORK ON IT LIKE IT&apos;S YOUR OWN,
+                THE BEST PART IS YOU WORK ON IT LIKE IT&apos;S YOUR OWN,
                 <br />
-                AND EVEN PUSH ME TO BE MY BETTER VERSION EVERYDAY!"
               </p>
               <p className="text-lg font-bold mt-6">
                 WITH YOUR HELP I COULD ACTUALLY LAUNCH MY NEW DIGITAL PRODUCT IN LESS THAN 10 DAYS!
                 <span className="font-normal"> ( IT WAS ON HOLD SINCE MORE THAN 2 MONTHS)</span>
-                WHICH ALSO GOT ME 4 SALES ON THE FIRST DAY ITSELF!!"
+                WHICH ALSO GOT ME 4 SALES ON THE FIRST DAY ITSELF!!
               </p>
               <p className="mt-6 text-sm uppercase tracking-wide text-[#7a625f]">NAME, DESIGNATION, COMPANY NAME</p>
             </div>

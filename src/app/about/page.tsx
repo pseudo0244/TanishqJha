@@ -52,7 +52,7 @@ export default function AboutPage() {
       <section className="px-6 md:px-20 py-16 bg-white">
   {/* Title */}
   <h2 className="text-2xl md:text-3xl font-medium text-center mb-12 leading-relaxed">
-    IT'S BEEN A GREAT RIDE THROUGH THE LAST ONE YEAR<br />
+    IT&apos;S BEEN A GREAT RIDE THROUGH THE LAST ONE YEAR<br />
     AND I AM LOOKING FORWARD TO MANY MORE....
   </h2>
 
@@ -69,9 +69,9 @@ export default function AboutPage() {
     {/* Testimonial Text */}
     <div className="text-base md:text-lg leading-relaxed text-black">
       <p>
-        Hey Tanishq, i don't say this often but thank you so much for everything you have done and do for me,
+        Hey Tanishq, i don&apos;t say this often but thank you so much for everything you have done and do for me,
         for being there for me, for looking up to me, for cheering me and many such things. I love you for all
-        this and for the person you are. It's been a great ride through the last one year and I am looking forward
+        this and for the person you are. It&apos;s been a great ride through the last one year and I am looking forward
         to many more
       </p>
       <p className="font-semibold mt-4">Roshni, Designation, Company Name</p>
@@ -94,7 +94,7 @@ export default function AboutPage() {
         <h3
           className={`text-3xl md:text-6xl text-[#5f4b46] mb-6 font-medium italic text-right pr-8`}
         >
-          Here's how it works:
+          Here&apos;s how it works:
         </h3>
 
         <div className="flex flex-col md:flex-row items-stretch gap-8 md:gap-12">
@@ -114,7 +114,7 @@ export default function AboutPage() {
           {/* Right Side - Text box */}
           <div className="w-full md:w-7/12 bg-white rounded-[30px] shadow-lg p-6 md:p-10 flex flex-col justify-center">
             <p className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide">
-              YOU'RE GOING ABOUT YOUR DAILY LIFE—HANDLING CLIENT MEETINGS, PROJECT DELIVERY, AND PERSONAL
+              YOU&apos;RE GOING ABOUT YOUR DAILY LIFE—HANDLING CLIENT MEETINGS, PROJECT DELIVERY, AND PERSONAL
               RESPONSIBILITIES. MEANWHILE, YOUR BUSINESS RUNS LIKE A WELL-OILED MACHINE, WITH EVERYTHING ON TRACK.
             </p>
 
@@ -233,7 +233,7 @@ export default function AboutPage() {
           YOUR WIN, MY WIN
         </p>
         <p className="text-base max-w-md mx-auto">
-          When I work with you, it's not just business. I put myself in your shoes. I care deeply about your success and am committed to helping you thrive.
+          When I work with you, it&apos;s not just business. I put myself in your shoes. I care deeply about your success and am committed to helping you thrive.
         </p>
       </div>
     </div>
@@ -249,7 +249,7 @@ export default function AboutPage() {
         WHAT YOU SEE IS WHAT YOU GET
       </p>
       <p className="text-base max-w-md mx-auto">
-        I believe in building relationships with complete openness. From our first interaction to the last, you'll always know where we stand. My commitment is to be clear, genuine, and real, every step of the way.
+        I believe in building relationships with complete openness. From our first interaction to the last, you&apos;ll always know where we stand. My commitment is to be clear, genuine, and real, every step of the way.
       </p>
     </div>
 
@@ -261,7 +261,7 @@ export default function AboutPage() {
         BUILDING YOUR SUCCESS WITH INTEGRITY
       </p>
       <p className="text-base max-w-md mx-auto">
-        I value honesty above all else. I don't claim to be perfect, and I do make mistakes. But, I will always be the first to acknowledge and take responsibility for them. I strive to honour my commitments. My goal is to ensure you receive the best service possible.
+        I value honesty above all else. I don&apos;t claim to be perfect, and I do make mistakes. But, I will always be the first to acknowledge and take responsibility for them. I strive to honour my commitments. My goal is to ensure you receive the best service possible.
       </p>
     </div>
   </div>
@@ -274,7 +274,7 @@ export default function AboutPage() {
       OUR MUTUAL RESPECT STRENGTHENS TEAMWORK AND DRIVES SUCCESS
     </p>
     <p className="text-base max-w-md mx-auto">
-      I believe collaboration flourishes when we value each other's perspectives. This mutual respect builds a strong sense of teamwork that drives your growth and success.
+      I believe collaboration flourishes when we value each other&apos;s perspectives. This mutual respect builds a strong sense of teamwork that drives your growth and success.
     </p>
   </div>
 </section>
@@ -423,7 +423,7 @@ export default function AboutPage() {
       {/* Content */}
       <div>
         <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
-          NEED SOMETHING THAT ISN'T LISTED?
+          NEED SOMETHING THAT ISN&apos;T LISTED?
         </h4>
         <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
           YOU WANT A BIG-PICTURE THINKER AND A DOER<br />
