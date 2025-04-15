@@ -11,7 +11,7 @@ const ServicesPage = () => {
       <div className="relative w-full h-screen overflow-hidden bg-black">
         {/* Background Image */}
         <img
-          src="/services/service1.png"
+          src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713799/service1_inaymw.png"
           alt="Bg1"
           className="absolute inset-0 w-full h-full object-cover z-0 opacity-60"
           onError={(e) => {
@@ -35,7 +35,7 @@ const ServicesPage = () => {
               TO-
             </p>
           </div>
-          <div className="absolute right-6 top-1/2 transform -translate-y-1/2 text-white font-['Poppins']">
+          <div className="absolute right-6 top-1/2 transform -translate-y-1/2 text-white font-['arberto']">
             <p className="text-[50px] md:text-[30px] font-light ">
               <span className="font-light">
                 <br>
@@ -50,14 +50,14 @@ const ServicesPage = () => {
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2"></div>
               <div className="w-full flex justify-center"></div>
                 <button className="px-6 py-3 bg-white text-black font-semibold tracking-wide align-center rounded-md shadow-md hover:bg-gray-200 transition">
-                  LET'S TALK
+                  LET&apos;S TALK
                 </button>
               </div>
             </div>
 
       <section className="relative w-full bg-white overflow-hidden">
         {/* Background image */}
-        <img src="/services/service3.png" alt="Bg11" className="absolute inset-0 w-full h-full object-cover z-0" />
+        <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713803/service3_v8emjp.png" alt="Bg11" className="absolute inset-0 w-full h-full object-cover z-0" />
 
         {/* Content container */}
         <div className="relative z-10 flex flex-col md:flex-row max-w-6xl mx-auto p-6 md:p-16 items-center justify-center">
@@ -65,7 +65,7 @@ const ServicesPage = () => {
           <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
             <div className="bg-white rounded-xl shadow-xl overflow-hidden">
               <img
-                src="/services/service2.png"
+                src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713796/service2_rsobm1.png"
                 alt="Tanishq Testimonial"
                 className="w-[300px] md:w-[340px] h-auto object-cover"
               />
@@ -105,7 +105,7 @@ const ServicesPage = () => {
             The Flexibility And Balance You Wished For Now Feel Just Out Of Reach
           </p>
 
-          <h2 className="text-xl font-semibold mb-4">You Are Making Money. But Here's The Catch…</h2>
+          <h2 className="text-xl font-semibold mb-4">You Are Making Money. But Here&apos;s The Catch…</h2>
 
           <ul className="space-y-4 text-sm">
             {[
@@ -125,9 +125,9 @@ const ServicesPage = () => {
         </div>
 
         <div className="w-full md:w-1/3 mt-10 md:mt-0 flex flex-col items-center">
-          <img src="/services/service4.png" alt="Clock" className="rounded-md w-full h-auto object-contain" />
+          <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713800/service4_qhqdid.png" alt="Clock" className="rounded-md w-full h-auto object-contain" />
           <p className="italic text-md mt-4 text-center text-[#141414]">
-            IT DOESN'T HAVE TO BE THIS
+            IT DOESN&apos;T HAVE TO BE THIS
             <br />
             <span className="block">WAY….</span>
           </p>
@@ -136,7 +136,7 @@ const ServicesPage = () => {
 
       <section className="bg-white px-6 md:px-20 py-14 flex flex-col md:flex-row items-center justify-between font-sans text-[#141414]">
         <div className="w-full md:w-1/3 mb-10 md:mb-0">
-          <img src="/services/service6.png" alt="Forest Path" className="w-full h-auto object-cover" />
+          <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Forest Path" className="w-full h-auto object-cover" />
         </div>
 
         <div className="w-full md:w-1/2 md:pl-12 text-left">
@@ -152,7 +152,7 @@ const ServicesPage = () => {
           </p>
 
           <p className="text-lg md:text-xl mt-6 leading-relaxed">
-            Think about how much time you'd gain to focus on <br />
+            Think about how much time you&apos;d gain to focus on <br />
             your true priorities. Letting an expert handle the <br />
             day-to-day tasks that keep everything running <br />
             smoothly.
@@ -161,16 +161,16 @@ const ServicesPage = () => {
       </section>
 
       {/* Services Section */}
-      <section className="bg-white py-20 px-6 md:px-20 text-center font-['Didot',serif]">
+      <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif]">
         {/* Top Text */}
-        <div className="max-w-4xl mx-auto mb-20">
-          <h2 className="text-[36px] md:text-[42px] leading-tight font-light tracking-wide uppercase text-black">
+        <div className="max-w-4xl mx-auto mb-20 py-10 ">
+          <h2 className="text-[36px] md:text-[35px] leading-tight font-light tracking-wide uppercase text-black">
             WANNA SCALE YOUR BUSINESS...
           </h2>
-          <h2 className="text-[36px] md:text-[42px] leading-tight font-light tracking-wide uppercase text-black mt-2">
+          <h2 className="text-[36px] md:text-[35px] leading-tight font-light tracking-wide uppercase text-black mt-2">
             WITHOUT THE <span className="font-bold">OVERLOAD</span> ON YOUR SHOULDERS?
           </h2>
-          <p className="mt-8 text-[22px] tracking-wide text-[#2E2E2E] uppercase">HERE'S HOW WE CAN WORK TOGETHER</p>
+          <p className="mt-8 text-[22px] tracking-wide text-[#2E2E2E] uppercase">HERE&apos;S HOW WE CAN WORK TOGETHER</p>
 
           {/* Arrow */}
           <div className="mt-6">
@@ -313,7 +313,7 @@ const ServicesPage = () => {
             {/* Content */}
             <div>
               <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
-                NEED SOMETHING THAT ISN'T LISTED?
+                NEED SOMETHING THAT ISN&apos;T LISTED?
               </h4>
               <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
                 YOU WANT A BIG-PICTURE THINKER AND A DOER
@@ -338,13 +338,13 @@ const ServicesPage = () => {
       <section className="bg-white px-6 md:px-20 py-16 flex flex-col md:flex-row items-start justify-between font-sans text-[#141414] gap-10">
         {/* Image */}
         <div className="w-full md:w-[42%]">
+        <h2 className="text-2xl md:text-3xl font-light text-center tracking-wide mb-2">ONGOING SUPPORT</h2>
           <img src="/services/service6.png" alt="Support Forest Path" className="w-full h-auto object-cover" />
         </div>
 
         {/* Text Content */}
         <div className="w-full md:w-[55%] text-left">
-          <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-2">ONGOING SUPPORT</h2>
-          <h1 className="text-[26px] md:text-[32px] font-semibold uppercase border-b-2 border-black inline-block pb-1 mb-4">
+          <h1 className="text-[26px] md:text-[32px] font-semibold uppercase inline-block pb-1 mb-4">
             ONLINE BUSINESS MANAGER
           </h1>
 
@@ -355,7 +355,7 @@ const ServicesPage = () => {
           </p>
 
           <p className="font-semibold mb-6">
-            Whether You're Scaling Your Business Or Slowing Down To Take A Break And Relax.
+            Whether You&apos;re Scaling Your Business Or Slowing Down To Take A Break And Relax.
           </p>
 
           {/* Bullet Points */}
@@ -408,9 +408,9 @@ const ServicesPage = () => {
           </p>
 
           <p className="text-base md:text-lg mb-4 leading-relaxed">
-            As Your VA, I'll Take Care Of The Draining Admin Tasks—Like The Hours Spent
+            As Your VA, I&apos;ll Take Care Of The Draining Admin Tasks—Like The Hours Spent
             <br />
-            Replying To DMs—While The Work Piles Up. You'll Finally Have Time For What
+            Replying To DMs—While The Work Piles Up. You&apos;ll Finally Have Time For What
             <br />
             Truly Matters.
           </p>
@@ -469,7 +469,7 @@ const ServicesPage = () => {
             {/* Testimonial Text */}
             <div className="text-[#3a2d2c] text-center md:text-left">
               <p className="text-xl font-semibold mb-4">
-                "THE BEST PART IS YOU WORK ON IT LIKE IT'S YOUR OWN,
+                "THE BEST PART IS YOU WORK ON IT LIKE IT&apos;S YOUR OWN,
                 <br />
                 AND EVEN PUSH ME TO BE MY BETTER VERSION EVERYDAY!"
               </p>
@@ -492,13 +492,13 @@ const ServicesPage = () => {
               MY UNWAVERING COMMITMENT TO YOU
             </h2>
             <p className="uppercase text-sm font-medium mb-4">
-              I'M COMMITTED TO MAKING YOUR BUSINESS RUN SMOOTHLY. YOU CAN FOCUS ON GROWTH WITHOUT GETTING BOGGED DOWN BY
+              I&apos;M COMMITTED TO MAKING YOUR BUSINESS RUN SMOOTHLY. YOU CAN FOCUS ON GROWTH WITHOUT GETTING BOGGED DOWN BY
               DAY-TO-DAY TASKS.
             </p>
-            <p className="mb-4">HERE'S WHAT WORKING WITH ME LOOKS LIKE:</p>
+            <p className="mb-4">HERE&apos;S WHAT WORKING WITH ME LOOKS LIKE:</p>
             <ul className="list-disc list-inside space-y-3 text-base">
               <li>
-                <strong>Constant Communication:</strong> Expect timely updates, so you're never left in the dark about
+                <strong>Constant Communication:</strong> Expect timely updates, so you&apos;re never left in the dark about
                 where things stand.
               </li>
               <li>
@@ -507,7 +507,7 @@ const ServicesPage = () => {
               </li>
               <li>
                 <strong>A Values-Driven Partnership:</strong> I work with clients whose missions I believe in, which
-                means I'm fully invested in helping you succeed.
+                means I&apos;m fully invested in helping you succeed.
               </li>
             </ul>
           </div>
@@ -520,54 +520,30 @@ const ServicesPage = () => {
       </section>
 
       <section>
-        <div
-          className="bg-cover bg-center py-20 px-4 text-center"
-          style={{
-            backgroundImage: "url('/services/service12.png')",
-          }}
-        >
-          <h2 className="text-4xl md:text-5xl font-semibold text-black mb-6">
-            LET'S SIMPLIFY YOUR SYSTEMS,
-            <br />
-            PROCESSES, AND DAILY OPERATIONS
-          </h2>
-          <p className="text-lg md:text-xl text-black mb-10 max-w-3xl mx-auto">
-            Prefer talking it out instead of reading through details? Let's connect, and I'll help you choose the best
-            offer to suit your business needs.
-          </p>
-          <a
-            href="#schedule-call"
-            className="inline-block bg-[#3a2d2c] text-white text-lg tracking-widest px-8 py-4 rounded-md shadow-md hover:bg-[#2e2322] transition"
-          >
-            I'M IN! SCHEDULE THE CALL
-          </a>
-        </div>
-      </section>
+  <div
+    className="bg-contain bg-no-repeat bg-right py-20 px-4 text-center"
+    style={{
+      backgroundImage: "url('/services/service12.png')",
+    }}
+  >
+    <h2 className="text-4xl md:text-4xl font-semibold text-black mb-6">
+      LET&apos;S SIMPLIFY YOUR SYSTEMS,
+      <br />
+      PROCESSES, AND DAILY OPERATIONS
+    </h2>
+    <p className="text-lg md:text-xl text-black mb-10 max-w-3xl mx-auto">
+      Prefer talking it out instead of reading through details? Let&apos;s connect, and I&apos;ll help you choose the best
+      offer to suit your business needs.
+    </p>
+    <a
+      href="#schedule-call"
+      className="inline-block bg-[#3a2d2c] text-white text-lg tracking-widest px-8 py-4 rounded-md shadow-md hover:bg-[#2e2322] transition"
+    >
+      I&apos;M IN! SCHEDULE THE CALL
+    </a>
+  </div>
+</section>
 
-      <section className="w-full">
-        {/* Top White Section */}
-        <div className="bg-white text-center pt-16 pb-8">
-          <h2 className="text-black text-[22px] tracking-[0.15em] font-normal uppercase">
-            CONNECT WITH ME ON INSTAGRAM
-          </h2>
-          <p className="text-black text-[22px] tracking-[0.15em] font-normal uppercase mt-2">
-            EXCITED TO SHARE THIS JOURNEY!
-          </p>
-        </div>
-
-        {/* Half White + Half Pink Section */}
-        <div className="relative w-full h-[600px]">
-          {/* Bottom Pink Layer */}
-          <div className="absolute bottom-0 left-0 w-full h-1/2 bg-[#F3E5DC] z-0" />
-
-          {/* Image Cards */}
-          <div className="relative z-10 flex flex-col md:flex-row justify-center items-center gap-10 h-full px-6">
-            <div className="w-[400px] h-[400px] bg-[#D9D9D9]" />
-            <div className="w-[400px] h-[400px] bg-[#D9D9D9]" />
-            <div className="w-[400px] h-[400px] bg-[#D9D9D9]" />
-          </div>
-        </div>
-      </section>
       <Footer />
     </>
   )

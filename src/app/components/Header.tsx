@@ -8,12 +8,12 @@ export default function Header() {
         <Link href="/">
           HOME
         </Link>
-        <Link href="#">SERVICES</Link>
+        <Link href="/services">SERVICES</Link>
         <h1 className="text-4xl font-light italic mx-8" style={{ fontFamily: `'Great Vibes', cursive` }}>
           Tanishq Jha
         </h1>
         <Link href="/about">ABOUT</Link>
-        <Link href="#">CONTACT</Link>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfSvqOwRlMADSTAiAWFsuGYmOh1rjECxErFBjeyqkzEDtHNiA/viewform">CONTACT</Link>
       </nav>
     </header>
   )

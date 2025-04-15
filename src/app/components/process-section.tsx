@@ -32,8 +32,8 @@ const ProcessSection = () => {
                   DEEP DIVE
                 </h4>
                 <p className="text-base leading-relaxed font-light max-w-md">
-                  We'll kick off our collaboration with a session focused on understanding your business inside out.
-                  Together, we'll identify your key challenges and aspirations. This will ensure we're aligned on your
+                  We&apos;ll kick off our collaboration with a session focused on understanding your business inside out.
+                  Together, we&apos;ll identify your key challenges and aspirations. This will ensure we&aposre aligned on your
                   vision and objectives from the start.
                 </p>
               </div>
@@ -46,8 +46,8 @@ const ProcessSection = () => {
                   REFINEMENT
                 </h4>
                 <p className="text-base leading-relaxed font-light max-w-md">
-                  Once you receive the action plan, we'll connect for a review. This is your opportunity to provide input
-                  and make any necessary adjustments. Together, we'll finalise a roadmap that feels just right for your
+                  Once you receive the action plan, we&apos;ll connect for a review. This is your opportunity to provide input
+                  and make any necessary adjustments. Together, we&apos;ll finalise a roadmap that feels just right for your
                   business.
                 </p>
               </div>
@@ -57,7 +57,7 @@ const ProcessSection = () => {
                 <h3 className="text-2xl font-semibold mb-2">Step 5:</h3>
                 <h4 className="uppercase tracking-widest font-bold text-[18px] mb-4">REVIEW & INSIGHTS</h4>
                 <p className="text-base leading-relaxed font-light max-w-md">
-                  After implementation, we'll evaluate the results. We'll discuss what's working well and identify
+                  After implementation, we&apos;ll evaluate the results. We&apos;ll discuss what&apos;s working well and identify
                   opportunities for further improvement. This ongoing reflection helps us adapt and for sustained success.
                 </p>
               </div>
@@ -74,7 +74,7 @@ const ProcessSection = () => {
                   PLAN & TIMELINE
                 </h4>
                 <p className="text-base leading-relaxed font-light max-w-md">
-                  Based on our discussions, I'll develop a customised action plan to streamline your operations. The plan
+                  Based on our discussions, I&apos;ll develop a customised action plan to streamline your operations. The plan
                   will include clear timelines and milestones to keep us on track. This will ensure all efforts align with
                   your objectives.
                 </p>
@@ -89,8 +89,8 @@ const ProcessSection = () => {
                   EXECUTION
                 </h4>
                 <p className="text-base leading-relaxed font-light max-w-md">
-                  With our plan in place, I'll handle the execution. I'll manage tasks and timelines to ensure everything
-                  runs smoothly. You'll be free to focus on your core business and strategic growth, without getting
+                  With our plan in place, I&apos;ll handle the execution. I&apos;ll manage tasks and timelines to ensure everything
+                  runs smoothly. You&apos;ll be free to focus on your core business and strategic growth, without getting
                   bogged down in the details.
                 </p>
               </div>
