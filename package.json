@@ -12,6 +12,7 @@
     "@fontsource/aboreto": "^5.2.5",
     "@fontsource/afacad": "^5.2.6",
     "@fontsource/poppins": "^5.2.5",
+    "canvas-confetti": "^1.9.3",
     "lucide-react": "^0.487.0",
     "next": "^15.2.4",
     "react": "^19.0.0",

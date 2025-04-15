@@ -1,10 +1,21 @@
+'use client'
 import Header from "./components/Header"
 import { SlCheck } from "react-icons/sl"
 import Footer from "./components/Footer"
 import Image from "next/image"
+import { useEffect } from "react"
+import confetti from "canvas-confetti"
 
 
 export default function Home() {
+  useEffect(() => {
+    // Run confetti when component mounts
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 }
+    })
+  }, [])
   return (
     <main>
       <Header />
