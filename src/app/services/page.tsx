@@ -12,7 +12,7 @@ const ServicesPage = () => {
       <Header />
       <div className="relative w-full h-screen overflow-hidden bg-black">
         {/* Background Image */}
-        <img
+        <Image
           src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713799/service1_inaymw.png"
           alt="Bg1"
           className="absolute inset-0 w-full h-full object-cover z-0 opacity-60"
@@ -59,7 +59,7 @@ const ServicesPage = () => {
             <section className="relative w-full bg-white overflow-hidden">
   {/* Background image */}
   <div className="absolute inset-0 w-full h-full">
-    <img
+    <Image
       src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713803/service3_v8emjp.png"
       alt="Bg11"
       className="w-full h-full object-cover"
@@ -71,7 +71,7 @@ const ServicesPage = () => {
     {/* Left - Lady image */}
     <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
       <div className="bg-white rounded-xl shadow-xl overflow-hidden">
-        <img
+        <Image
           src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713796/service2_rsobm1.png"
           alt="Tanishq Testimonial"
           className="w-[300px] md:w-[340px] h-auto object-cover"
@@ -134,7 +134,7 @@ const ServicesPage = () => {
         </div>
 
         <div className="w-full md:w-1/3 mt-10 md:mt-0 flex flex-col items-center">
-          <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713800/service4_qhqdid.png" alt="Clock" className="rounded-md w-full h-auto object-contain" />
+          <Image src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713800/service4_qhqdid.png" alt="Clock" className="rounded-md w-full h-auto object-contain" />
           <p className="italic text-2xl mt-4 text-left text-[#141414] font-['poppins'] font-semibold">
             IT DOESN&apos;T HAVE TO BE THIS
             <br />
@@ -145,7 +145,7 @@ const ServicesPage = () => {
 
       <section className="bg-white px-6 md:px-20 py-14 flex flex-col md:flex-row items-center justify-between font-sans text-[#141414]">
         <div className="w-full md:w-1/3 mb-10 md:mb-0">
-          <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Forest Path" className="w-full h-auto object-cover" />
+          <Image src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Forest Path" className="w-full h-auto object-cover" />
         </div>
 
         <div className="w-full md:w-3/5 md:pl-12 text-left">
@@ -217,7 +217,7 @@ const ServicesPage = () => {
 
           {/* Image */}
           <div className="md:w-1/3 flex justify-center md:justify-end">
-            <img
+            <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713713/hero6_li2r1f.png"
               alt="Virtual Assistant"
               className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
@@ -230,7 +230,7 @@ const ServicesPage = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 mb-20">
           {/* Image Left */}
           <div className="md:w-1/3 flex justify-center md:justify-start">
-            <img
+            <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713710/hero7_ol7jzy.png"
               alt="Online Business Manager"
               className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
@@ -294,7 +294,7 @@ const ServicesPage = () => {
 
           {/* Image Right */}
           <div className="md:w-1/3 flex justify-center md:justify-end">
-            <img
+            <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/IMG20241031150823_5_ixi4ia.png"
               alt="60 Minute Strategy Call"
               className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
@@ -307,7 +307,7 @@ const ServicesPage = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
           {/* Image Left */}
           <div className="md:w-1/3 flex justify-center md:justify-start">
-            <img
+            <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/hero9_fptahl.png"
               alt="Need Something Else"
               className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
@@ -350,7 +350,7 @@ const ServicesPage = () => {
       <section className="bg-white px-6 md:px-20 py-16 flex flex-col md:flex-row items-start justify-between font-sans text-[#141414] gap-10">
         {/* Image */}
         <div className="w-full md:w-[42%]">
-          <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Support Forest Path" className="w-full h-auto object-cover" />
+          <Image src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Support Forest Path" className="w-full h-auto object-cover" />
         </div>
 
         {/* Text Content */}
@@ -462,7 +462,7 @@ const ServicesPage = () => {
 
         {/* Image */}
         <div className="w-full md:w-[35%]">
-          <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Virtual Assistant Forest" className="w-full h-auto object-cover" />
+          <Image src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713810/service6_vehgza.png" alt="Virtual Assistant Forest" className="w-full h-auto object-cover" />
         </div>
       </section>
 
@@ -592,7 +592,7 @@ const ServicesPage = () => {
           <div className="max-w-5xl w-full flex flex-col md:flex-row items-center md:items-start gap-10">
             {/* Circular Image */}
             <div className="w-64 h-64 rounded-full overflow-hidden border-[10px] border-[#ebd6c6] flex-shrink-0">
-              <img src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713804/service10_gthdb2.png" alt="Client Testimonial" className="w-full h-full object-cover" />
+              <Image src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713804/service10_gthdb2.png" alt="Client Testimonial" className="w-full h-full object-cover" />
             </div>
 
             {/* Testimonial Text */}
@@ -650,7 +650,7 @@ const ServicesPage = () => {
 
         {/* Right Image */}
         <div className="rounded-xl overflow-hidden flex-1">
-          <img
+          <Image
             src="/services/service1.png"
             alt="Woman in yellow dress sitting by a window with city view"
             className="w-full h-full object-center object-cover rounded-xl"
