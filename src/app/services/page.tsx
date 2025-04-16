@@ -482,8 +482,8 @@ const ServicesPage = () => {
             60-Minute Strategy Consultation
           </h2>
           <p className="mt-4 text-base md:text-lg font-light leading-relaxed font-['poppins']">
-            If you're not quite ready for 1:1 support, but still crave <br></br>personalised strategy advice.
-            It goes beyond what you'll find online.
+            If you&apos;re not quite ready for 1:1 support, but still crave <br></br>personalised strategy advice.
+            It goes beyond what you&apos;ll find online.
           </p>
         </div>
 
@@ -492,7 +492,7 @@ const ServicesPage = () => {
           <h3 className="text-xl md:text-3xl tracking-wider font-light font-['aboreto']">STEP 1: LOCK IN YOUR SPOT</h3>
           <br></br>
           <p className="text-base font-medium font-['poppins']">
-            Once your payment goes through, you’ll receive an email with the link you need to:
+            Once your payment goes through, you&apos;ll receive an email with the link you need to:
           </p>
           <ul className="text-sm md:text-base mt-2 space-y-1 font-['poppins']">
             <li>• Book your consult date and time.</li>
@@ -507,7 +507,7 @@ const ServicesPage = () => {
           <p className="text-base font-light leading-relaxed font-['poppins']">
             At least 24 hours before our call, fill out the questionnaire. This helps me understand your challenges
             and goals, as well as what you aim to achieve during our session. The more details you provide, the better
-            prepared we’ll be to maximise our time together.
+            prepared we&apos;ll be to maximise our time together.
           </p>
         </div>
 
@@ -516,7 +516,7 @@ const ServicesPage = () => {
           <h3 className="text-xl md:text-3xl tracking-wider font-light font-['aboreto']">STEP 3: DIVE INTO STRATEGY</h3>
           <br></br>
           <p className="text-base font-light leading-relaxed font-['poppins']">
-            Join the call ready to explore ways to streamline your operations and grow your business. We’ll use 60 minutes
+            Join the call ready to explore ways to streamline your operations and grow your business. We&apos;ll use 60 minutes
             to focus on your unique needs. This may include optimising team performance, fine-tuning processes, or
             addressing specific pain points.
           </p>
@@ -548,7 +548,7 @@ const ServicesPage = () => {
               Challenges.
             </p>
             <p>
-              <span className="font-bold">Recorded Call:</span> You’ll Receive A Full Recording Of Our Session, Allowing You
+              <span className="font-bold">Recorded Call:</span> You&apos;ll Receive A Full Recording Of Our Session, Allowing You
               To Revisit The Insights Whenever
               <br />
               <span className="flex items-start mt-2">
@@ -557,7 +557,7 @@ const ServicesPage = () => {
               </span>
             </p>
             <p>
-              <span className="font-bold">Recommendation Document:</span> Within 48 Hours, I’ll Send
+              <span className="font-bold">Recommendation Document:</span> Within 48 Hours, I&apos;ll Send
               <br />
               <span className="flex items-start mt-2">
                 <SlCheck className="mt-[5px] mr-2 text-black" />
@@ -565,7 +565,7 @@ const ServicesPage = () => {
               </span>
             </p>
             <p>
-              <span className="font-bold">7 Days Of Email Support:</span> After Our Session, You’ll Have A
+              <span className="font-bold">7 Days Of Email Support:</span> After Our Session, You&apos;ll Have A
               <br />
               <span className="flex items-start mt-2">
                 <SlCheck className="mt-[5px] mr-2 text-black" />
