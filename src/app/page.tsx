@@ -93,13 +93,13 @@ export default function Home() {
               alt="Support"
               width={616}
               height={631}
-              className="w-[616px] h-[631px] object-cover rounded-b-none"
+              className="w-[550px] h-[550px] object-cover rounded-b-none"
             />
           </div>
 
           {/* Right Text Content */}
           <div className="w-full md:w-[50%] text-[#3b2f30]">
-            <h2 className="text-[64px] md:text-[50px] font-bold leading-snug font-afacad uppercase tracking-tight">
+            <h2 className="text-[64px] md:text-[40px] font-bold leading-snug font-afacad uppercase tracking-tight">
               STILL WAITING FOR THE RIGHT
               <br />
               TIME TO HIRE SUPPORT...

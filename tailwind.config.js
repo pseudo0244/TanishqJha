@@ -10,6 +10,7 @@ module.exports = {
         aboreto: ['var(--font-aboreto)'],
         poppins: ['var(--font-poppins)'],
         afacad: ['var(--font-afacad)'],
+        splash: ['var(--font-splash)'],
       },
     },
   },
