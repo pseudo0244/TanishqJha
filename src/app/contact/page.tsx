@@ -46,7 +46,7 @@ export default function ContactPage() {
 
           {/* Contact Form */}
           <div>
-            <form action="https://getform.io/f/agdpwwnb" method="POST" className="space-y-4">
+            <form action="https://getform.io/f/ajjmwwqa" method="POST" className="space-y-4">
               <input
                 type="text"
                 name="name"
