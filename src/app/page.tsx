@@ -151,29 +151,29 @@ export default function Home() {
           {/* Client Image */}
           <div className="flex-shrink-0">
             <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713721/sohan_dgv1qs.png"
+              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744871205/WhatsApp_Image_2025-04-03_at_12.37.58_oa4ori.jpg"
               alt="Client"
               width={256}
               height={256}
-              className="w-64 h-64 object-cover border-8 border-white shadow-xl rounded"
+              className="w-90 h-90 object-cover border-8 border-white shadow-xl rounded"
             />
           </div>
 
           {/* Testimonial Text */}
           <div className="text-left text-white space-y-5 max-w-xl text-base md:text-lg leading-relaxed font-afacad ">
             <p>
-              <em>Tanishq was amazing as my Online Business Manager</em> when I launched my digital product.
+              <em>Tanishq you have been a blessing in disguise for me!</em> I never thought I would want to work with someone because of a few of my past experiences, but you are genuinely an angel!
             </p>
             <p>
-              She really helped me with everything from managing my daily tasks to making sure our product launch went
-              smoothly. As a coach who helps people create content, having Tanishq on board was a huge relief.
+            You make everything so easy for me which helps me focus more on myself, my family and further growth of the business!!
+            The best part is you work on it like it’s your own, and even push me to be my better version everyday!
             </p>
             <p>
-              She took care of all the details and challenges, allowing me to focus on my first digital product and
+            She took care of all the details and challenges, allowing me to focus on my first digital product and
               creating content. If you need someone to help you organise and grow your online business, I highly
               recommend Tanishq!
             </p>
-            <p className="font-semibold italic font-afacad">Anmol, Coach, Company Name</p>
+            <p className="font-semibold italic font-afacad">Aastha Agarwal, Psychic Tarot Reader and Manifestation Coach!🩷</p>
           </div>
         </div>
       </section>
@@ -666,7 +666,7 @@ export default function Home() {
           {/* Client Image */}
           <div className="flex-shrink-0">
             <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713721/sohan_dgv1qs.png"
+              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744871204/WhatsApp_Image_2025-04-03_at_12.38.30_mfnylu.jpg"
               alt="Client"
               width={256}
               height={256}
@@ -677,18 +677,15 @@ export default function Home() {
           {/* Testimonial Text */}
           <div className="text-left text-white space-y-5 max-w-xl text-base md:text-lg leading-relaxed font-afacad ">
             <p>
-              <em>Tanishq was amazing as my Online Business Manager</em> when I launched my digital product.
+            Tanishq has helped me in managing my databases really well.
             </p>
             <p>
-              She really helped me with everything from managing my daily tasks to making sure our product launch went
-              smoothly. As a coach who helps people create content, having Tanishq on board was a huge relief.
+            She completed all the tasks that I gave to her on time. she helped me manage my calendar and also helped me make bookings for me. 
             </p>
             <p>
-              She took care of all the details and challenges, allowing me to focus on my first digital product and
-              creating content. If you need someone to help you organise and grow your online business, I highly
-              recommend Tanishq!
+            She is really proactive and good at her job. I would highly recommend working with Tanishq.
             </p>
-            <p className="font-semibold italic font-afacad">Anmol, Coach, Company Name</p>
+            <p className="font-semibold italic font-afacad">Kapila Rattan Bhowmick, Parenting Coach</p>
           </div>
         </div>
       </section>

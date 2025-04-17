@@ -74,7 +74,7 @@ const ServicesPage = () => {
           <div className="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
             <div className="bg-white rounded-xl shadow-xl overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713796/service2_rsobm1.png"
+                src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744871204/WhatsApp_Image_2025-04-03_at_12.39.28_rlczdm.jpg"
                 alt="Tanishq Testimonial"
                 width={340}
                 height={450}
@@ -86,21 +86,20 @@ const ServicesPage = () => {
           {/* Right - Text box */}
           <div className="w-full md:w-1/2 bg-white bg-opacity-95 rounded-xl shadow-xl p-6 md:p-10 text-black flex flex-col justify-between">
             <p className="text-md md:text-lg font-semibold mb-4">
-              IF YOU NEED SOMEONE TO HELP YOU ORGANISE AND GROW YOUR ONLINE BUSINESS, I HIGHLY RECOMMEND TANISHQ!
+            Tanishq was amazing as my Online Business Manager while I launched my Digital Product.
             </p>
             <p className="text-sm md:text-base mb-4">
-              <strong>Tanishq</strong> was amazing as my Online Business Manager when I launched my digital product.
+              <strong>Tanishq</strong> really helped me with everything from managing my daily tasks to making sure our product launch went smoothly.
             </p>
             <p className="text-sm md:text-base mb-4">
-              She really helped me with everything from managing my daily tasks to making sure our product launch went
-              smoothly. As a coach who helps people create content, having Tanishq on board was a huge relief.
+            As a Coach who helps people create content, having Tanishq on board was a huge relief. 
             </p>
             <p className="text-sm md:text-base mb-4">
-              She took care of all the details and challenges, allowing me to focus on my first digital product and
+            She took care of all the details and challenges, allowing me to focus on my first digital product and
               creating content. If you need someone to help you organise and grow your online business, I highly
               recommend Tanishq!
             </p>
-            <p className="text-sm md:text-base font-semibold">Anmol, Coach, Company Name</p>
+            <p className="text-sm md:text-base font-semibold">Anmol Grover, Online Business Strategist</p>
           </div>
         </div>
       </section>
@@ -627,7 +626,7 @@ const ServicesPage = () => {
             {/* Circular Image */}
             <div className="w-64 h-64 rounded-full overflow-hidden border-[10px] border-[#ebd6c6] flex-shrink-0">
               <Image
-                src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713804/service10_gthdb2.png"
+                src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744871205/WhatsApp_Image_2025-04-03_at_12.39.42_eligvq.jpg"
                 alt="Client Testimonial"
                 width={256}
                 height={256}
@@ -638,16 +637,14 @@ const ServicesPage = () => {
             {/* Testimonial Text */}
             <div className="text-[#3a2d2c] text-center md:text-left">
               <p className="text-2xl font-semibold mb-4 font-['afacad']">
-                THE BEST PART IS YOU WORK ON IT LIKE IT&apos;S YOUR OWN,
+              Loving your work team… am sharing it with more and more of the people I love.
                 <br />
-                and even push me to be my better version everyday!
+                And I know I can blindly recommend your team to them.
               </p>
               <p className="text-lg font-bold mt-6 font-['poppins']">
-                WITH YOUR HELP I COULD ACTUALLY LAUNCH MY NEW DIGITAL PRODUCT IN LESS THAN 10 DAYS!
-                <span className="font-bold"> ( IT WAS ON HOLD SINCE MORE THAN 2 MONTHS)</span>
-                WHICH ALSO GOT ME 4 SALES ON THE FIRST DAY ITSELF!!
+              I hope you're understanding the powerful purpose you're serving as you help so many people & families achieve their dreams with visibility and growth.
               </p>
-              <p className="mt-6 text-sm uppercase tracking-wide text-[#7a625f]">NAME, DESIGNATION, COMPANY NAME</p>
+              <p className="mt-6 text-sm uppercase tracking-wide text-[#7a625f]"> Gargi Arya, Life& Business Coach</p>
             </div>
           </div>
         </div>
