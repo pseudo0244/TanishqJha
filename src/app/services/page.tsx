@@ -642,7 +642,7 @@ const ServicesPage = () => {
                 And I know I can blindly recommend your team to them.
               </p>
               <p className="text-lg font-bold mt-6 font-['poppins']">
-              I hope you're understanding the powerful purpose you're serving as you help so many people & families achieve their dreams with visibility and growth.
+              I hope you&apos;re understanding the powerful purpose you&apos;re serving as you help so many people & families achieve their dreams with visibility and growth.
               </p>
               <p className="mt-6 text-sm uppercase tracking-wide text-[#7a625f]"> Gargi Arya, Life& Business Coach</p>
             </div>
