@@ -640,7 +640,7 @@ const ServicesPage = () => {
               <p className="text-2xl font-semibold mb-4 font-['afacad']">
                 THE BEST PART IS YOU WORK ON IT LIKE IT&apos;S YOUR OWN,
                 <br />
-                and even push me to be my better version everyday!"
+                and even push me to be my better version everyday!
               </p>
               <p className="text-lg font-bold mt-6 font-['poppins']">
                 WITH YOUR HELP I COULD ACTUALLY LAUNCH MY NEW DIGITAL PRODUCT IN LESS THAN 10 DAYS!

@@ -102,7 +102,7 @@ export default function AboutPage() {
             <h3
               className={`text-4xl md:text-7xl text-[#5f4b46] mb-0 font-medium italic text-right pr-8 absolute right-0 -top-14 md:-top-16 z-20 ${alexBrush.className}`}
             >
-              Here's how it works:
+              Here&apos;s how it works:
             </h3>
           </div>
 
@@ -172,7 +172,7 @@ export default function AboutPage() {
             himself to the bone.
           </p>
           <p className="text-amber-950 font-['afacad'] text-xl">
-            Even when he fractured his hand in an accident, he couldn't stop. The fear of letting down his customers
+            Even when he fractured his hand in an accident, he couldn&apos;t stop. The fear of letting down his customers
             kept him committed to his responsibilities, even while he was healing.
           </p>
           <p className="text-amber-950 font-['afacad'] text-xl">
@@ -384,10 +384,10 @@ export default function AboutPage() {
             WANNA BUILD YOUR BUSINESS WHERE FREEDOM AND
           </h2>
           <h2 className="text-[36px] md:text-[34px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['poppins']">
-            FULFILMENT AREN'T JUST DREAMS. BUT A REALITY
+            FULFILMENT AREN&apos;T JUST DREAMS. BUT A REALITY
           </h2>
           <p className="mt-8 text-[35px] tracking-wide text-[#2E2E2E] uppercase font-['poppins'] font-bold">
-            LET'S GET STARTED...
+            LET&apos;S GET STARTED...
           </p>
 
           {/* Arrow */}
