@@ -183,189 +183,200 @@ const ServicesPage = () => {
       </section>
 
       {/* Services Section */}
-      <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif]">
-        {/* Top Text */}
-        <div className="max-w-4xl mx-auto mb-20 py-10 ">
-          <h2 className="text-[36px] md:text-[35px] leading-tight font-light tracking-wide uppercase text-black font-['poppins']">
-            WANNA SCALE YOUR BUSINESS...
-          </h2>
-          <h2 className="text-[36px] md:text-[35px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['poppins']">
-            WITHOUT THE <span className="font-light">OVERLOAD</span> ON YOUR SHOULDERS?
-          </h2>
-          <p className="mt-8 text-[22px] tracking-wide text-[#2E2E2E] uppercase font-['aboreto']">
-            HERE&apos;S HOW WE CAN WORK TOGETHER
-          </p>
-
-          {/* Arrow */}
-          <div className="mt-6">
-            <span className="text-[36px] text-black select-none">↓</span>
-          </div>
-        </div>
-
-        {/* Service 1 */}
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 text-left">
-          {/* Text Content */}
-          <div className="md:w-2/3 flex gap-6">
-            {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">1</h3>
-
-            {/* Description */}
-            <div>
-              <h4 className="text-[28px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
-                VIRTUAL ASSISTANT
-              </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light">
-                YOU WANT A TRUSTED VIRTUAL ASSISTANT
-                <br />
-                TO HANDLE YOUR ADMIN AND CLIENT COMMUNICATION,
-                <br />
-                FREEING YOU FROM THE DAILY GRIND
-                <br />
-                SO YOU CAN FOCUS ON WHAT YOU DO BEST.
-              </p>
-
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
-                GET THE DETAILS
-              </button>
-            </div>
-          </div>
-
-          {/* Image */}
-          <div className="md:w-1/3 flex justify-center md:justify-end">
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713713/hero6_li2r1f.png"
-              alt="Virtual Assistant"
-              width={300}
-              height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white px-6 md:px-20 py-20 font-['Didot',serif]">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 mb-20">
-          {/* Image Left */}
-          <div className="md:w-1/3 flex justify-center md:justify-start">
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713710/hero7_ol7jzy.png"
-              alt="Online Business Manager"
-              width={300}
-              height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
-            />
-          </div>
-
-          {/* Text Right */}
-          <div className="md:w-2/3 flex gap-6 text-left">
-            {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">2</h3>
-
-            {/* Content */}
-            <div>
-              <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
-                ONLINE BUSINESS MANAGER
-              </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
-                YOU WANT A BIG-PICTURE THINKER AND A DOER
-                <br />
-                AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT
-                <br />
-                WILL KEEP EVERYTHING RUNNING SMOOTHLY, ALLOWING
-                <br />
-                YOU TO FOCUS ON SCALING YOUR BUSINESS AND
-                <br />
-                ACHIEVING YOUR BROADER GOALS.
-              </p>
-
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
-                GET THE DETAILS
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Service 3 */}
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
-          {/* Text Left */}
-          <div className="md:w-2/3 flex gap-6 text-left">
-            {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">3</h3>
-
-            {/* Content */}
-            <div>
-              <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
-                60 MINUTE-STRATEGY CONSULTATION
-              </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
-                YOU WANT A STRATEGIC 60-MINUTE CONSULTATION
-                <br />
-                THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR
-                <br />
-                TAKING YOUR BUSINESS TO THE NEXT LEVEL.
-              </p>
-
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
-                GET THE DETAILS
-              </button>
-            </div>
-          </div>
-
-          {/* Image Right */}
-          <div className="md:w-1/3 flex justify-center md:justify-end">
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/IMG20241031150823_5_ixi4ia.png"
-              alt="60 Minute Strategy Call"
-              width={300}
-              height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white px-6 md:px-20 pb-16 font-['Didot',serif]">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
-          {/* Image Left */}
-          <div className="md:w-1/3 flex justify-center md:justify-start">
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/hero9_fptahl.png"
-              alt="Need Something Else"
-              width={300}
-              height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
-            />
-          </div>
-
-          {/* Text Right */}
-          <div className="md:w-2/3 flex gap-6 text-left">
-            {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">4</h3>
-
-            {/* Content */}
-            <div>
-              <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
-                NEED SOMETHING THAT ISN&apos;T LISTED?
-              </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
-                YOU WANT A BIG-PICTURE THINKER AND A DOER
-                <br />
-                AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT
-                <br />
-                WILL KEEP EVERYTHING RUNNING SMOOTHLY, ALLOWING
-                <br />
-                YOU TO FOCUS ON SCALING YOUR BUSINESS AND
-                <br />
-                ACHIEVING YOUR BROADER GOALS.
-              </p>
-
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
-                GET THE DETAILS
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section className="relative bg-white  px-6 md:px-20 border-t-1 border-[#4A3733]"></section>
+            {/* Services Section */}
+            <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif] mt-20">
+              {/* Top Text */}
+              <div className="max-w-4xl mx-auto mb-20">
+                <h2 className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black font-['afacad']">
+                  WANNA SCALE YOUR BUSINESS...
+                </h2>
+                <h2 className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['afacad']">
+                  WITHOUT THE <span className="font-bold">OVERLOAD</span> ON YOUR SHOULDERS?
+                </h2>
+                <p className="mt-8 text-[26px] tracking-wide text-[#2E2E2E] uppercase font-['poppins']">
+                  HERE&apos;S HOW WE CAN WORK TOGETHER
+                </p>
+      
+                {/* Arrow */}
+                <div className="mt-6">
+                  <span className="text-[36px] text-black select-none">↓</span>
+                </div>
+              </div>
+      
+              {/* Service 1 */}
+              <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 text-left">
+                {/* Text Content */}
+                <div className="md:w-2/3 flex gap-6">
+                  {/* Number */}
+                  <h3 className="text-[100px] font-light text-black leading-none ">1</h3>
+      
+                  {/* Description */}
+                  <div>
+                    <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
+                      VIRTUAL ASSISTANT
+                    </h4>
+                    <p className="text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
+                      YOU WANT A TRUSTED VIRTUAL ASSISTANT
+                      <br />
+                      TO HANDLE YOUR ADMIN AND CLIENT COMMUNICATION,
+                      FREEING YOU FROM THE DAILY GRIND
+              
+                      SO YOU CAN FOCUS ON WHAT YOU DO BEST.
+                    </p>
+      
+                    <a href="/services">
+                    <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
+                     GET THE DETAILS
+                    </button>
+                    </a>
+      
+                  </div>
+                </div>
+      
+                {/* Image */}
+                <div className="md:w-1/3 flex justify-center md:justify-end">
+                  <Image
+                    src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713713/hero6_li2r1f.png"
+                    alt="Virtual Assistant"
+                    width={300}
+                    height={400}
+                    className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+                  />
+                </div>
+              </div>
+            </section>
+      
+            {/* Service 2 */}
+            <section className="bg-white px-6 md:px-20 py-20 font-['Didot',serif]">
+              <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 mb-20">
+                {/* Image Left */}
+                <div className="md:w-1/3 flex justify-center md:justify-right">
+                  <Image
+                    src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713710/hero7_ol7jzy.png"
+                    alt="Online Business Manager"
+                    width={300}
+                    height={400}
+                    className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+                  />
+                </div>
+      
+                {/* Text Right */}
+                <div className="md:w-2/3 flex gap-6 text-left">
+                  {/* Number */}
+                  <h3 className="text-[100px] font-light text-black leading-none">2</h3>
+      
+                  {/* Content */}
+                  <div>
+                    <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
+                      ONLINE BUSINESS MANAGER
+                    </h4>
+                    <p className="text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']">
+                      YOU WANT A BIG-PICTURE THINKER AND A DOER
+                    
+                      AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT
+                    
+                      WILL KEEP EVERYTHING RUNNING SMOOTHLY, ALLOWING
+                    
+                      YOU TO FOCUS ON SCALING YOUR BUSINESS AND
+                    
+                      ACHIEVING YOUR BROADER GOALS.
+                    </p>
+      
+                    <a href="/services">
+                    <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
+                     GET THE DETAILS
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              {/* Service 3 */}
+              <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
+                {/* Text Left */}
+                <div className="md:w-2/3 flex gap-6 text-left">
+                  {/* Number */}
+                  <h3 className="text-[100px] font-light text-black leading-none">3</h3>
+      
+                  {/* Content */}
+                  <div>
+                    <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
+                      60 MINUTE-STRATEGY CONSULTATION
+                    </h4>
+                    <p className="text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']">
+                      YOU WANT A STRATEGIC 60-MINUTE CONSULTATION
+                      
+                      THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR
+                    
+                      TAKING YOUR BUSINESS TO THE NEXT LEVEL.
+                    </p>
+      
+                    <a href="/services">
+                    <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
+                     GET THE DETAILS
+                    </button>
+                    </a>
+                  </div>
+                </div>
+      
+                {/* Image Right */}
+                <div className="md:w-1/3 flex justify-center md:justify-end">
+                  <Image
+                    src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713723/hero8_toysbn.png"
+                    alt="60 Minute Strategy Call"
+                    width={300}
+                    height={400}
+                    className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+                  />
+                </div>
+              </div>
+            </section>
+      
+            {/* Service 4 */}
+            <section className="bg-white px-6 md:px-20 pb-16 font-['Didot',serif] border-b border-black">
+              <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12">
+                {/* Image Left */}
+                <div className="md:w-1/3 flex justify-center md:justify-start">
+                  <Image
+                    src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/hero9_fptahl.png"
+                    alt="Need Something Else"
+                    width={300}
+                    height={400}
+                    className="w-[260px] md:w-[350px] border-[6px] border-[#f4e9de]"
+                  />
+                </div>
+      
+                {/* Text Right */}
+                <div className="md:w-2/3 flex gap-6 text-left">
+                  {/* Number */}
+                  <h3 className="text-[100px] font-light text-black leading-none">4</h3>
+      
+                  {/* Content */}
+                  <div>
+                    <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fi font-['afacad']">
+                      NEED SOMETHING THAT ISN&apos;T LISTED?
+                    </h4>
+                    <p className="text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']">
+                      YOU WANT A BIG-PICTURE THINKER AND A DOER
+                      
+                      AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT
+                      
+                      WILL KEEP EVERYTHING RUNNING SMOOTHLY, ALLOWING
+                      YOU TO FOCUS ON SCALING YOUR BUSINESS AND
+                  
+                      ACHIEVING YOUR BROADER GOALS.
+                    </p>
+      
+                    <a href="/services">
+                    <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
+                     GET THE DETAILS
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12">
         <h1 className="text-[50px] font-light text-black leading-none">ONGOING SUPPORT</h1>
       </div>
