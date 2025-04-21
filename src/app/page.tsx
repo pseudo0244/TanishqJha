@@ -22,26 +22,26 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row items-center justify-between px-6 py-20 max-w-7xl mx-auto !bg-white">
         {/* Left Section */}
-        <div className="w-full md:w-1/2 space-y-8">
-          <h1 className="text-2xl md:text-3xl text-black font-poppins">
+        <div className="w-full md:w-2/3 space-y-3">
+          <h1 className="text-2xl md:text-5xl text-black font-['afacad'] font-bold leading-snug tracking-wide">
             SECOND BRAIN FOR ENTREPRENEURS <br />
             READY TO SCALE... WITHOUT EXHAUSTION
           </h1>
-          <p className="text-lg text-black/90 font-poppins">
+          <p className="text-xl text-black/90 font-['poppins']">
             From Strategy To Implementation With Your Freedom- <br />
             Focused OBM & VA
           </p>
 
           <div className="space-y-4 mt-6 text-[#2f2f2f]">
-            <p className="flex items-center text-base font-aboreto">
+            <p className="flex items-center text-base font-['poppins']">
               <SlCheck className="text-[#4e3b39] mr-3 text-xl" />I make proactive decisions and manage key aspects of
               your business
             </p>
-            <p className="flex items-center text-base font-aboreto">
+            <p className="flex items-center text-base font-['poppins']">
               <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
               Ensuring everything runs smoothly
             </p>
-            <p className="flex items-center text-base font-aboreto">
+            <p className="flex items-center text-base font-['poppins']">
               <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
               Without the need for your constant intervention
             </p>
@@ -49,21 +49,24 @@ export default function Home() {
 
           <div className="flex gap-6 mt-10">
           <a href="/about">
-  <button className="bg-[#4e3b39] text-white px-8 py-4 uppercase tracking-widest text-sm rounded-md">
-    Tell Me More
-  </button>
+          <button className="bg-[#4e3b39] text-white px-12 py-4 uppercase tracking-widest text-sm rounded-md">
+  Tell Me More
+</button>
+
+
 </a>
 <a href="/services">
-  <button className="bg-[#4e3b39] text-white px-8 py-4 uppercase tracking-widest text-sm rounded-md">
-    View All Services
-  </button>
+<button className="bg-white border border-amber-900 text-black px-8 py-4 uppercase tracking-widest text-sm rounded-md">
+  View All Services
+</button>
+
 </a>
 
           </div>
         </div>
 
         {/* Right Section (Images) */}
-        <div className="absolute top-30 right-0 w-1/3 h-full z-0 overflow-hidden">
+        <div className="absolute top-35 right-0 w-1/3 h-full z-0 overflow-hidden">
           {/* Background image */}
           <Image
             src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713708/hero1_ejhpgo.png"
@@ -93,27 +96,27 @@ export default function Home() {
               alt="Support"
               width={616}
               height={631}
-              className="w-[550px] h-[550px] object-cover rounded-b-none"
+              className="w-[550px] h-[580px] object-cover rounded-b-none "
             />
           </div>
 
           {/* Right Text Content */}
           <div className="w-full md:w-[50%] text-[#3b2f30]">
-            <h2 className="text-[64px] md:text-[40px] font-bold leading-snug font-afacad uppercase tracking-tight">
+            <h2 className="text-[64px] md:text-[50px] font-semibold leading-snug font-['afacad'] uppercase tracking-tight">
               STILL WAITING FOR THE RIGHT
               <br />
               TIME TO HIRE SUPPORT...
             </h2>
 
             <p className="text-[20px] md:text-[24px] font-afacad tracking-wide mt-6">
-              .......LIKE REACHING A CERTAIN NUMBER OF CLIENTS
+             LIKE REACHING A CERTAIN NUMBER OF CLIENTS
               <br />
               OR ACHIEVING A REVENUE GOAL?
             </p>
 
-            <p className="italic text-[20px] md:text-[24px] font-bold mt-8 font-afacad">IMAGINE THIS.....</p>
+            <p className="italic text-[20px] md:text-[30px] font-bold mt-8 font-['afacad']">IMAGINE THIS.....</p>
 
-            <div className="space-y-4 mt-6 text-[16px] md:text-[18px] font-medium italic font-afacad leading-relaxed">
+            <div className="space-y-4 mt-6 text-[16px] md:text-[20px] font-medium font-afacad leading-relaxed">
               <p>WHAT IF YOU COULD BRING IN THE RIGHT EXPERTISE TODAY?</p>
               <p>YOU&apos;D FINALLY FEEL AT EASE. NO MORE BEING WIRED 24/7.</p>
               <p>YOUR BUSINESS WOULD KEEP MOVING FORWARD, EVEN WHEN YOU&apos;RE NOT GLUED TO IT.</p>
@@ -135,13 +138,13 @@ export default function Home() {
 
         {/* Content wrapper with relative to stack on top */}
         <div className="relative z-10 max-w-7xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-light tracking-wide text-white drop-shadow-md font-aboreto">
+          <h2 className="text-3xl md:text-5xl font-light tracking-wide text-white drop-shadow-md font-['afacad']">
             ACCELERATE YOUR BUSINESS…SUSTAINABLY
           </h2>
-          <p className="text-lg md:text-xl mt-4 font-light italic text-white drop-shadow-md font-afacad">
+          <p className="text-lg md:text-2xl mt-4 font-light text-white drop-shadow-md font-afacad">
             (AKA GOODBYE OVERWHELM, WELCOME CLARITY!)
           </p>
-          <h3 className="text-2xl md:text-3xl font-semibold mt-10 text-white drop-shadow-md font-poppins">
+          <h3 className="text-2xl md:text-4xl font-semibold mt-10 text-white drop-shadow-md font-poppins">
             Here&apos;s A Glimpse Of Client Love
           </h3>
         </div>
@@ -155,12 +158,12 @@ export default function Home() {
               alt="Client"
               width={256}
               height={256}
-              className="w-90 h-90 object-cover border-8 border-white shadow-xl rounded"
+              className="w-90 h-110 object-cover border-8 border-white shadow-xl rounded"
             />
           </div>
 
           {/* Testimonial Text */}
-          <div className="text-left text-white space-y-5 max-w-xl text-base md:text-lg leading-relaxed font-afacad ">
+          <div className="text-left text-white space-y-5 max-w-xl text-base md:text-lg leading-relaxed font-['poppins'] ">
             <p>
               <em>Tanishq you have been a blessing in disguise for me!</em> I never thought I would want to work with someone because of a few of my past experiences, but you are genuinely an angel!
             </p>
@@ -173,38 +176,37 @@ export default function Home() {
               creating content. If you need someone to help you organise and grow your online business, I highly
               recommend Tanishq!
             </p>
-            <p className="font-semibold italic font-afacad">Aastha Agarwal, Psychic Tarot Reader and Manifestation Coach!🩷</p>
+            <p className="font-semibold font-['poppins']">Aastha Agarwal,<br></br>Psychic Tarot Reader and Manifestation Coach!🩷</p>
           </div>
         </div>
       </section>
 
       {/* Time Section */}
-<section className="bg-white py-24 px-6 md:px-20 text-black font-serif">
+<section className="bg-white py-24 px-6 md:px-20 text-black font-['afacad']">
 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start">
   {/* Left Column - Clock Image */}
   <div className="flex justify-start">
     <Image
       src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713709/hero4_rld5y8.png"
       alt="Clock"
-      width={600}
-      height={600}
-      className="w-full max-w-md rounded"
+      width={500}
+      height={500}
+      className="w-[500px] h-[500px] max-w-md rounded"
     />
   </div>
 
   {/* Right Column - Text */}
-  <div className="flex flex-col justify-start text-left -ml-6 md:-ml-12">
-    <h2 className="text-[32px] md:text-[32px] font-light uppercase leading-tight tracking-wide">
+  <div className="flex flex-col justify-start text-left -ml-6 md:-ml-30">
+    <h2 className="text-[32px] md:text-[50px] font-light uppercase leading-tight tracking-wide">
       <br></br>
       YOUR TIME AND ENERGY ARE MY TOP PRIORITIES
     </h2>
-    <p className="mt-6 text-[24px] md:text-[32px] uppercase tracking-widest">
+    <p className="mt-6 text-[24px] md:text-[40px] uppercase tracking-widest">
       SO YOU CAN...
     </p>
 
-    <div className="relative mt-20">
-      <span className="text-[500px] text-gray-200 absolute -left-20 -top-20 select-none leading-none z-0">“</span>
-      <p className="text-[32px] md:text-[32px] font-light relative z-10 leading-snug tracking-tight">
+    <div className="relative mt-10">
+      <p className="text-[32px] md:text-[43px] font-light relative z-10 leading-snug tracking-tight">
         FOCUS ON GROWTH, NOT THE GRIND, AND <br /> BUILD YOUR FREEDOM-FOCUSED BUSINESS
       </p>
     </div>
@@ -213,21 +215,19 @@ export default function Home() {
 
 
   {/* Bottom Section */}
-  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start mt-28">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start mt-28 ">
     {/* Left Column - How it's done */}
     <div>
-      <h3 className="text-2xl md:text-3xl font-bold mb-8">Let&apos;s dive into how it&apos;s done:</h3>
-      <div className="space-y-6 text-base md:text-lg font-medium leading-relaxed">
-        <p>
+      <h3 className="text-2xl md:text-5xl font-light mb-8 font-['afacad']">Let&apos;s dive into how it&apos;s done:</h3>
+      <div className="space-y-2 text-base md:text-2xl font-medium leading-relaxed">
           <strong>By Streamlining Your Projects, Team, Operations, And Client Communication.</strong>
-        </p>
-        <p>I Ensure That Everything Runs Smoothly And Efficiently.</p>
-        <p>
+        <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
+         Ensure That Everything Runs Smoothly And Efficiently.
+        <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
           This Empowers You To Step Back, Focus On Business Growth, And Think Strategically— Without Constantly Putting Out Fires.
-        </p>
-        <p>
+        <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
           Imagine The Mental Space You&apos;ll Gain When You&apos;re No Longer Juggling A Million Tasks At Once.
-        </p>
+
       </div>
     </div>
 
@@ -240,14 +240,13 @@ export default function Home() {
         height={400}
         className="w-full max-w-md rounded shadow-md"
       />
-      <span className="text-[180px] text-amber-950 absolute bottom-[-40px] right-[-20px] leading-none select-none z-0">”</span>
     </div>
   </div>
 </section>
 
 
       {/* About Me Section */}
-<section className="relative bg-white py-20 px-6 md:px-20 border-t-4 border-[#4A3733]">
+<section className="relative bg-white py-20 px-6 md:px-20 border-t-1 border-[#4A3733]">
   <div className="max-w-7xl mx-auto grid md:grid-cols-[auto_1fr] items-start gap-10 relative">
     
     {/* Image + Overlay */}
@@ -266,17 +265,17 @@ export default function Home() {
       
       {/* Heading */}
       <div className="mb-10">
-        <h2 className="text-3xl md:text-5xl font-light uppercase text-[#4A3733]">HI, I&apos;M TANISHQ!</h2>
-        <h3 className="text-2xl md:text-4xl font-light text-[#4A3733] mt-2">FOUNDER OF TANISHQJHA.CO</h3>
-        <p className="italic text-lg md:text-xl mt-2 text-[#4A3733]">
+        <h2 className="text-3xl md:text-6xl font-light uppercase text-[#4A3733] font-['afacad']">HI, I&apos;M TANISHQ!</h2>
+        <h3 className="text-2xl md:text-2xl font-light text-[#4A3733] mt-2 font-['afacad']">FOUNDER OF TANISHQJHA.CO</h3>
+        <p className=" text-lg md:text-2xl mt-5 -mb-3 text-[#4A3733] font-['poppins'] ">
           YOUR FREEDOM-PARTNER, YOUR GO-TO FOR GETTING THINGS DONE
         </p>
       </div>
 
       {/* Brown Box */}
-      <div className="bg-[#4A3733] text-white p-6 md:p-10 space-y-6 text-base md:text-lg font-light rounded-sm relative z-20">
-        <p className="uppercase font-semibold tracking-wide">(PRIORITIZING IS MY STRENGTH!)</p>
-        <ul className="space-y-6">
+      <div className="bg-[#4A3733] text-white p-6 md:p-8 space-y-6 text-base md:text-lg font-light rounded-sm relative z-20">
+        <p className="uppercase font-semibold tracking-wide font-['afacad'] text-2xl">(PRIORITIZING IS MY STRENGTH!)</p>
+        <ul className="space-y-6 font-['poppins']">
           <li className="flex items-start gap-3">
             <SlCheck className="mt-1 text-xl" />
             <span>CAN SMART STRATEGY AND SEAMLESS EXECUTION AMPLIFY YOUR FREEDOM?</span>
@@ -305,18 +304,18 @@ export default function Home() {
     </div>
   </div>
 </section>
-<section className="relative bg-white  px-6 md:px-20 border-t-4 border-[#4A3733]"></section>
+<section className="relative bg-white  px-6 md:px-20 border-t-1 border-[#4A3733]"></section>
       {/* Services Section */}
-      <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif]">
+      <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif] mt-20">
         {/* Top Text */}
         <div className="max-w-4xl mx-auto mb-20">
-          <h2 className="text-[36px] md:text-[42px] leading-tight font-light tracking-wide uppercase text-black">
+          <h2 className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black font-['afacad']">
             WANNA SCALE YOUR BUSINESS...
           </h2>
-          <h2 className="text-[36px] md:text-[42px] leading-tight font-light tracking-wide uppercase text-black mt-2">
+          <h2 className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['afacad']">
             WITHOUT THE <span className="font-bold">OVERLOAD</span> ON YOUR SHOULDERS?
           </h2>
-          <p className="mt-8 text-[22px] tracking-wide text-[#2E2E2E] uppercase">
+          <p className="mt-8 text-[26px] tracking-wide text-[#2E2E2E] uppercase font-['poppins']">
             HERE&apos;S HOW WE CAN WORK TOGETHER
           </p>
 
@@ -331,25 +330,24 @@ export default function Home() {
           {/* Text Content */}
           <div className="md:w-2/3 flex gap-6">
             {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">1</h3>
+            <h3 className="text-[100px] font-light text-black leading-none ">1</h3>
 
             {/* Description */}
             <div>
-              <h4 className="text-[28px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
+              <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
                 VIRTUAL ASSISTANT
               </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light">
+              <p className="text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
                 YOU WANT A TRUSTED VIRTUAL ASSISTANT
                 <br />
                 TO HANDLE YOUR ADMIN AND CLIENT COMMUNICATION,
-                <br />
                 FREEING YOU FROM THE DAILY GRIND
-                <br />
+        
                 SO YOU CAN FOCUS ON WHAT YOU DO BEST.
               </p>
 
               <a href="/services">
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
+              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
                GET THE DETAILS
               </button>
               </a>
@@ -374,7 +372,7 @@ export default function Home() {
       <section className="bg-white px-6 md:px-20 py-20 font-['Didot',serif]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 mb-20">
           {/* Image Left */}
-          <div className="md:w-1/3 flex justify-center md:justify-start">
+          <div className="md:w-1/3 flex justify-center md:justify-right">
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713710/hero7_ol7jzy.png"
               alt="Online Business Manager"
@@ -387,27 +385,27 @@ export default function Home() {
           {/* Text Right */}
           <div className="md:w-2/3 flex gap-6 text-left">
             {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">2</h3>
+            <h3 className="text-[100px] font-light text-black leading-none">2</h3>
 
             {/* Content */}
             <div>
-              <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
+              <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
                 ONLINE BUSINESS MANAGER
               </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
+              <p className="text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']">
                 YOU WANT A BIG-PICTURE THINKER AND A DOER
-                <br />
+              
                 AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT
-                <br />
+              
                 WILL KEEP EVERYTHING RUNNING SMOOTHLY, ALLOWING
-                <br />
+              
                 YOU TO FOCUS ON SCALING YOUR BUSINESS AND
-                <br />
+              
                 ACHIEVING YOUR BROADER GOALS.
               </p>
 
               <a href="/services">
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
+              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
                GET THE DETAILS
               </button>
               </a>
@@ -420,23 +418,23 @@ export default function Home() {
           {/* Text Left */}
           <div className="md:w-2/3 flex gap-6 text-left">
             {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">3</h3>
+            <h3 className="text-[100px] font-light text-black leading-none">3</h3>
 
             {/* Content */}
             <div>
-              <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
+              <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
                 60 MINUTE-STRATEGY CONSULTATION
               </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
+              <p className="text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']">
                 YOU WANT A STRATEGIC 60-MINUTE CONSULTATION
-                <br />
+                
                 THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR
-                <br />
+              
                 TAKING YOUR BUSINESS TO THE NEXT LEVEL.
               </p>
 
               <a href="/services">
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
+              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
                GET THE DETAILS
               </button>
               </a>
@@ -466,34 +464,33 @@ export default function Home() {
               alt="Need Something Else"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[260px] md:w-[350px] border-[6px] border-[#f4e9de]"
             />
           </div>
 
           {/* Text Right */}
           <div className="md:w-2/3 flex gap-6 text-left">
             {/* Number */}
-            <h3 className="text-[60px] font-light text-black leading-none">4</h3>
+            <h3 className="text-[100px] font-light text-black leading-none">4</h3>
 
             {/* Content */}
             <div>
-              <h4 className="text-[26px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit">
+              <h4 className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fi font-['afacad']">
                 NEED SOMETHING THAT ISN&apos;T LISTED?
               </h4>
-              <p className="text-[18px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl">
+              <p className="text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']">
                 YOU WANT A BIG-PICTURE THINKER AND A DOER
-                <br />
+                
                 AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT
-                <br />
+                
                 WILL KEEP EVERYTHING RUNNING SMOOTHLY, ALLOWING
-                <br />
                 YOU TO FOCUS ON SCALING YOUR BUSINESS AND
-                <br />
+            
                 ACHIEVING YOUR BROADER GOALS.
               </p>
 
               <a href="/services">
-              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold">
+              <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']">
                GET THE DETAILS
               </button>
               </a>
@@ -503,102 +500,105 @@ export default function Home() {
       </section>
 
       {/* You're Not Alone Section */}
-<section className="font-['Didot',serif] border-t border-black bg-white py-12 px-6 md:px-20">
-  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-10">
-    
-    {/* Image Section - Small */}
-    <div className="md:w-1/3 flex justify-center md:justify-start">
-      <Image
-        src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713720/tanishq_dncoua.png"
-        alt="Support Person"
-        width={450}
-        height={500}
-        className="border-4 rounded-md shadow-md max-w-[700px]"
-      />
-    </div>
-
-    {/* Text Section - Expanded */}
-    <div className="md:w-3/5 bg-[#EBD3C1] p-8 rounded-md">
-      <h2 className="text-[28px] text-black font-normal leading-snug mb-2">
-        YOU&apos;RE NOT DOING IT ALONE ANYMORE...
-      </h2>
-      <h3 className="text-[20px] text-white font-semibold tracking-wide mb-4 uppercase">INSTEAD...</h3>
-
-      <p className="italic text-[17px] text-[#2E2E2E] mb-4 leading-relaxed">
-        You now have someone who&apos;s uniquely positioned as your trusted support system, ensuring you make the
-        most of your time and resources.
-      </p>
-      <p className="italic text-[17px] text-[#2E2E2E] mb-4 leading-relaxed">
-        After all, there are only so many hours in a day.
-      </p>
-      <p className="italic text-[17px] text-[#2E2E2E] mb-4 leading-relaxed">
-        While you can manage tasks yourself, every moment spent on those details takes away from your capacity to
-        onboard larger clients.
-      </p>
-      <p className="italic text-[17px] text-[#2E2E2E] mb-6 leading-relaxed">
-        No more exhausting back-and-forth with clients and leads.
-      </p>
-      <p className="text-[17px] font-bold text-black tracking-wide leading-relaxed">
-        NOW, YOU&apos;LL FINALLY HAVE THE ENERGY TO FOCUS ON WHAT TRULY MATTERS—YOUR DELIVERABLES.
-      </p>
-    </div>
+<section className="font-['Didot',serif] bg-white py-12 px-6 md:px-20">
+<div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-10 bg-[#EBD3C1] p-8 rounded-lg">
+  
+  {/* Image Section - Small */}
+  <div className="md:w-1/3 flex justify-center md:justify-start z-10">
+    <Image
+      src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713720/tanishq_dncoua.png"
+      alt="Support Person"
+      width={450}
+      height={500}
+      className="border-4 rounded-md shadow-md max-w-[700px] h-[500px] mt-9"
+    />
   </div>
+
+  {/* Text Section - Expanded */}
+  <div className="md:w-2/3 bg-[#EBD3C1] p-8 rounded-md">
+    <h2 className="text-[35px] text-black font-normal leading-snug mb-2 font-['afacad']">
+      YOU&apos;RE NOT DOING IT ALONE ANYMORE...
+    </h2>
+    <h3 className="text-[28px] text-amber-950 font-semibold tracking-wide mb-4 uppercase font-['afacad']">INSTEAD...</h3>
+
+    <p className="text-[20px] text-[#2E2E2E] mb-4 leading-relaxed font-['poppins']">
+      You now have someone who&apos;s uniquely positioned as your trusted support system, ensuring you make the
+      most of your time and resources.
+    </p>
+    <p className="text-[20px] text-[#2E2E2E] mb-4 leading-relaxed font-['poppins']">
+      After all, there are only so many hours in a day.
+    </p>
+    <p className="text-[20px] text-[#2E2E2E] mb-4 leading-relaxed font-['poppins']">
+      While you can manage tasks yourself, every moment spent on those details takes away from your capacity to
+      onboard larger clients.
+    </p>
+    <p className="text-[20px] text-[#2E2E2E] mb-6 leading-relaxed font-['poppins']">
+      No more exhausting back-and-forth with clients and leads.
+    </p>
+    <p className="text-[20px] font-light text-black tracking-wide leading-relaxed font-['poppins']">
+      NOW, YOU&apos;LL FINALLY HAVE THE ENERGY TO FOCUS ON WHAT TRULY MATTERS—YOUR DELIVERABLES.
+    </p>
+  </div>
+
+</div>
+
 </section>
 
 
      {/* Time is Precious Section */}
 <section className="font-['Didot',serif] bg-white pt-12 px-6 md:px-20">
-  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
-    {/* Image */}
-    <div className="md:w-1/2 flex justify-center md:justify-start">
-      <Image
-        src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713723/tanishq2_zg1hdb.png"
-        alt="Precious Time"
-        width={400}
-        height={500}
-        className="max-w-[400px]"
-      />
-    </div>
-
-    {/* Text */}
-    <div className="">
-      <h2 className="text-[42px] md:text-[30px] font-bold text-black mb-2">
-        TIME <span className="font-normal">IS ONE OF THE MOST PRECIOUS RESOURCES</span>
-      </h2>
-      <p className="italic text-[27px] text-black mb-4">
-        If you find yourself in this situation most of the time...
-      </p>
-      <p className="text-[23px] text-[#2E2E2E] leading-relaxed mb-4">
-        You feel overwhelmed by managing everything on your own while trying to find your way.
-      </p>
-      <p className="text-[23px] text-[#2E2E2E] leading-relaxed mb-4">
-        You have a team. But as the go-to person, you end up handling all the questions, which can quickly become
-        overwhelming.
-      </p>
-      <p className="text-[23px] text-[#2E2E2E] leading-relaxed mb-4">
-        Your business relies solely on you. This makes it difficult to take breaks and affects your relationships,
-        mental health, and motivation.
-      </p>
-    </div>
+<div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
+  {/* Text Section - Left side */}
+  <div className="md:w-2/3">
+    <h2 className="text-[42px] md:text-[35px] font-bold text-black mb-2 font-['afacad']">
+      TIME <span className="font-normal">IS ONE OF THE MOST PRECIOUS RESOURCES</span>
+    </h2>
+    <p className="text-[25px] text-black mb-4 font-['poppins']">
+      &quot; If you find yourself in this situation most of the time &quot;
+    </p>
+    <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins']">
+      You feel overwhelmed by managing everything on your own while trying to find your way.
+    </p>
+    <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins']">
+      You have a team. But as the go-to person, you end up handling all the questions, which can quickly become
+      overwhelming.
+    </p>
+    <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins']">
+      Your business relies solely on you. This makes it difficult to take breaks and affects your relationships,
+      mental health, and motivation.
+    </p>
   </div>
+
+  {/* Image Section - Right side */}
+  <div className="md:w-1/2 flex justify-center md:justify-end">
+    <Image
+      src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713723/tanishq2_zg1hdb.png"
+      alt="Precious Time"
+      width={400}
+      height={700}
+      className="max-w-[380px] h-[450px]"
+    />
+  </div>
+</div>
+
 
   {/* CTA Section */}
   <div className="text-center mt-10">
-    <h3 className="text-[16px] md:text-[20px] font-bold text-black mb-4 tracking-wide uppercase">
-      EXPLORE HOW I CAN HELP YOUR BUSINESS THRIVE WITH MORE FLEXIBILITY AND LESS HUSTLE
+    <h3 className="text-[16px] md:text-[40px] font-bold text-black mb-4 tracking-wide uppercase font-['afacad']">
+      EXPLORE HOW I CAN HELP YOUR BUSINESS THRIVE <br></br> WITH MORE FLEXIBILITY AND LESS HUSTLE
     </h3>
     <a href="https://calendly.com/jhatanishq2504/30min">
-    <button className="bg-[#EBD3C1] border-none text-[#2E2E2E] text-[14px] px-6 py-3 rounded-sm tracking-widest shadow-none hover:opacity-90 transition">
+    <button className="bg-[#4e3b39] border-none text-[#ffffff] text-[14px] px-9 py-3 rounded-sm tracking-widest shadow-none hover:opacity-90 transition font-['poppins']">
       SCHEDULE YOUR COMPLIMENTARY CALL
     </button>
     </a>
   </div>
 </section>
 <br></br>
-<section className="font-['Didot',serif] border-t border-black bg-white py-1 px-6 md:px-20"></section>
+<section className=" bg-white py-1 px-6 md:px-20"></section>
       {/* What Will You Get Section */}
-      <section className="bg-white px-6 py-12 md:px-20 font-['Didot',serif">
-        <h2 className="text-center text-[28px] italic underline mb-10 text-[#3B2F2F]">
+      <section className="bg-white px-6 py-12 md:px-20 ">
+        <h2 className="text-center text-[40px] mb-10 text-[#3B2F2F] font-['afacads']">
           WHAT WILL YOU GET OUT OF THIS NO- OBLIGATION OFFER ?
         </h2>
 
@@ -613,7 +613,7 @@ export default function Home() {
               alt="Coffee Cup"
               width={300}
               height={350}
-              className="w-[300px] h-[350px] object-cover relative left-4"
+              className="w-[300px] h-[358px] object-cover relative left-4"
             />
           </div>
 
@@ -627,12 +627,18 @@ export default function Home() {
               <span className="text-[#8D5F42] font-semibold mr-4 text-[25px]">02</span>
               RECEIVE A CONFIRMATION EMAIL WITH ALL THE CALL DETAILS.
             </div>
-            <div className="mb-4">
-              <span className="text-[#8D5F42] font-semibold mr-4 text-[25px]">03</span>
-              DURING OUR CALL, WE&apos;LL EXPLORE YOUR BUSINESS NEEDS
-              <br />
-              AND HOW MY SERVICES CAN SUPPORT YOU.
-            </div>
+            <div className="mb-4 flex items-start">
+  <span className="text-[#8D5F42] font-semibold mr-4 text-[25px]">03</span>
+  <div>
+    <p className="text-[#2E2E2E] text-[20px] leading-relaxed">
+      DURING OUR CALL, WE&apos;LL EXPLORE YOUR BUSINESS NEEDS
+    </p>
+    <p className="text-[#2E2E2E] text-[20px] leading-relaxed">
+      AND HOW MY SERVICES CAN SUPPORT YOU.
+    </p>
+  </div>
+</div>
+
             <div className="mb-4">
               <span className="text-[#8D5F42] font-semibold mr-4 text-[25px]">04</span>
               IF WE DECIDE TO COLLABORATE, I&apos;LL SEND YOU A PROPOSAL FOR REVIEW
@@ -656,7 +662,7 @@ export default function Home() {
 
         {/* Content wrapper with relative to stack on top */}
         <div className="relative z-10 max-w-7xl mx-auto text-center mb-16">
-          <h3 className="text-2xl md:text-3xl font-semibold mt-10 text-white drop-shadow-md font-poppins">
+          <h3 className="text-2xl md:text-5xl font-semibold mt-10 text-white drop-shadow-md font-['afacad']">
           HAVING TANISHQ ON MY TEAM WAS AN ABSOLUTE BLESSING.
           </h3>
         </div>
@@ -670,12 +676,12 @@ export default function Home() {
               alt="Client"
               width={256}
               height={256}
-              className="w-90 h-90 object-cover border-8 border-white shadow-xl rounded"
+              className="w-90 h-120 object-cover border-8 border-white shadow-xl rounded"
             />
           </div>
 
           {/* Testimonial Text */}
-          <div className="text-left text-white space-y-5 max-w-xl text-base md:text-lg leading-relaxed font-afacad ">
+          <div className="text-left text-white space-y-5 max-w-xl text-base md:text-2xl leading-relaxed font-['poppins'] ">
             <p>
             Tanishq has helped me in managing my databases really well.
             </p>
@@ -685,7 +691,7 @@ export default function Home() {
             <p>
             She is really proactive and good at her job. I would highly recommend working with Tanishq.
             </p>
-            <p className="font-semibold italic font-afacad">Kapila Rattan Bhowmick, Parenting Coach</p>
+            <p className="font-extrabold font-['afacad']">Kapila Rattan Bhowmick, Parenting Coach</p>
           </div>
         </div>
       </section>
