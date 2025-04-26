@@ -333,7 +333,7 @@ export default function Home() {
             </motion.p>
             <motion.p variants={fadeIn}>
               You make everything so easy for me which helps me focus more on myself, my family and further growth of
-              the business!! The best part is you work on it like it's your own, and even push me to be my better
+              the business!! The best part is you work on it like it&apos;s your own, and even push me to be my better
               version everyday!
             </motion.p>
             <motion.p variants={fadeIn}>
@@ -421,7 +421,7 @@ export default function Home() {
                 By Streamlining Your Projects, Team, Operations, And Client Communication.
               </motion.strong>
               <motion.div className="flex items-start" variants={fadeIn}>
-                <span>"Ensure That Everything Runs Smoothly And Efficiently.</span>
+                <span>Ensure That Everything Runs Smoothly And Efficiently.</span>
               </motion.div>
               <motion.div className="flex items-start" variants={fadeIn}>
                 <span>

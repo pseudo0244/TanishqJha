@@ -2,9 +2,21 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import { useForm } from "react-hook-form"
+import { useForm, SubmitHandler } from "react-hook-form"
 import { motion } from "framer-motion"
 import Header from "../components/Header"
+
+// Define the form data type
+interface FormData {
+  name: string;
+  phone: string;
+  email: string;
+  businessName?: string;
+  website?: string;
+  businessType: string;
+  businessDuration: string[];
+  revenueRange: string[];
+}
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -15,32 +27,46 @@ export default function ContactPage() {
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm()
+  } = useForm<FormData>() // Use the FormData type here
 
   const onSubmit = async (data: any) => {
-    setIsSubmitting(true)
-
+    setIsSubmitting(true);
+  
     try {
+      // Convert the form data to URLSearchParams format
+      const formData = new URLSearchParams();
+  
+      // Append each field in the data to formData
+      Object.keys(data).forEach((key) => {
+        if (Array.isArray(data[key])) {
+          // If the field is an array (checkboxes), join values with commas
+          formData.append(key, data[key].join(','));
+        } else {
+          formData.append(key, data[key]);
+        }
+      });
+  
       const response = await fetch("https://getform.io/f/ajjmwwqa", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: new URLSearchParams(data),
-      })
-
+        body: formData, // Pass the URLSearchParams object as the body
+      });
+  
       if (response.ok) {
-        setIsSubmitted(true)
-        reset()
+        setIsSubmitted(true);
+        reset();
       } else {
-        console.error("Form submission failed")
+        console.error("Form submission failed");
       }
     } catch (error) {
-      console.error("Error submitting form:", error)
+      console.error("Error submitting form:", error);
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
+  
 
   return (
     <div className="bg-white min-h-screen">
