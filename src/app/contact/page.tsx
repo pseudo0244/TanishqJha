@@ -1,97 +1,337 @@
+"use client"
+
+import { useState } from "react"
+import Image from "next/image"
+import { useForm } from "react-hook-form"
+import { motion } from "framer-motion"
 import Header from "../components/Header"
-import Footer from "../components/Footer"
 
 export default function ContactPage() {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm()
+
+  const onSubmit = async (data: any) => {
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch("https://getform.io/f/ajjmwwqa", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams(data),
+      })
+
+      if (response.ok) {
+        setIsSubmitted(true)
+        reset()
+      } else {
+        console.error("Form submission failed")
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error)
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
   return (
-    <main className="min-h-screen bg-white font-['system-ui','-apple-system','BlinkMacSystemFont','Segoe_UI','Roboto','Helvetica_Neue',Arial,sans-serif]">
+    <div className="bg-white min-h-screen">
       <Header />
-
-      {/* Hero Section */}
-      <section className="relative w-full h-[500px] flex items-center justify-center">
-        <div
-          className="absolute inset-0 bg-white bg-opacity-50"
-          style={{
-            backgroundImage: "url('contact.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-        <h1 className="text-7xl font-['Playfair_Display',serif] text-[#6d4c41] relative z-10">GET IN TOUCH</h1>
-      </section>
-
-      {/* Questions Section */}
-      <section className="max-w-4xl mx-auto py-16 px-4">
-        <h2 className="text-3xl font-['aboreto'] text-center text-[#6d4c41] mb-8">
-          HAVE QUESTIONS ? I MAY HAVE ANSWERS FOR YOU
+  {/* Hero Section with Burlap Background */}
+  <div className="relative w-full h-[300px] md:h-[400px]">
+    <Image
+      src="/contact.png"
+      alt="Get In Touch"
+      fill
+      className="object-cover"
+      priority
+    />
+    <div className="absolute inset-0 flex items-center justify-center">
+      <h1 className="text-3xl md:text-8xl font-light text-white drop-shadow-lg font-['afacad']">
+        Get In Touch
+      </h1>
+    </div>
+  </div>
+      {/* Heading Section */}
+      <div className="max-w-4xl mx-auto px-4 py-12 text-center">
+        <h1 className="text-2xl md:text-4xl font-light tracking-wide text-[#333] mb-8">
+          HAVE QUESTIONS? I MAY HAVE ANSWERS FOR YOU
+        </h1>
+        <h2 className="text-xl md:text-2xl font-medium text-[#6D5A5A] mb-12">
+          CONTACT ME VIA THE FORM GIVEN BELOW <br className="hidden md:block" />& I WILL GET BACK TO YOU
         </h2>
+      </div>
 
-        <h3 className="text-4xl font-medium text-center text-[#6d4c41] uppercase mb-12 font-['afacad']">
-          CONTACT ME VIA THE FORM GIVEN BELOW
-          <br />& I WILL GET BACK TO YOU
-        </h3>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Contact Info */}
-          <div className="space-y-8">
+      {/* Form Section */}
+      <div className="max-w-3xl mx-auto px-4 pb-20">
+        {isSubmitted ? (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="bg-[#f8f5f2] p-8 rounded-md text-center"
+          >
+            <h3 className="text-2xl font-medium text-[#6D5A5A] mb-4">Thank You!</h3>
+            <p className="text-lg text-[#333]">
+              Your message has been submitted successfully. I will get back to you soon.
+            </p>
+          </motion.div>
+        ) : (
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
+            {/* Name Field */}
             <div>
-              <h4 className="uppercase text-xl font-medium text-[#6d4c41] font-['afacad']">PHONE</h4>
-              <p>+91 80179 66974</p>
-            </div>
-
-            <div>
-              <h4 className="uppercase font-medium text-xl text-[#6d4c41] font-['afacad']">EMAIL</h4>
-              <p>Tanishqjha@gmail.com</p>
-            </div>
-          </div>
-
-          {/* Contact Form */}
-          <div>
-            <form action="https://getform.io/f/ajjmwwqa" method="POST" className="space-y-4">
+              <label htmlFor="name" className="block text-sm md:text-base font-medium uppercase tracking-wide mb-2">
+                NAME
+              </label>
               <input
                 type="text"
-                name="name"
-                placeholder="NAME"
-                className="w-full border border-[#6d4c41] p-3 bg-transparent"
-                required
+                id="name"
+                {...register("name", { required: true })}
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-1 focus:ring-[#6D5A5A]"
               />
+              {errors.name && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+            </div>
 
+            {/* Phone Field */}
+            <div>
+              <label htmlFor="phone" className="block text-sm md:text-base font-medium uppercase tracking-wide mb-2">
+                PHONE
+              </label>
               <input
                 type="tel"
-                name="phone"
-                placeholder="PHONE"
-                className="w-full border border-[#6d4c41] p-3 bg-transparent"
-                required
+                id="phone"
+                {...register("phone", { required: true })}
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-1 focus:ring-[#6D5A5A]"
               />
+              {errors.phone && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+            </div>
 
+            {/* Email Field */}
+            <div>
+              <label htmlFor="email" className="block text-sm md:text-base font-medium uppercase tracking-wide mb-2">
+                EMAIL
+              </label>
               <input
                 type="email"
-                name="email"
-                placeholder="EMAIL"
-                className="w-full border border-[#6d4c41] p-3 bg-transparent"
-                required
+                id="email"
+                {...register("email", {
+                  required: true,
+                  pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                })}
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-1 focus:ring-[#6D5A5A]"
               />
+              {errors.email?.type === "required" && (
+                <span className="text-red-500 text-sm mt-1">This field is required</span>
+              )}
+              {errors.email?.type === "pattern" && (
+                <span className="text-red-500 text-sm mt-1">Please enter a valid email address</span>
+              )}
+            </div>
 
-              <textarea
-                name="message"
-                placeholder="MESSAGE"
-                rows={6}
-                className="w-full border border-[#6d4c41] p-3 bg-transparent"
-                required
-              />
-
-              <button 
-                type="submit" 
-                className="bg-[#6B4E50] text-white py-2 px-8 uppercase w-full md:w-auto font-['poppins']"
-                style={{ backgroundColor: '#6d4c41' }}
+            {/* Business Name Field */}
+            <div>
+              <label
+                htmlFor="businessName"
+                className="block text-sm md:text-base font-medium uppercase tracking-wide mb-2"
               >
-                Submit
+                YOUR BUSINESS NAME (IF APPLICABLE)
+              </label>
+              <input
+                type="text"
+                id="businessName"
+                {...register("businessName")}
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-1 focus:ring-[#6D5A5A]"
+              />
+            </div>
+
+            {/* Website/Social Media Field */}
+            <div>
+              <label htmlFor="website" className="block text-sm md:text-base font-medium uppercase tracking-wide mb-2">
+                WEBSITE / SOCIAL MEDIA HANDLES (IF ANY)
+              </label>
+              <input
+                type="text"
+                id="website"
+                {...register("website")}
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-1 focus:ring-[#6D5A5A]"
+              />
+            </div>
+
+            {/* Business Type Field */}
+            <div>
+              <label
+                htmlFor="businessType"
+                className="block text-sm md:text-base font-medium uppercase tracking-wide mb-2"
+              >
+                WHAT TYPE OF BUSINESS DO YOU RUN? (E.G., COACHING, FREELANCING, E-COMMERCE, AGENCY, SAAS, ETC.)
+              </label>
+              <textarea
+                id="businessType"
+                {...register("businessType", { required: true })}
+                rows={5}
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-1 focus:ring-[#6D5A5A]"
+              ></textarea>
+              {errors.businessType && <span className="text-red-500 text-sm mt-1">This field is required</span>}
+            </div>
+
+            {/* Business Duration Field */}
+            <div>
+              <p className="block text-sm md:text-base font-medium uppercase tracking-wide mb-3">
+                HOW LONG HAVE YOU BEEN IN BUSINESS?
+              </p>
+              <div className="space-y-2">
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="duration1"
+                    value="LESS THAN 6 MONTHS"
+                    {...register("businessDuration")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="duration1" className="text-sm md:text-base">
+                    LESS THAN 6 MONTHS
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="duration2"
+                    value="6 MONTHS - 1 YEAR"
+                    {...register("businessDuration")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="duration2" className="text-sm md:text-base">
+                    6 MONTHS - 1 YEAR
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="duration3"
+                    value="1-3 YEARS"
+                    {...register("businessDuration")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="duration3" className="text-sm md:text-base">
+                    1-3 YEARS
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="duration4"
+                    value="3-5 YEARS"
+                    {...register("businessDuration")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="duration4" className="text-sm md:text-base">
+                    3-5 YEARS
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="duration5"
+                    value="MORE THAN 5 YEARS"
+                    {...register("businessDuration")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="duration5" className="text-sm md:text-base">
+                    MORE THAN 5 YEARS
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            {/* Revenue Range Field */}
+            <div>
+              <p className="block text-sm md:text-base font-medium uppercase tracking-wide mb-3">
+                WHAT IS YOUR CURRENT MONTHLY REVENUE RANGE?
+              </p>
+              <div className="space-y-2">
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="revenue1"
+                    value="LESS THAN RS. 100,000"
+                    {...register("revenueRange")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="revenue1" className="text-sm md:text-base">
+                    LESS THAN RS. 100,000
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="revenue2"
+                    value="RS. 100,000 - RS. 250,000"
+                    {...register("revenueRange")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="revenue2" className="text-sm md:text-base">
+                    RS. 100,000 - RS. 250,000
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="revenue3"
+                    value="RS. 250,000 - RS. 500,000"
+                    {...register("revenueRange")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="revenue3" className="text-sm md:text-base">
+                    RS. 250,000 - RS. 500,000
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="revenue4"
+                    value="RS. 500,000 - RS. 1,000,000"
+                    {...register("revenueRange")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="revenue4" className="text-sm md:text-base">
+                    RS. 500,000 - RS. 1,000,000
+                  </label>
+                </div>
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="revenue5"
+                    value="OVER RS. 1,000,000"
+                    {...register("revenueRange")}
+                    className="mt-1 mr-2"
+                  />
+                  <label htmlFor="revenue5" className="text-sm md:text-base">
+                    OVER RS. 1,000,000
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            {/* Submit Button */}
+            <div className="pt-4 flex justify-center">
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="bg-[#6D5A5A] text-white uppercase tracking-wide py-3 px-12 hover:bg-[#5a4a4a] transition-colors duration-300 disabled:opacity-70"
+              >
+                {isSubmitting ? "Submitting..." : "Submit"}
               </button>
-            </form>
-          </div>
-        </div>
-      </section>
-      {/* Footer */}
-      <Footer />      
-    </main>
+            </div>
+          </form>
+        )}
+      </div>
+    </div>
   )
 }

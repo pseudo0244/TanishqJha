@@ -689,7 +689,7 @@ export default function AboutPage() {
                 YOU DO BEST.
               </motion.p>
 
-              <a href="/services">
+              <a href="/services/#virtualassistant">
                 <motion.button
                   className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
@@ -765,7 +765,7 @@ export default function AboutPage() {
                 GOALS.
               </motion.p>
 
-              <a href="/services">
+              <a href="/services/#onlinebusinessmanager">
                 <motion.button
                   className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
@@ -816,7 +816,7 @@ export default function AboutPage() {
                 BUSINESS TO THE NEXT LEVEL.
               </motion.p>
 
-              <a href="/services">
+              <a href="/services/#consultation">
                 <motion.button
                   className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
@@ -892,7 +892,7 @@ export default function AboutPage() {
                 GOALS.
               </motion.p>
 
-              <a href="/services">
+              <a href="https://calendly.com/jhatanishq2504/30min">
                 <motion.button
                   className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
@@ -929,14 +929,16 @@ export default function AboutPage() {
             >
               Still have big questions? Maybe even small ones? I am here to answer all of them.
             </motion.p>
-            <motion.button
-              className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins']"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              variants={fadeIn}
-            >
-              GET THE FREEDOM-FOCUSED SUPPORT YOU NEED
-            </motion.button>
+            <motion.a
+  href="https://calendly.com/jhatanishq2504/30min"
+  className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins']"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  variants={fadeIn}
+>
+  GET THE FREEDOM-FOCUSED SUPPORT YOU NEED
+</motion.a>
+
           </motion.div>
 
           {/* Image */}
