@@ -1041,7 +1041,7 @@ export default function Home() {
     <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">03</span>
     <div>
       <p className="text-[#2E2E2E] text-[16px] md:text-[20px] leading-relaxed">
-        During our call, we'll explore your business needs.
+        During our call, we&apos;ll explore your business needs.
       </p>
       <p className="text-[#2E2E2E] text-[16px] md:text-[20px] leading-relaxed">
         and how my services can support you.
@@ -1051,7 +1051,7 @@ export default function Home() {
 
   <motion.div className="mb-4" variants={fadeIn}>
     <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">04</span>
-    If we decide to collaborate, I'll send you a proposal for review.
+    If we decide to collaborate, I&apos;ll send you a proposal for review.
   </motion.div>
   <motion.div variants={fadeIn}>
     <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">05</span>
