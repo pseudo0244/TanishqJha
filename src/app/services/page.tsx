@@ -95,7 +95,7 @@ const ServicesPage = () => {
             className="w-full flex justify-center md:justify-start mt-16 md:mt-20"
           >
             <a
-  href="https://calendly.com/jhatanishq2504/30min"
+  href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
   className="inline-block"  // Ensure the anchor is inline to match button behavior
 >
   <button className="px-6 py-3 bg-[#D7D3BF] text-black font-semibold tracking-wide rounded-md shadow-md hover:bg-[#c8c4b0] transition-all transform hover:scale-105">
@@ -407,7 +407,7 @@ const ServicesPage = () => {
                 ACHIEVING YOUR BROADER GOALS.
               </p>
 
-              <a href="https://calendly.com/jhatanishq2504/30min">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <button className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
                   GET THE DETAILS
                 </button>
@@ -481,7 +481,7 @@ const ServicesPage = () => {
           </ul>
 
           {/* Button */}
-          <a href="https://calendly.com/jhatanishq2504/30min" className="inline-block">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header" className="inline-block">
   <button className="mt-6 px-15 py-2 text-white bg-[#4B3A36] hover:bg-[#362825] text-sm tracking-wide uppercase font-['poppins'] rounded transition-all transform hover:scale-105">
     I&apos;m ready.
   </button>
@@ -537,7 +537,7 @@ const ServicesPage = () => {
           </div>
 
           {/* Button */}
-          <a href="https://calendly.com/jhatanishq2504/30min" className="inline-block">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header" className="inline-block">
   <button className="mt-8 px-6 py-2 text-white bg-[#4B3A36] hover:bg-[#362825] text-base tracking-widest uppercase rounded font-['afacad']">
     I&apos;m on board. Let&apos;s connect
   </button>
@@ -614,6 +614,11 @@ const ServicesPage = () => {
               processes, or addressing specific pain points.
             </p>
           </EntryAnimation>
+          <a href="https://topmate.io/tanishqjha" className="inline-block">
+  <button className="mt-8 px-6 py-2 text-amber-950 bg-[#ffffff] hover:bg-[#bbb8b7] text-base tracking-widest uppercase rounded font-['afacad']">
+    Book a 60 minute call
+  </button>
+</a>
         </div>
       </section>
       <section className="w-full bg-white px-6 py-20 flex flex-col items-center text-black">
@@ -773,7 +778,7 @@ const ServicesPage = () => {
               choose the best offer to suit your business needs.
             </p>
             <a
-              href="https://calendly.com/jhatanishq2504/30min"
+              href="https://topmate.io/tanishqjha"
               className="inline-block bg-[#3a2d2c] text-white text-lg tracking-widest px-8 py-4 rounded-md shadow-md hover:bg-[#2e2322] transition font-['poppins']"
             >
               I&apos;M IN! SCHEDULE THE CALL

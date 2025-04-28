@@ -814,7 +814,7 @@ export default function Home() {
                 GOALS.
               </motion.p>
 
-              <a href="https://calendly.com/jhatanishq2504/30min">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <motion.button
                   className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
@@ -967,7 +967,7 @@ export default function Home() {
           >
             EXPLORE HOW I CAN HELP YOUR BUSINESS THRIVE <br></br> WITH MORE FLEXIBILITY AND LESS HUSTLE
           </motion.h3>
-          <a href="https://calendly.com/jhatanishq2504/30min">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
             <motion.button
               className="bg-[#4e3b39] border-none text-[#ffffff] text-[14px] px-9 py-3 rounded-sm tracking-widest shadow-none hover:opacity-90 transition font-['poppins']"
               whileHover={{ scale: 1.05 }}

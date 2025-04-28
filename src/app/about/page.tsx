@@ -892,7 +892,7 @@ export default function AboutPage() {
                 GOALS.
               </motion.p>
 
-              <a href="https://calendly.com/jhatanishq2504/30min">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <motion.button
                   className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
@@ -930,7 +930,7 @@ export default function AboutPage() {
               Still have big questions? Maybe even small ones? I am here to answer all of them.
             </motion.p>
             <motion.a
-  href="https://calendly.com/jhatanishq2504/30min"
+  href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
   className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins']"
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}

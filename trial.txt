@@ -1,24 +1,4 @@
-  <div className="bg-[#ecd7c8] rounded-none md:rounded-lg p-6 md:p-10 flex flex-col md:flex-row items-center gap-6 md:gap-12 max-w-6xl mx-auto">
-          {/* Image */}
-          <Image
-            src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744871621/Screenshot_2025-04-17_at_12.03.06_dsdqlw.png"
-            alt="Roshni"
-            width={220}
-            height={280}
-            className="w-[220px] h-[280px] object-cover rounded-[25px] shadow-lg"
-          />
-
-          {/* Testimonial Text */}
-          <div className="text-base md:text-2xl leading-relaxed text-black font-['afacad']">
-            <p>
-            Tanishq came on board to help me in creating my freebie, help me with the launch. She completely took the entire process and work off my shoulders and did it with such perfection.
-            She is not only skilled but also very punctual, efficient in handling tasks. I would highly recommend her to anyone looking to onboard a VA.
-            </p>
-            <p className="font-semibold mt-4">Roshni, Copywriter & Business Strategist</p>
-          </div>
-        </div>
-
-
-        https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713723/tanishq2_zg1hdb.png
-
-        
+BCF: https://docs.google.com/forms/d/e/1FAIpQLSfSvqOwRlMADSTAiAWFsuGYmOh1rjECxErFBjeyqkzEDtHNiA/viewform?usp=header
+CQO: https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header
+CAL: https://calendly.com/jhatanishq2504/30min
+TOP: https://topmate.io/tanishqjha
