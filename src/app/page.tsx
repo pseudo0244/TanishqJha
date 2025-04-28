@@ -1026,39 +1026,39 @@ export default function Home() {
 
           {/* Right Steps Box */}
           <motion.div
-            className="bg-[#F3E7DD] border border-gray-300 p-4 md:p-8 w-full text-[16px] md:text-[18px] text-black leading-relaxed"
-            variants={fadeInRight}
-          >
-            <motion.div className="mb-4" variants={fadeIn}>
-              <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">01</span>
-              BOOK A TIME THAT WORKS FOR YOU AND FILL OUT THE FORM.
-            </motion.div>
-            <motion.div className="mb-4" variants={fadeIn}>
-              <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">02</span>
-              RECEIVE A CONFIRMATION EMAIL WITH ALL THE CALL DETAILS.
-            </motion.div>
-            <motion.div className="mb-4 flex items-start" variants={fadeIn}>
-              <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">03</span>
-              <div>
-                <p className="text-[#2E2E2E] text-[16px] md:text-[20px] leading-relaxed">
-                  DURING OUR CALL, WE&apos;LL EXPLORE YOUR BUSINESS NEEDS
-                </p>
-                <p className="text-[#2E2E2E] text-[16px] md:text-[20px] leading-relaxed">
-                  AND HOW MY SERVICES CAN SUPPORT YOU.
-                </p>
-              </div>
-            </motion.div>
+  className="bg-[#F3E7DD] border border-gray-300 p-4 md:p-8 w-full text-[16px] md:text-[18px] text-black leading-relaxed"
+  variants={fadeInRight}
+>
+  <motion.div className="mb-4" variants={fadeIn}>
+    <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">01</span>
+    Book a time that works for you and fill out the form.
+  </motion.div>
+  <motion.div className="mb-4" variants={fadeIn}>
+    <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">02</span>
+    Receive a confirmation email with all the call details.
+  </motion.div>
+  <motion.div className="mb-4 flex items-start" variants={fadeIn}>
+    <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">03</span>
+    <div>
+      <p className="text-[#2E2E2E] text-[16px] md:text-[20px] leading-relaxed">
+        During our call, we'll explore your business needs.
+      </p>
+      <p className="text-[#2E2E2E] text-[16px] md:text-[20px] leading-relaxed">
+        and how my services can support you.
+      </p>
+    </div>
+  </motion.div>
 
-            <motion.div className="mb-4" variants={fadeIn}>
-              <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">04</span>
-              IF WE DECIDE TO COLLABORATE, I&apos;LL SEND YOU A PROPOSAL FOR REVIEW
-            </motion.div>
-            <motion.div variants={fadeIn}>
-              <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">05</span>
-              ONCE AGREED, SIGN THE CONTRACT AND MAKE THE PAYMENT TO KICK THINGS OFF
-            </motion.div>
-          </motion.div>
-        </motion.div>
+  <motion.div className="mb-4" variants={fadeIn}>
+    <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">04</span>
+    If we decide to collaborate, I'll send you a proposal for review.
+  </motion.div>
+  <motion.div variants={fadeIn}>
+    <span className="text-[#8D5F42] font-semibold mr-2 md:mr-4 text-[20px] md:text-[25px]">05</span>
+    Once agreed, sign the contract and make the payment to kick things off.
+  </motion.div>
+</motion.div>
+</motion.div>
       </section>
 
       <section
