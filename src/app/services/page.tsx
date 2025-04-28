@@ -13,99 +13,48 @@ const ServicesPage = () => {
       <Header />
 
       {/* Redesigned Hero Section - More aesthetic without black background */}
-      <motion.section
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="relative w-full h-screen overflow-hidden bg-gradient-to-b from-[#f8f5f2] to-[#f0e9e4]"
-      >
-        {/* Background Image with reduced opacity */}
-        <div className="absolute inset-0 w-full h-full z-0">
-          <motion.div
-            initial={{ scale: 1.1, opacity: 0 }}
-            animate={{ scale: 1, opacity: 0.8 }}
-            transition={{ duration: 1.5 }}
-          >
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713799/service1_inaymw.png"
-              alt="Bg1"
-              width={1920}
-              height={1080}
-              className="w-full h-full object-cover opacity-30"
-              priority
-              onError={(e) => {
-                ;(e.currentTarget as HTMLImageElement).style.display = "none"
-              }}
-            />
-          </motion.div>
-        </div>
-
-        {/* Content */}
-        <div className="absolute inset-0 flex flex-col items-start justify-center px-6 md:px-16 z-10">
-          <div className="max-w-5xl text-[#2D2D2D] text-left">
-            <motion.h1
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-[40px] md:text-[50px] font-light leading-tight mb-6 font-['Poppins'] pt-16 md:pt-28"
-            >
-              RECLAIM YOUR TIME AND ENERGY WITH <br className="hidden md:block" />
-              GROWTH-DRIVEN OBM AND VA SERVICES
-            </motion.h1>
-
-            <motion.p
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="text-[40px] md:text-[40px] font-light mb-4"
-            >
-              GO FROM…
-            </motion.p>
-
-            <motion.p
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.9 }}
-              className="text-[35px] md:text-[35px] py-6 md:py-10 font-light mb-8"
-            >
-              OVERWHELMED BY ENDLESS TASKS, <br className="hidden md:block" />
-              LOST LEADS, AND BURNOUT… <br />
-              TO-
-            </motion.p>
-          </div>
-
-          <motion.div
-            initial={{ x: 50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.2 }}
-            className="md:absolute md:right-16 md:top-1/2 md:transform md:-translate-y-1/2 text-[#2D2D2D] mt-6 md:mt-0"
-          >
-            <p className="text-[30px] md:text-[35px] font-light">
-              <span className="font-light uppercase">
-                Streamlined operations, steady <br className="hidden md:block" />
-                growth — without the chaos
-              </span>
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.5 }}
-            className="w-full flex justify-center md:justify-start mt-16 md:mt-20"
-          >
-            <a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
-  className="inline-block"  // Ensure the anchor is inline to match button behavior
+<motion.section
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1 }}
+  className="relative w-full h-screen overflow-hidden bg-gradient-to-b from-[#f8f5f2] to-[#f0e9e4]"
 >
-  <button className="px-6 py-3 bg-[#D7D3BF] text-black font-semibold tracking-wide rounded-md shadow-md hover:bg-[#c8c4b0] transition-all transform hover:scale-105">
-    LET&apos;S TALK
-  </button>
-</a>
+  {/* Background Image with reduced opacity */}
+  <div className="absolute inset-0 w-full h-full z-0">
+    <motion.div
+      initial={{ scale: 1.1, opacity: 0 }}
+      animate={{ scale: 1, opacity: 0.8 }}
+      transition={{ duration: 1.5 }}
+    >
+      <Image
+        src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713799/service1_inaymw.png"
+        alt="Bg1"
+        width={1920}
+        height={1080}
+        className="w-full h-full object-cover opacity-30"
+        priority
+        onError={(e) => {
+          ;(e.currentTarget as HTMLImageElement).style.display = "none"
+        }}
+      />
+    </motion.div>
+  </div>
 
-          </motion.div>
-        </div>
-      </motion.section>
+  {/* Content */}
+  <div className="absolute inset-0 flex flex-col items-start justify-center px-6 md:px-16 z-10">
+    <div className="max-w-5xl text-[#2D2D2D] text-left">
+      <motion.h1
+        initial={{ y: 30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="text-[40px] md:text-[50px] font-light leading-tight mb-6 font-['Poppins'] pt-16 md:pt-28"
+      >
+        Under Review, Will Be Out Soon
+      </motion.h1>
+    </div>
+  </div>
+</motion.section>
+
 
       <section className="relative w-full bg-white overflow-hidden">
         {/* Background image */}
