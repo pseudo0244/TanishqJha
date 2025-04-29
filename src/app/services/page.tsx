@@ -642,7 +642,7 @@ const ServicesPage = () => {
             {/* Testimonial Text */}
             <EntryAnimation className="text-[#3a2d2c] text-center md:text-left">
               <p className="text-lg font-bold mt-15 font-['poppins']">
-              "If you don&apos;t have Tanishq on your team, I don&apos;t think you&apos;ll be able to work. Tanishq isn&apos;t just a team member. She works like a cofounder. She is that dedicated." 
+              If you don&apos;t have Tanishq on your team, I don&apos;t think you&apos;ll be able to work. Tanishq isn&apos;t just a team member. She works like a cofounder. She is that dedicated.
               </p>
               <p className="mt-6 text-sm uppercase tracking-wide text-[#7a625f]"> Gargi Arya, Life& Business Coach</p>
             </EntryAnimation>
