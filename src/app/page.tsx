@@ -1105,21 +1105,23 @@ export default function Home() {
 
           {/* Testimonial Text */}
           <motion.div
-            className="text-left text-white space-y-3 md:space-y-5 max-w-xl text-sm md:text-lg leading-relaxed font-['poppins']"
-            variants={staggerContainer}
-          >
-            <motion.p variants={fadeIn}>Tanishq has helped me in managing my databases really well.</motion.p>
-            <motion.p variants={fadeIn}>
-              She completed all the tasks that I gave to her on time. she helped me manage my calendar and also helped
-              me make bookings for me.
-            </motion.p>
-            <motion.p variants={fadeIn}>
-              She is really proactive and good at her job. I would highly recommend working with Tanishq.
-            </motion.p>
-            <motion.p className="font-extrabold font-['afacad']" variants={fadeIn}>
-              Kapila Rattan Bhowmick, Parenting Coach
-            </motion.p>
-          </motion.div>
+  className="text-left text-white space-y-3 md:space-y-5 max-w-xl text-sm md:text-lg leading-relaxed font-['poppins']"
+  variants={staggerContainer}
+>
+  <motion.p variants={fadeIn}>
+    It felt like she effortlessly took ownership of every task—and what stood out the most was her eagerness to learn and adapt to how things needed to flow.
+  </motion.p>
+  <motion.p variants={fadeIn}>
+    Working with her wasn’t just productive—it gave me the space to see the value of collaborating with others.
+  </motion.p>
+  <motion.p variants={fadeIn}>
+    It was an incredible experience, and I look forward to more opportunities to connect and work together in the future.
+  </motion.p>
+  <motion.p className="font-extrabold font-['afacad']" variants={fadeIn}>
+    Kapila Rattan Bhowmick, Parenting Coach
+  </motion.p>
+</motion.div>
+
         </motion.div>
       </section>
       <Footer />

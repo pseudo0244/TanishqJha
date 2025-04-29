@@ -641,14 +641,8 @@ const ServicesPage = () => {
 
             {/* Testimonial Text */}
             <EntryAnimation className="text-[#3a2d2c] text-center md:text-left">
-              <p className="text-2xl font-semibold mb-4 font-['afacad']">
-                Loving your work team… am sharing it with more and more of the people I love.
-                <br />
-                And I know I can blindly recommend your team to them.
-              </p>
-              <p className="text-lg font-bold mt-6 font-['poppins']">
-                I hope you&apos;re understanding the powerful purpose you&apos;re serving as you help so many people &
-                families achieve their dreams with visibility and growth.
+              <p className="text-lg font-bold mt-15 font-['poppins']">
+              "If you don&apos;t have Tanishq on your team, I don&apos;t think you&apos;ll be able to work. Tanishq isn&apos;t just a team member. She works like a cofounder. She is that dedicated." 
               </p>
               <p className="mt-6 text-sm uppercase tracking-wide text-[#7a625f]"> Gargi Arya, Life& Business Coach</p>
             </EntryAnimation>
