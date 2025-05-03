@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 // Animation variants
 const fadeIn = {
@@ -62,7 +63,7 @@ export default function AboutPage() {
       <Header />
       <section className="flex flex-col md:flex-row items-center justify-center px-4 md:px-20 py-20 gap-12 bg-white relative overflow-hidden">
         {/* Left Half Background Image */}
-        <div className="absolute top-0 left-0 w-1/3 h-full z-0 overflow-hidden">
+        <div className="absolute top-0 left-0 w-1/3 h-full z-0 overflow-hidden hidden md:block">
           <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713752/about2_yvnlwt.png"
@@ -157,7 +158,7 @@ export default function AboutPage() {
               alt="Roshni"
               width={220}
               height={280}
-              className="w-[900px] h-[280px] object-cover rounded-[25px] shadow-lg"
+              className="w-full md:w-[900px] h-auto md:h-[280px] object-cover rounded-[25px] shadow-lg"
             />
           </motion.div>
 
@@ -230,7 +231,7 @@ export default function AboutPage() {
 
             {/* Right Side - Text box that extends to the right edge */}
             <motion.div
-              className="w-full md:w-7/12 bg-white rounded-[30px] shadow-xl p-6 md:p-10 flex flex-col justify-center relative md:pr-0 md:rounded-r-none"
+              className="w-full md:w-7/12 bg-white rounded-[30px] shadow-xl p-4 md:p-10 flex flex-col justify-center relative md:pr-0 md:rounded-r-none"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
@@ -307,27 +308,27 @@ export default function AboutPage() {
             Hi, I am Tanishq, founder of TanishqJha.co OBM and VA services
           </motion.p>
           <motion.div variants={staggerContainer}>
-            <motion.p className="text-amber-950 font-['poppins'] text-xl" variants={fadeIn}>
+            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
               I grew up watching my father build a thriving business. He loved what he was doing, but he was working
               himself to the bone.
             </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-xl" variants={fadeIn}>
+            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
               Even when he fractured his hand in an accident, he couldn&apos;t stop. The fear of letting down his
               customers kept him committed to his responsibilities, even while he was healing.
             </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-xl" variants={fadeIn}>
+            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
               Despite his success, he could never truly take a break. Even during vacations, he was constantly worried
               about the business and its operations.
             </motion.p>
-            <motion.p className=" text-amber-950 font-['poppins'] text-xl" variants={fadeIn}>
+            <motion.p className=" text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
               This was heartbreaking for me.{" "}
               <strong>Entrepreneurship should not come at the cost of personal well-being.</strong>
             </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-xl" variants={fadeIn}>
+            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
               I was always intrigued by how someone could thrive in their business without pushing themselves to their
               limit…
             </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-xl" variants={fadeIn}>
+            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
               …And every great story starts with a spark of curiosity.
             </motion.p>
           </motion.div>
@@ -377,7 +378,7 @@ export default function AboutPage() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeInRight}
         >
-          <motion.h2 className="`text-3xl md:text-6xl font-semibold mb-6 font-['afacad']" variants={fadeIn}>
+          <motion.h2 className="text-2xl md:text-3xl lg:text-6xl font-semibold mb-6 font-['afacad']" variants={fadeIn}>
             This is how <span className=" ">my journey started</span>
             <span className="text-2xl">...</span>
           </motion.h2>
@@ -610,59 +611,49 @@ export default function AboutPage() {
         </motion.div>
       </section>
       <section className="relative bg-white px-6 md:px-20 border-t-2 border-[#4A3733]"></section>
-      <section className="relative bg-white  px-6 md:px-20 border-t-1 border-[#4A3733]"></section>
-      {/* Services Section */}
-      <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif] mt-20">
+     {/* Services Section */}
+  <section className="bg-white py-10 px-4 sm:px-6 md:px-20 text-center font-['Didot',serif] mt-10 md:mt-20">
         {/* Top Text */}
         <motion.div
-          className="max-w-4xl mx-auto mb-20"
+          className="max-w-4xl mx-auto mb-10 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <motion.h2
-            className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black font-['afacad']"
-            variants={fadeIn}
-          >
+          <h2 className="text-[24px] sm:text-[28px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black font-['afacad']">
             WANNA SCALE YOUR BUSINESS...
-          </motion.h2>
-          <motion.h2
-            className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['afacad']"
-            variants={fadeIn}
-          >
+          </h2>
+          <h2 className="text-[28px] sm:text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['afacad']">
             WITHOUT THE <span className="font-bold">OVERLOAD</span> ON YOUR SHOULDERS?
-          </motion.h2>
-          <motion.p
-            className="mt-8 text-[26px] tracking-wide text-[#2E2E2E] uppercase font-['poppins']"
-            variants={fadeIn}
-          >
+          </h2>
+          <p className="mt-6 md:mt-8 text-[18px] sm:text-[22px] md:text-[26px] tracking-wide text-[#2E2E2E] uppercase font-['poppins']">
             HERE&apos;S HOW WE CAN WORK TOGETHER
-          </motion.p>
+          </p>
 
           {/* Arrow */}
           <motion.div
-            className="mt-6"
+            className="mt-4 md:mt-6"
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
           >
-            <span className="text-[36px] text-black select-none">↓</span>
+            <span className="text-[24px] md:text-[36px] text-black select-none">↓</span>
           </motion.div>
         </motion.div>
 
         {/* Service 1 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 text-left"
+          className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 text-left mb-16 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Text Content */}
-          <motion.div className="md:w-2/3 flex gap-6" variants={fadeInLeft}>
+          <motion.div className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6" variants={fadeInLeft}>
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -672,15 +663,16 @@ export default function AboutPage() {
             </motion.h3>
 
             {/* Description */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 VIRTUAL ASSISTANT
               </motion.h4>
+
               <motion.p
-                className="text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A TRUSTED VIRTUAL ASSISTANT
@@ -689,57 +681,58 @@ export default function AboutPage() {
                 YOU DO BEST.
               </motion.p>
 
-              <a href="/services/#virtualassistant">
+              <Link href="/services/#virtualassistant">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 
           {/* Image */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-end" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713713/hero6_li2r1f.png"
               alt="Virtual Assistant"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
         </motion.div>
-      </section>
 
-      {/* Service 2 */}
-      <section className="bg-white px-6 md:px-20 py-20 font-['Didot',serif]">
+        {/* Service 2 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 mb-20"
+          className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 mb-16 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Image Left */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-right" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713710/hero7_ol7jzy.png"
               alt="Online Business Manager"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
 
           {/* Text Right */}
-          <motion.div className="md:w-2/3 flex gap-6 text-left" variants={fadeInRight}>
+          <motion.div
+            className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6 text-left"
+            variants={fadeInRight}
+          >
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -749,15 +742,15 @@ export default function AboutPage() {
             </motion.h3>
 
             {/* Content */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 ONLINE BUSINESS MANAGER
               </motion.h4>
               <motion.p
-                className="text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
@@ -765,33 +758,36 @@ export default function AboutPage() {
                 GOALS.
               </motion.p>
 
-              <a href="/services/#onlinebusinessmanager">
+              <Link href="/services/#onlinebusinessmanager">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
         </motion.div>
 
         {/* Service 3 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12"
+          className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 mb-16 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Text Left */}
-          <motion.div className="md:w-2/3 flex gap-6 text-left" variants={fadeInLeft}>
+          <motion.div
+            className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6 text-left"
+            variants={fadeInLeft}
+          >
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -801,72 +797,73 @@ export default function AboutPage() {
             </motion.h3>
 
             {/* Content */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 60 MINUTE-STRATEGY CONSULTATION
               </motion.h4>
               <motion.p
-                className="text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A STRATEGIC 60-MINUTE CONSULTATION THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR TAKING YOUR
                 BUSINESS TO THE NEXT LEVEL.
               </motion.p>
 
-              <a href="/services/#consultation">
+              <Link href="/services/#consultation">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 
           {/* Image Right */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-end" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713723/hero8_toysbn.png"
               alt="60 Minute Strategy Call"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
         </motion.div>
-      </section>
 
-      {/* Service 4 */}
-      <section className="bg-white px-6 md:px-20 pb-16 font-['Didot',serif] border-b border-black">
+        {/* Service 4 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12"
+          className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 pb-10 md:pb-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Image Left */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-start" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/hero9_fptahl.png"
               alt="Need Something Else"
               width={300}
               height={400}
-              className="w-[260px] md:w-[350px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[350px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
 
           {/* Text Right */}
-          <motion.div className="md:w-2/3 flex gap-6 text-left" variants={fadeInRight}>
+          <motion.div
+            className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6 text-left"
+            variants={fadeInRight}
+          >
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -876,15 +873,15 @@ export default function AboutPage() {
             </motion.h3>
 
             {/* Content */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fi font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 NEED SOMETHING THAT ISN&apos;T LISTED?
               </motion.h4>
               <motion.p
-                className="text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
@@ -892,24 +889,25 @@ export default function AboutPage() {
                 GOALS.
               </motion.p>
 
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
         </motion.div>
       </section>
 
+
       <section className="bg-[#483435] text-white px-6 py-16">
         <motion.div
-          className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10"
+          className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
@@ -930,15 +928,14 @@ export default function AboutPage() {
               Still have big questions? Maybe even small ones? I am here to answer all of them.
             </motion.p>
             <motion.a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
-  className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins']"
-  whileHover={{ scale: 1.05 }}
-  whileTap={{ scale: 0.95 }}
-  variants={fadeIn}
->
-  GET THE FREEDOM-FOCUSED SUPPORT YOU NEED
-</motion.a>
-
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
+              className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins']"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              variants={fadeIn}
+            >
+              GET THE FREEDOM-FOCUSED SUPPORT YOU NEED
+            </motion.a>
           </motion.div>
 
           {/* Image */}

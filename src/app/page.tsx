@@ -6,6 +6,7 @@ import Image from "next/image"
 import { useEffect } from "react"
 import confetti from "canvas-confetti"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 // Animation variants
 const fadeIn = {
@@ -540,51 +541,49 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-      <section className="relative bg-white px-6 md:px-20 border-t-1 border-[#4A3733]"></section>
-
-      {/* Services Section */}
-      <section className="bg-white py px-6 md:px-20 text-center font-['Didot',serif] mt-20">
+  {/* Services Section */}
+  <section className="bg-white py-10 px-4 sm:px-6 md:px-20 text-center font-['Didot',serif] mt-10 md:mt-20">
         {/* Top Text */}
         <motion.div
-          className="max-w-4xl mx-auto mb-20"
+          className="max-w-4xl mx-auto mb-10 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <h2 className="text-[28px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black font-['afacad']">
+          <h2 className="text-[24px] sm:text-[28px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black font-['afacad']">
             WANNA SCALE YOUR BUSINESS...
           </h2>
-          <h2 className="text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['afacad']">
+          <h2 className="text-[28px] sm:text-[36px] md:text-[50px] leading-tight font-light tracking-wide uppercase text-black mt-2 font-['afacad']">
             WITHOUT THE <span className="font-bold">OVERLOAD</span> ON YOUR SHOULDERS?
           </h2>
-          <p className="mt-8 text-[26px] tracking-wide text-[#2E2E2E] uppercase font-['poppins']">
+          <p className="mt-6 md:mt-8 text-[18px] sm:text-[22px] md:text-[26px] tracking-wide text-[#2E2E2E] uppercase font-['poppins']">
             HERE&apos;S HOW WE CAN WORK TOGETHER
           </p>
 
           {/* Arrow */}
           <motion.div
-            className="mt-6"
+            className="mt-4 md:mt-6"
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
           >
-            <span className="text-[36px] text-black select-none">↓</span>
+            <span className="text-[24px] md:text-[36px] text-black select-none">↓</span>
           </motion.div>
         </motion.div>
 
         {/* Service 1 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 text-left"
+          className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 text-left mb-16 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Text Content */}
-          <motion.div className="w-full md:w-2/3 flex flex-col md:flex-row gap-3 md:gap-6" variants={fadeInLeft}>
+          <motion.div className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6" variants={fadeInLeft}>
             {/* Number */}
             <motion.h3
-              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center md:text-left"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -594,15 +593,16 @@ export default function Home() {
             </motion.h3>
 
             {/* Description */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[32px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 VIRTUAL ASSISTANT
               </motion.h4>
+
               <motion.p
-                className="text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A TRUSTED VIRTUAL ASSISTANT
@@ -611,57 +611,58 @@ export default function Home() {
                 YOU DO BEST.
               </motion.p>
 
-              <a href="/services/#virtualassistant">
+              <Link href="/services/#virtualassistant">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 
           {/* Image */}
-          <motion.div className="w-full md:w-1/3 flex justify-center" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713713/hero6_li2r1f.png"
               alt="Virtual Assistant"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
         </motion.div>
-      </section>
 
-      {/* Service 2 */}
-      <section className="bg-white px-6 md:px-20 py-20 font-['Didot',serif]">
+        {/* Service 2 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 mb-20"
+          className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 mb-16 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Image Left */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-right" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713710/hero7_ol7jzy.png"
               alt="Online Business Manager"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
 
           {/* Text Right */}
-          <motion.div className="md:w-2/3 flex gap-6 text-left" variants={fadeInRight}>
+          <motion.div
+            className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6 text-left"
+            variants={fadeInRight}
+          >
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -671,15 +672,15 @@ export default function Home() {
             </motion.h3>
 
             {/* Content */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 ONLINE BUSINESS MANAGER
               </motion.h4>
               <motion.p
-                className="text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
@@ -687,33 +688,36 @@ export default function Home() {
                 GOALS.
               </motion.p>
 
-              <a href="/services/#onlinebusinessmanager">
+              <Link href="/services/#onlinebusinessmanager">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
         </motion.div>
 
         {/* Service 3 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12"
+          className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 mb-16 md:mb-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Text Left */}
-          <motion.div className="md:w-2/3 flex gap-6 text-left" variants={fadeInLeft}>
+          <motion.div
+            className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6 text-left"
+            variants={fadeInLeft}
+          >
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -723,72 +727,73 @@ export default function Home() {
             </motion.h3>
 
             {/* Content */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 60 MINUTE-STRATEGY CONSULTATION
               </motion.h4>
               <motion.p
-                className="text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A STRATEGIC 60-MINUTE CONSULTATION THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR TAKING YOUR
                 BUSINESS TO THE NEXT LEVEL.
               </motion.p>
 
-              <a href="/services/#consultation">
+              <Link href="/services/#consultation">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 
           {/* Image Right */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-end" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713723/hero8_toysbn.png"
               alt="60 Minute Strategy Call"
               width={300}
               height={400}
-              className="w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[300px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
         </motion.div>
-      </section>
 
-      {/* Service 4 */}
-      <section className="bg-white px-6 md:px-20 pb-16 font-['Didot',serif] border-b border-black">
+        {/* Service 4 */}
         <motion.div
-          className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12"
+          className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-8 md:gap-12 pb-10 md:pb-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
           {/* Image Left */}
-          <motion.div className="md:w-1/3 flex justify-center md:justify-start" variants={imageScale}>
+          <motion.div className="w-full md:w-1/3 flex justify-center mt-6 md:mt-0" variants={imageScale}>
             <Image
               src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713714/hero9_fptahl.png"
               alt="Need Something Else"
               width={300}
               height={400}
-              className="w-[260px] md:w-[350px] border-[6px] border-[#f4e9de]"
+              className="w-[220px] sm:w-[260px] md:w-[350px] border-[6px] border-[#f4e9de]"
             />
           </motion.div>
 
           {/* Text Right */}
-          <motion.div className="md:w-2/3 flex gap-6 text-left" variants={fadeInRight}>
+          <motion.div
+            className="w-full md:w-2/3 flex flex-col sm:flex-row gap-3 md:gap-6 text-left"
+            variants={fadeInRight}
+          >
             {/* Number */}
             <motion.h3
-              className="text-[100px] font-light text-black leading-none"
+              className="text-[60px] md:text-[100px] font-light text-black leading-none text-center sm:text-left"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -798,15 +803,15 @@ export default function Home() {
             </motion.h3>
 
             {/* Content */}
-            <motion.div variants={staggerContainer}>
+            <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fi font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
                 variants={fadeIn}
               >
                 NEED SOMETHING THAT ISN&apos;T LISTED?
               </motion.h4>
               <motion.p
-                className="text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light max-w-xl font-['poppins']"
+                className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
                 variants={fadeIn}
               >
                 YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
@@ -814,16 +819,16 @@ export default function Home() {
                 GOALS.
               </motion.p>
 
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <motion.button
-                  className="mt-6 px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
+                  className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins']"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   variants={fadeIn}
                 >
                   GET THE DETAILS
                 </motion.button>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
         </motion.div>
