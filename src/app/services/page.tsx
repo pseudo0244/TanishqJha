@@ -29,49 +29,77 @@ const ServicesPage = () => {
   return (
     <>
       <Header />
-
-      {/* Redesigned Hero Section - More aesthetic without black background */}
       <motion.section
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="relative w-full h-[80vh] sm:h-screen overflow-hidden bg-gradient-to-b from-[#f8f5f2] to-[#f0e9e4]"
-      >
-        {/* Background Image with reduced opacity */}
-        <div className="absolute inset-0 w-full h-full z-0">
-          <motion.div
-            initial={{ scale: 1.1, opacity: 0 }}
-            animate={{ scale: 1, opacity: 0.8 }}
-            transition={{ duration: 1.5 }}
-          >
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713799/service1_inaymw.png"
-              alt="Bg1"
-              width={1920}
-              height={1080}
-              className="w-full h-full object-cover opacity-30"
-              priority
-              onError={(e) => {
-                ;(e.currentTarget as HTMLImageElement).style.display = "none"
-              }}
-            />
-          </motion.div>
-        </div>
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1 }}
+  className="relative w-full min-h-[90vh] sm:min-h-screen bg-gradient-to-br from-black via-black/70 to-black/60 overflow-hidden"
+>
+  {/* Background Image Layer */}
+  <div className="absolute inset-0 z-0">
+    <Image
+      src="/services/servicesimg.png"
+      alt="Decorative Background"
+      layout="fill"
+      objectFit="cover"
+      className="opacity-30"
+      priority
+      onError={(e) => {
+        ;(e.currentTarget as HTMLImageElement).style.display = "none"
+      }}
+    />
+    <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/20" />
+  </div>
 
-        {/* Content */}
-        <div className="absolute inset-0 flex flex-col items-start justify-center px-6 md:px-16 z-10">
-          <div className="max-w-5xl text-[#2D2D2D] text-left">
-            <motion.h1
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-[32px] sm:text-[40px] md:text-[50px] font-light leading-tight mb-6 font-['Poppins'] pt-16 md:pt-28"
-            >
-              Under Review, Will Be Out Soon
-            </motion.h1>
-          </div>
-        </div>
-      </motion.section>
+  {/* Content Layer */}
+  <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 md:px-16 py-20 sm:py-32">
+    <motion.h1
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.3 }}
+      className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] font-semibold leading-tight mb-6 text-[#e0c9b3] drop-shadow-md font-['Poppins'] max-w-5xl"
+    >
+      RECLAIM YOUR TIME AND ENERGY WITH GROWTH-DRIVEN OBM AND VA SERVICES
+    </motion.h1>
+
+    <motion.div
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.5 }}
+      className="mt-4"
+    >
+      <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold mb-2 text-[#d2b49c] drop-shadow-sm">
+        GO FROM...
+      </h2>
+      <p className="text-[18px] sm:text-[20px] md:text-[24px] font-light mb-8 text-white/90 drop-shadow-sm">
+        OVERWHELMED BY ENDLESS TASKS, LOST LEADS, AND BURNOUT...
+      </p>
+    </motion.div>
+
+    <motion.div
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.7 }}
+      className="mt-4"
+    >
+      <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold text-[#d2b49c] drop-shadow-sm">
+        STREAMLINED OPERATIONS, STEADY GROWTH — WITHOUT THE CHAOS
+      </h2>
+    </motion.div>
+
+    <motion.div
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.9 }}
+      className="mt-10"
+    >
+      <button className="px-8 py-3 bg-[#d2b49c] hover:bg-[#bfa088] text-black font-semibold rounded-xl shadow-lg transition duration-300 transform hover:scale-105">
+        LET'S TALK
+      </button>
+    </motion.div>
+  </div>
+</motion.section>
+
 
       <section className="relative w-full bg-white overflow-hidden py-10 sm:py-16">
         {/* Background image */}
