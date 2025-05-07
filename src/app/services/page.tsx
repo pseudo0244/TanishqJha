@@ -93,9 +93,12 @@ const ServicesPage = () => {
       transition={{ duration: 0.8, delay: 0.9 }}
       className="mt-10"
     >
-      <button className="px-8 py-3 bg-[#d2b49c] hover:bg-[#bfa088] text-black font-semibold rounded-xl shadow-lg transition duration-300 transform hover:scale-105">
-        LET&apos;S TALK
-      </button>
+      <a href="https://topmate.io/tanishqjha">
+  <button className="px-8 py-3 bg-[#d2b49c] hover:bg-[#bfa088] text-black font-semibold rounded-xl shadow-lg transition duration-300 transform hover:scale-105">
+    LET&apos;S TALK
+  </button>
+</a>
+
     </motion.div>
   </div>
 </motion.section>
