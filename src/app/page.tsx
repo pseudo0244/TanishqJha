@@ -96,17 +96,18 @@ export default function Home() {
             animate="visible"
           >
             <motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
-              <SlCheck className="text-[#4e3b39] mr-3 text-xl" />I make proactive decisions and manage key aspects of
-              your business
-            </motion.p>
-            <motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
-              <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
-              Ensuring everything runs smoothly
-            </motion.p>
-            <motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
-              <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
-              Without the need for your constant intervention
-            </motion.p>
+  <SlCheck className="text-[#4e3b39] mr-3 w-5 h-5 shrink-0" />
+  I make proactive decisions and manage key aspects of your business
+</motion.p>
+<motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
+  <SlCheck className="text-[#4e3b39] mr-3 w-5 h-5 shrink-0" />
+  Ensuring everything runs smoothly
+</motion.p>
+<motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
+  <SlCheck className="text-[#4e3b39] mr-3 w-5 h-5 shrink-0" />
+  Without the need for your constant intervention
+</motion.p>
+
           </motion.div>
 
           <motion.div
@@ -117,17 +118,18 @@ export default function Home() {
             transition={{ delay: 0.6 }}
           >
             <a href="#tellmemore">
-              <motion.button
-                className="bg-[#4e3b39] text-white px-12 py-4 uppercase tracking-widest text-sm rounded-md"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Tell Me More
-              </motion.button>
+             <motion.button
+  className="bg-[#4e3b39] text-white px-6 py-3 md:px-12 md:py-4 uppercase tracking-widest text-xs md:text-sm rounded-md"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  Tell Me More
+</motion.button>
+
             </a>
             <a href="/services">
               <motion.button
-                className="bg-white border border-amber-900 text-black px-8 py-4 uppercase tracking-widest text-sm rounded-md"
+                className="bg-white border border-amber-900 text-black px-6 py-3 md:px-12 md:py-4 uppercase tracking-widest text-xs md:text-sm rounded-md"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >

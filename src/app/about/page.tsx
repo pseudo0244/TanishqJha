@@ -254,7 +254,7 @@ export default function AboutPage() {
     className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
     variants={fadeIn}
   >
-    You're going about your daily life—handling client meetings, project delivery, and personal
+    You&apos;re going about your daily life—handling client meetings, project delivery, and personal
     responsibilities. Meanwhile, your business runs like a well-oiled machine, with everything on track.
   </motion.p>
 
@@ -372,12 +372,13 @@ export default function AboutPage() {
           variants={imageScale}
         >
           <Image
-            src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713808/service11_vac0on.png"
-            alt="Forest Path"
-            width={600}
-            height={450}
-            className="rounded-md object-cover w-9/10 h-auto"
-          />
+  src="/services/service1.png"
+  alt="Forest Path"
+  width={500}
+  height={400}
+  className="rounded-md object-cover"
+/>
+
         </motion.div>
 
         {/* Right Content */}
