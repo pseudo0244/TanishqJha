@@ -714,13 +714,13 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 px-6">
+      <section className="py-12 sm:py-16 px-6 object-center">
         <EntryAnimation>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium tracking-wider mb-8 sm:mb-10 text-center font-['afacad']">
             MY UNWAVERING COMMITMENT TO YOU
           </h2>
         </EntryAnimation>
-        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8 max-w-6xl mx-auto">
+        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8 max-w-6xl mx-auto ">
           {/* Left Content Block */}
           <EntryAnimation className="bg-[#f3e4da] rounded-xl p-6 sm:p-8 lg:p-10 flex-1">
             <p className="text-[#3a2d2c] mb-4 sm:mb-6 font-['poppins']">
@@ -756,12 +756,13 @@ const ServicesPage = () => {
           {/* Right Image */}
           <EntryAnimation className="rounded-xl overflow-hidden flex-1">
             <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713799/service1_inaymw.png"
-              alt="Woman in yellow dress sitting by a window with city view"
-              width={600}
-              height={450}
-              className="w-full h-full object-center object-cover rounded-xl"
-            />
+  src="/services/service1.png"
+  alt="Woman in yellow dress sitting by a window with city view"
+  width={300}
+  height={300}
+  className="object-center rounded-xl w-[350px] "
+/>
+
           </EntryAnimation>
         </div>
       </section>

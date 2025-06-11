@@ -72,7 +72,7 @@ export default function Footer() {
           {/* Right Social Icons */}
           <div className="flex gap-5 mt-4 md:mt-0">
             <a
-              href="https://www.linkedin.com/in/YOUR_USERNAME"
+              href="https://www.linkedin.com/in/tanishq-jha-6a2275312/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#3E2F2F] text-[28px]"
@@ -80,7 +80,7 @@ export default function Footer() {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://www.instagram.com/YOUR_USERNAME"
+              href="https://www.instagram.com/tanishqjha.co/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#3E2F2F] text-[30px]"
