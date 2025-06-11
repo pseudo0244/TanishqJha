@@ -78,13 +78,13 @@ export default function Home() {
         {/* Left Section */}
         <motion.div className="w-full md:w-2/3 space-y-3" initial="hidden" animate="visible" variants={fadeInLeft}>
           <motion.h1
-            className="text-2xl md:text-5xl text-black font-['afacad'] font-bold leading-snug tracking-wide"
+            className="text-2xl md:text-4xl text-black font-['alike_angular'] font-bold leading-snug tracking-wide"
             variants={fadeIn}
           >
             SECOND BRAIN FOR ENTREPRENEURS <br />
             READY TO SCALE... WITHOUT EXHAUSTION
           </motion.h1>
-          <motion.p className="text-xl text-black/90 font-['poppins']" variants={fadeIn}>
+          <motion.p className="text-2xl text-black/90 font-['poppins']" variants={fadeIn}>
             From Strategy To Implementation With Your Freedom- <br />
             Focused OBM & VA
           </motion.p>
@@ -95,15 +95,15 @@ export default function Home() {
             initial="hidden"
             animate="visible"
           >
-            <motion.p className="flex items-center text-base font-['poppins']" variants={fadeIn}>
+            <motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
               <SlCheck className="text-[#4e3b39] mr-3 text-xl" />I make proactive decisions and manage key aspects of
               your business
             </motion.p>
-            <motion.p className="flex items-center text-base font-['poppins']" variants={fadeIn}>
+            <motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
               <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
               Ensuring everything runs smoothly
             </motion.p>
-            <motion.p className="flex items-center text-base font-['poppins']" variants={fadeIn}>
+            <motion.p className="flex items-center text-lg font-['alike']" variants={fadeIn}>
               <SlCheck className="text-[#4e3b39] mr-3 text-xl" />
               Without the need for your constant intervention
             </motion.p>
@@ -211,68 +211,69 @@ export default function Home() {
       </section>
 
       {/* Still Waiting Section */}
-      <section id= 'tellmemore'className="bg-white py-30 px-6 md:px-12">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16">
-          {/* Left Image */}
-          <motion.div
-            className="w-full md:w-[50%]"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
-            variants={imageScale}
-          >
-            <Image
-              src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713709/hero3_smedab.png"
-              alt="Support"
-              width={616}
-              height={631}
-              className="w-full max-w-[550px] h-auto md:h-[580px] object-cover rounded-b-none"
-            />
-          </motion.div>
+<section id='tellmemore' className="bg-white py-30 px-6 md:px-12">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16">
+    {/* Left Image */}
+    <motion.div
+      className="w-full md:w-[50%]"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.3 }}
+      variants={imageScale}
+    >
+      <Image
+        src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1744713709/hero3_smedab.png"
+        alt="Support"
+        width={616}
+        height={631}
+        className="w-full max-w-[550px] h-auto md:h-[580px] object-cover rounded-b-none"
+      />
+    </motion.div>
 
-          {/* Right Text Content */}
-          <motion.div
-            className="w-full md:w-[50%] text-[#3b2f30]"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
-            variants={fadeInRight}
-          >
-            <motion.h2
-              className="text-[28px] md:text-[50px] font-semibold leading-snug font-['afacad'] uppercase tracking-tight"
-              variants={fadeIn}
-            >
-              STILL WAITING FOR THE RIGHT
-              <br />
-              TIME TO HIRE SUPPORT...
-            </motion.h2>
+    {/* Right Text Content */}
+    <motion.div
+      className="w-full md:w-[50%] text-[#3b2f30]"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.3 }}
+      variants={fadeInRight}
+    >
+      <motion.h2
+        className="text-[28px] md:text-[50px] font-semibold leading-snug font-['alike_angular'] tracking-tight"
+        variants={fadeIn}
+      >
+        Still Waiting For The Right
+        <br />
+        Time To Hire Support...
+      </motion.h2>
 
-            <motion.p className="text-[20px] md:text-[24px] font-afacad tracking-wide mt-6" variants={fadeIn}>
-              LIKE REACHING A CERTAIN NUMBER OF CLIENTS
-              <br />
-              OR ACHIEVING A REVENUE GOAL?
-            </motion.p>
+      <motion.p className="text-[20px] md:text-[24px] font-poppins tracking-wide mt-6" variants={fadeIn}>
+        Like reaching a certain number of clients
+        <br />
+        or achieving a revenue goal?
+      </motion.p>
 
-            <motion.p className="italic text-[20px] md:text-[30px] font-bold mt-8 font-['afacad']" variants={fadeIn}>
-              IMAGINE THIS.....
-            </motion.p>
+      <motion.p className="italic text-[20px] md:text-[30px] font-bold mt-8 font-['afacad']" variants={fadeIn}>
+        Imagine this.....
+      </motion.p>
 
-            <motion.div
-              className="space-y-4 mt-6 text-[16px] md:text-[20px] font-medium font-afacad leading-relaxed"
-              variants={staggerContainer}
-            >
-              <motion.p variants={fadeIn}>WHAT IF YOU COULD BRING IN THE RIGHT EXPERTISE TODAY?</motion.p>
-              <motion.p variants={fadeIn}>YOU&apos;D FINALLY FEEL AT EASE. NO MORE BEING WIRED 24/7.</motion.p>
-              <motion.p variants={fadeIn}>
-                YOUR BUSINESS WOULD KEEP MOVING FORWARD, EVEN WHEN YOU&apos;RE NOT GLUED TO IT.
-              </motion.p>
-              <motion.p variants={fadeIn}>
-                DON&apos;T LET HESITATION HOLD YOU BACK FROM ACHIEVING YOUR BUSINESS GOALS.
-              </motion.p>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
+      <motion.div
+        className="space-y-4 mt-6 text-[16px] md:text-[20px] font-medium font-['alike'] leading-relaxed"
+        variants={staggerContainer}
+      >
+        <motion.p variants={fadeIn}>What if you could bring in the right expertise today?</motion.p>
+        <motion.p variants={fadeIn}>You&apos;d finally feel at ease. No more being wired 24/7.</motion.p>
+        <motion.p variants={fadeIn}>
+          Your business would keep moving forward, even when you&apos;re not glued to it.
+        </motion.p>
+        <motion.p variants={fadeIn}>
+          Don&apos;t let hesitation hold you back from achieving your business goals.
+        </motion.p>
+      </motion.div>
+    </motion.div>
+  </div>
+</section>
+
 
       {/* Testimonial Section */}
       <section
@@ -292,7 +293,7 @@ export default function Home() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <h2 className="text-3xl md:text-5xl font-light tracking-wide text-white drop-shadow-md font-['afacad']">
+          <h2 className="text-3xl md:text-5xl font-light tracking-wide text-white drop-shadow-md font-['alike_angular']">
             ACCELERATE YOUR BUSINESS…SUSTAINABLY
           </h2>
           <p className="text-lg md:text-2xl mt-4 font-light text-white drop-shadow-md font-afacad">
@@ -325,7 +326,7 @@ export default function Home() {
 
           {/* Testimonial Text */}
           <motion.div
-            className="text-left text-white space-y-3 md:space-y-5 max-w-xl text-sm md:text-lg leading-relaxed font-['poppins']"
+            className="text-left text-white space-y-3 md:space-y-5 max-w-xl text-sm md:text-lg leading-relaxed font-['alike']"
             variants={staggerContainer}
           >
             <motion.p variants={fadeIn}>
@@ -378,19 +379,19 @@ export default function Home() {
             variants={fadeInRight}
           >
             <motion.h2
-              className="text-[28px] md:text-[50px] font-light uppercase leading-tight tracking-wide"
+              className="text-[28px] md:text-[50px] font-light uppercase leading-tight tracking-wide font-['alike_angular']"
               variants={fadeIn}
             >
               <br></br>
               YOUR TIME AND ENERGY ARE MY TOP PRIORITIES
             </motion.h2>
-            <motion.p className="mt-6 text-[24px] md:text-[40px] uppercase tracking-widest" variants={fadeIn}>
+            <motion.p className="mt-6 text-[24px] md:text-[30px] uppercase tracking-widest font-['poppins']" variants={fadeIn}>
               SO YOU CAN...
             </motion.p>
 
             <motion.div className="relative mt-10" variants={fadeIn}>
               <motion.p
-                className="text-[32px] md:text-[43px] font-light relative z-10 leading-snug tracking-tight"
+                className="text-[27px] md:text-[34px] font-semibold relative z-10 leading-snug tracking-tight font-['poppins']"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -411,7 +412,7 @@ export default function Home() {
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeInLeft}
           >
-            <motion.h3 className="text-2xl md:text-5xl font-light mb-8 font-['afacad']" variants={fadeIn}>
+            <motion.h3 className="text-2xl md:text-5xl font-light mb-8 font-['alike_angular']" variants={fadeIn}>
               Let&apos;s dive into how it&apos;s done:
             </motion.h3>
             <motion.div
@@ -488,13 +489,13 @@ export default function Home() {
             {/* Heading */}
             <motion.div className="mb-10" variants={staggerContainer}>
               <motion.h2
-                className="text-3xl md:text-6xl font-light uppercase text-[#4A3733] font-['afacad']"
+                className="text-3xl md:text-6xl font-light uppercase text-[#4A3733] font-['alike_angular']"
                 variants={fadeIn}
               >
                 HI, I&apos;M TANISHQ!
               </motion.h2>
               <motion.h3
-                className="text-2xl md:text-2xl font-light text-[#4A3733] mt-2 font-['afacad']"
+                className="text-2xl md:text-2xl font-light text-[#4A3733] mt-2 font-['alike_angular']"
                 variants={fadeIn}
               >
                 FOUNDER OF TANISHQJHA.CO
@@ -595,21 +596,19 @@ export default function Home() {
             {/* Description */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                VIRTUAL ASSISTANT
+                Virtual Assistant
               </motion.h4>
 
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A TRUSTED VIRTUAL ASSISTANT
-                <br />
-                TO HANDLE YOUR ADMIN AND CLIENT COMMUNICATION, FREEING YOU FROM THE DAILY GRIND SO YOU CAN FOCUS ON WHAT
-                YOU DO BEST.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a trusted virtual assistant to handle your admin and client communication, freeing you from the daily grind so you can focus on what you do best.
+</motion.p>
+
 
               <Link href="/services/#virtualassistant">
                 <motion.button
@@ -674,19 +673,18 @@ export default function Home() {
             {/* Content */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal  text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                ONLINE BUSINESS MANAGER
+                Online Business Manager
               </motion.h4>
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
-                EVERYTHING RUNNING SMOOTHLY, ALLOWING YOU TO FOCUS ON SCALING YOUR BUSINESS AND ACHIEVING YOUR BROADER
-                GOALS.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+</motion.p>
+
 
               <Link href="/services/#onlinebusinessmanager">
                 <motion.button
@@ -729,18 +727,18 @@ export default function Home() {
             {/* Content */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal  text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                60 MINUTE-STRATEGY CONSULTATION
+                60 Minute - Strategy Consultation
               </motion.h4>
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A STRATEGIC 60-MINUTE CONSULTATION THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR TAKING YOUR
-                BUSINESS TO THE NEXT LEVEL.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a strategic 60-minute consultation that provides tailored advice and a roadmap for taking your business to the next level.
+</motion.p>
+
 
               <Link href="/services/#consultation">
                 <motion.button
@@ -805,19 +803,18 @@ export default function Home() {
             {/* Content */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                NEED SOMETHING THAT ISN&apos;T LISTED?
+                Need Something That Inn&apos;t Listed?
               </motion.h4>
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
-                EVERYTHING RUNNING SMOOTHLY, ALLOWING YOU TO FOCUS ON SCALING YOUR BUSINESS AND ACHIEVING YOUR BROADER
-                GOALS.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+</motion.p>
+
 
               <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <motion.button
@@ -860,7 +857,7 @@ export default function Home() {
     {/* Text Section - Expanded */}
     <motion.div className="w-full md:w-2/3 bg-[#EBD3C1] p-4 sm:p-8 rounded-md" variants={fadeInRight}>
       <motion.h2
-        className="text-[28px] sm:text-[35px] text-black font-normal leading-snug mb-2 font-['afacad']"
+        className="text-[28px] sm:text-[35px] text-black font-normal leading-snug mb-2 font-['alike_angular']"
         variants={fadeIn}
       >
         YOU&apos;RE NOT DOING IT ALONE ANYMORE...
@@ -923,12 +920,12 @@ export default function Home() {
           {/* Text Section - Left side */}
           <motion.div className="md:w-2/3" variants={fadeInLeft}>
             <motion.h2
-              className="text-[42px] md:text-[35px] font-bold text-black mb-2 font-['afacad']"
+              className="text-[42px] md:text-[35px] font-bold text-black mb-2 font-['alike']"
               variants={fadeIn}
             >
               TIME <span className="font-normal">IS ONE OF THE MOST PRECIOUS RESOURCES</span>
             </motion.h2>
-            <motion.p className="text-[25px] text-black mb-4 font-['poppins']" variants={fadeIn}>
+            <motion.p className="text-[22px] text-black mb-4 font-['poppins']" variants={fadeIn}>
               &quot; If you find yourself in this situation most of the time &quot;
             </motion.p>
             <motion.div variants={staggerContainer}>
@@ -1083,8 +1080,8 @@ export default function Home() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <h3 className="text-2xl md:text-5xl font-semibold mt-10 text-white drop-shadow-md font-['afacad']">
-            HAVING TANISHQ ON MY TEAM WAS AN ABSOLUTE BLESSING.
+          <h3 className="text-2xl md:text-4xl font-semibold mt-10 text-white drop-shadow-md font-['alike_angular']">
+            &quot;HAVING TANISHQ ON MY TEAM WAS AN ABSOLUTE BLESSING&quot;
           </h3>
         </motion.div>
 
@@ -1110,7 +1107,7 @@ export default function Home() {
 
           {/* Testimonial Text */}
           <motion.div
-  className="text-left text-white space-y-3 md:space-y-5 max-w-xl text-sm md:text-lg leading-relaxed font-['poppins']"
+  className="text-left text-white space-y-3 md:space-y-5 max-w-xl text-sm md:text-xl leading-relaxed font-['alike']"
   variants={staggerContainer}
 >
   <motion.p variants={fadeIn}>

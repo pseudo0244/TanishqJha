@@ -57,7 +57,7 @@ const ServicesPage = () => {
       initial={{ y: 30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.3 }}
-      className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] font-semibold leading-tight mb-6 text-[#e0c9b3] drop-shadow-md font-['Poppins'] max-w-5xl"
+      className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] font-semibold leading-tight mb-6 text-[#e0c9b3] drop-shadow-md font-['alike_angular'] max-w-5xl"
     >
       RECLAIM YOUR TIME AND ENERGY WITH GROWTH-DRIVEN OBM AND VA SERVICES
     </motion.h1>
@@ -269,23 +269,25 @@ const ServicesPage = () => {
 
             {/* Description */}
             <div className="flex-1">
-              <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
-                VIRTUAL ASSISTANT
-              </h4>
-              <p className="text-[16px] sm:text-[20px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
-                YOU WANT A TRUSTED VIRTUAL ASSISTANT
-                <br className="hidden sm:block" />
-                TO HANDLE YOUR ADMIN AND CLIENT COMMUNICATION, FREEING YOU FROM THE DAILY GRIND
-                <br className="hidden sm:block" />
-                SO YOU CAN FOCUS ON WHAT YOU DO BEST.
-              </p>
+  <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal  text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']">
+    Virtual Assistant
+  </h4>
+  
+  <p className="text-[16px] sm:text-[20px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
+    You want a trusted virtual assistant
+    <br className="hidden sm:block" />
+    to handle your admin and client communication, freeing you from the daily grind
+    <br className="hidden sm:block" />
+    so you can focus on what you do best.
+  </p>
 
-              <a href="#virtualassistant">
-                <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
-                  GET THE DETAILS
-                </button>
-              </a>
-            </div>
+  <a href="#virtualassistant">
+    <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
+      Get The Details
+    </button>
+  </a>
+</div>
+
           </EntryAnimation>
 
           {/* Image */}
@@ -324,21 +326,21 @@ const ServicesPage = () => {
 
             {/* Content */}
             <div className="flex-1">
-              <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
-                ONLINE BUSINESS MANAGER
-              </h4>
-              <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
-                YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
-                EVERYTHING RUNNING SMOOTHLY, ALLOWING YOU TO FOCUS ON SCALING YOUR BUSINESS AND ACHIEVING YOUR BROADER
-                GOALS.
-              </p>
+  <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal  text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']">
+    Online Business Manager
+  </h4>
 
-              <a href="#onlinebusinessmanager">
-                <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
-                  GET THE DETAILS
-                </button>
-              </a>
-            </div>
+  <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
+    You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+  </p>
+
+  <a href="#onlinebusinessmanager">
+    <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
+      Get The Details
+    </button>
+  </a>
+</div>
+
           </EntryAnimation>
         </div>
 
@@ -353,20 +355,21 @@ const ServicesPage = () => {
 
             {/* Content */}
             <div className="flex-1">
-              <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
-                60 MINUTE-STRATEGY CONSULTATION
-              </h4>
-              <p className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
-                YOU WANT A STRATEGIC 60-MINUTE CONSULTATION THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR TAKING YOUR
-                BUSINESS TO THE NEXT LEVEL.
-              </p>
+  <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']">
+    60 Minute-Strategy Consultation
+  </h4>
 
-              <a href="#consultation">
-                <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
-                  GET THE DETAILS
-                </button>
-              </a>
-            </div>
+  <p className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
+    You want a strategic 60-minute consultation that provides tailored advice and a roadmap for taking your business to the next level.
+  </p>
+
+  <a href="#consultation">
+    <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
+      Get The Details
+    </button>
+  </a>
+</div>
+
           </EntryAnimation>
 
           {/* Image Right */}
@@ -405,21 +408,21 @@ const ServicesPage = () => {
 
             {/* Content */}
             <div className="flex-1">
-              <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']">
-                NEED SOMETHING THAT ISN&apos;T LISTED?
-              </h4>
-              <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
-                YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
-                EVERYTHING RUNNING SMOOTHLY, ALLOWING YOU TO FOCUS ON SCALING YOUR BUSINESS AND ACHIEVING YOUR BROADER
-                GOALS.
-              </p>
+  <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular'] ">
+    Need Something That Isn't Listed?
+  </h4>
 
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
-                <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
-                  GET THE DETAILS
-                </button>
-              </a>
-            </div>
+  <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
+    You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+  </p>
+
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
+    <button className="mt-6 px-4 sm:px-6 py-2 bg-[#4A3733] text-white tracking-widest text-[12px] sm:text-[14px] uppercase rounded-sm font-semibold font-['poppins'] hover:bg-[#3a2a27] transition-all">
+      Get The Details
+    </button>
+  </a>
+</div>
+
           </EntryAnimation>
         </div>
       </section>

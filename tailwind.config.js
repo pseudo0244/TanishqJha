@@ -7,11 +7,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        aboreto: ['var(--font-aboreto)'],
-        poppins: ['var(--font-poppins)'],
-        afacad: ['var(--font-afacad)'],
-        splash: ['var(--font-splash)'],
-      },
+  script: ['var(--font-script)'],
+  poppins: ['var(--font-poppins)'],
+  aboreto: ['var(--font-aboreto)'],
+  afacad: ['var(--font-afacad)'],
+  playfair: ['var(--font-playfair)'],
+  alike: ['var(--font-alike)'],
+  alikeAngular: ['var(--font-alike-angular)'],
+},
     },
   },
   plugins: [],

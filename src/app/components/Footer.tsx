@@ -40,7 +40,7 @@ export default function Footer() {
           ></iframe>
 
           <iframe
-            src="https://www.instagram.com/p/DDKBI2BSpGj/embed"
+            src="https://www.instagram.com/p/DKuGfHczc-6/embed"
             width="320"
             height="400"
             frameBorder="0"

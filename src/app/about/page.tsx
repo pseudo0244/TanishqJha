@@ -93,55 +93,58 @@ export default function AboutPage() {
 
         {/* Right Side: Text */}
         <motion.div
-          className="w-full md:w-2/3 max-w-xl text-left z-10"
-          initial="hidden"
-          animate="visible"
-          variants={fadeInRight}
-        >
-          <motion.h2 className="text-lg md:text-7xl font-normal mb-3 tracking-wide font-['afacad']" variants={fadeIn}>
-            HI, I AM TANISHQ...
-          </motion.h2>
+  className="w-full md:w-2/3 max-w-xl text-left z-10"
+  initial="hidden"
+  animate="visible"
+  variants={fadeInRight}
+>
+  <motion.h2 className="text-lg md:text-2xl font-normal mb-3 tracking-wide font-['poppins']" variants={fadeIn}>
+    Hi, I Am Tanishq...
+  </motion.h2>
 
-          <motion.p
-            className="text-xl md:text-2xl leading-relaxed tracking-wide font-light font-['afacad']"
-            variants={fadeIn}
-          >
-            I AM ON A MISSION TO HELP ENTREPRENEURS{" "}
-            <span className="font-bold text-[#3e2f2f]font-['poppins']">BUILD A SUCCESSFUL BUSINESS</span> WITH
-          </motion.p>
+  <motion.p
+    className="text-xl md:text-3xl leading-relaxed tracking-wide font-light font-['alike']"
+    variants={fadeIn}
+  >
+    I Am On A Mission To Help Entrepreneurs{" "}
+    <span className="font-bold text-[#3e2f2f] font-['alike']">Build A Successful Business With</span>
+  </motion.p>
 
-          <motion.div className="" variants={fadeIn} transition={{ delay: 0.4 }}>
-            <h1 className="relative inline-block text-4xl md:text-4xl font-semibold tracking-wide text-[#2A2A2A] mt-7">
-              <span className="relative z-10 font-['afacad']">FREEDOM AND FULFILMENT</span>
-              <motion.span
-                className="absolute bottom-0 left-0 w-full h-[40%] bg-[#EFD5C4] -z-0"
-                initial={{ width: 0 }}
-                animate={{ width: "100%" }}
-                transition={{ duration: 0.8, delay: 0.8 }}
-              ></motion.span>
-            </h1>
-          </motion.div>
+  <motion.div className="" variants={fadeIn} transition={{ delay: 0.4 }}>
+    <h1 className="relative inline-block text-4xl md:text-4xl font-semibold tracking-wide text-[#2A2A2A] mt-7">
+      <span className="relative z-10 font-['alike']">Freedom And Fulfilment</span>
+      <motion.span
+        className="absolute bottom-0 left-0 w-full h-[40%] bg-[#EFD5C4] -z-0"
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        transition={{ duration: 0.8, delay: 0.8 }}
+      ></motion.span>
+    </h1>
+  </motion.div>
 
-          <motion.p className="text-2xl mt-6 font-['poppins']" variants={fadeIn} transition={{ delay: 0.6 }}>
-            (Yes, you can have both)
-          </motion.p>
-        </motion.div>
+  <motion.p className="text-2xl mt-6 font-['poppins']" variants={fadeIn} transition={{ delay: 0.6 }}>
+    (Yes, You Can Have Both)
+  </motion.p>
+</motion.div>
+
+
       </section>
 
       <section className="relative bg-white px-6 md:px-20 border-t-1 border-[#4A3733]"></section>
       <section className="px-6 md:px-20 py-16 bg-white">
         {/* Title */}
         <motion.h2
-          className="text-2xl md:text-4xl font-light text-center mb-12 leading-relaxed font-['afacad']"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          variants={fadeIn}
-        >
-          IT&apos;S BEEN A GREAT RIDE THROUGH THE LAST ONE YEAR
-          <br />
-          AND I AM LOOKING FORWARD TO MANY MORE....
-        </motion.h2>
+  className="text-2xl md:text-5xl font-light text-center mb-12 leading-relaxed font-['alike_angular']"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.3 }}
+  variants={fadeIn}
+>
+  It&apos;s Been A Great Ride Through The Last One Year
+  <br />
+  And I Am Looking Forward To Many More....
+</motion.h2>
+
 
         {/* Testimonial Box */}
         <motion.div
@@ -164,7 +167,7 @@ export default function AboutPage() {
 
           {/* Testimonial Text */}
           <motion.div
-            className="text-base md:text-2xl leading-relaxed text-black font-['poppins']"
+            className="text-base md:text-2xl leading-relaxed text-black font-['alike']"
             variants={fadeInRight}
           >
             <motion.p variants={fadeIn}>
@@ -189,11 +192,11 @@ export default function AboutPage() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-left text-black tracking-tight leading-tight font-['afacad']">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-left text-black  font-['alike_angular']">
             YOUR BUSINESS. SIMPLIFIED AND STREAMLINED.
           </h2>
 
-          <p className="text-lg md:text-2xl text-black mt-2 tracking-wide font-['afacad']">
+          <p className="text-lg md:text-3xl text-black mt-2 tracking-wide font-['poppins']">
             (MORE RESULTS, LESS STRESS)
           </p>
         </motion.div>
@@ -247,46 +250,47 @@ export default function AboutPage() {
 
               {/* Inner content with padding to ensure text doesn't touch the edge */}
               <motion.div className="pr-6 md:pr-10" variants={staggerContainer}>
-                <motion.p
-                  className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
-                  variants={fadeIn}
-                >
-                  YOU&apos;RE GOING ABOUT YOUR DAILY LIFE—HANDLING CLIENT MEETINGS, PROJECT DELIVERY, AND PERSONAL
-                  RESPONSIBILITIES. MEANWHILE, YOUR BUSINESS RUNS LIKE A WELL-OILED MACHINE, WITH EVERYTHING ON TRACK.
-                </motion.p>
+  <motion.p
+    className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
+    variants={fadeIn}
+  >
+    You're going about your daily life—handling client meetings, project delivery, and personal
+    responsibilities. Meanwhile, your business runs like a well-oiled machine, with everything on track.
+  </motion.p>
 
-                <motion.p
-                  className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
-                  variants={fadeIn}
-                >
-                  YOUR TEAM KNOWS WHAT TO DO. TASKS ARE GETTING DONE WITHOUT YOU HAVING TO MICROMANAGE. CLIENTS ARE
-                  HAPPY, AND YOU CAN FINALLY FOCUS ON WHAT YOU LOVE TO DO.
-                </motion.p>
+  <motion.p
+    className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
+    variants={fadeIn}
+  >
+    Your team knows what to do. Tasks are getting done without you having to micromanage. Clients are
+    happy, and you can finally focus on what you love to do.
+  </motion.p>
 
-                <motion.p
-                  className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
-                  variants={fadeIn}
-                >
-                  NOW, PICTURE THAT HAPPENING EVERY SINGLE DAY.
-                </motion.p>
+  <motion.p
+    className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
+    variants={fadeIn}
+  >
+    Now, picture that happening every single day.
+  </motion.p>
 
-                <motion.p
-                  className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
-                  variants={fadeIn}
-                >
-                  WITH A SPECIALIST MANAGING YOUR OPERATIONS, YOUR{" "}
-                  <strong>BUSINESS IS GROWING WITHOUT HITTING A PLATEAU.</strong> THAT MEANS MORE TIME FOR WHAT MATTERS
-                  MOST IN YOUR LIFE.
-                </motion.p>
+  <motion.p
+    className="text-[#5f4b46] text-sm md:text-base mb-5 leading-relaxed tracking-wide font-['poppins']"
+    variants={fadeIn}
+  >
+    With a specialist managing your operations, your{" "}
+    <strong>business is growing without hitting a plateau.</strong> That means more time for what matters
+    most in your life.
+  </motion.p>
 
-                <motion.p
-                  className="text-[#5f4b46] text-sm md:text-base leading-relaxed tracking-wide font-['poppins']"
-                  variants={fadeIn}
-                >
-                  EFFECTIVE MANAGEMENT LEADS TO A FLOURISHING BUSINESS READY TO EXPAND. AND WITH A THRIVING BUSINESS,
-                  YOUR ENTREPRENEURIAL DREAMS CAN TRULY TAKE FLIGHT.
-                </motion.p>
-              </motion.div>
+  <motion.p
+    className="text-[#5f4b46] text-sm md:text-base leading-relaxed tracking-wide font-['poppins']"
+    variants={fadeIn}
+  >
+    Effective management leads to a flourishing business ready to expand. And with a thriving business,
+    your entrepreneurial dreams can truly take flight.
+  </motion.p>
+</motion.div>
+
             </motion.div>
           </div>
         </div>
@@ -302,36 +306,42 @@ export default function AboutPage() {
           variants={fadeInLeft}
         >
           <motion.h2 className="text-4xl font-bold text-amber-950 font-['afacad']" variants={fadeIn}>
-            TANISHQJHA.CO STARTED WITH AN ASPIRATION FOR FREEDOM AND FULFILLMENT
-          </motion.h2>
+  Tanishqjha.co Started With An Aspiration For Freedom And Fulfillment
+</motion.h2>
+
           <motion.p className="font-semibold text-gray-800 font-['poppins'] text-xl" variants={fadeIn}>
             Hi, I am Tanishq, founder of TanishqJha.co OBM and VA services
           </motion.p>
           <motion.div variants={staggerContainer}>
-            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
-              I grew up watching my father build a thriving business. He loved what he was doing, but he was working
-              himself to the bone.
-            </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
-              Even when he fractured his hand in an accident, he couldn&apos;t stop. The fear of letting down his
-              customers kept him committed to his responsibilities, even while he was healing.
-            </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
-              Despite his success, he could never truly take a break. Even during vacations, he was constantly worried
-              about the business and its operations.
-            </motion.p>
-            <motion.p className=" text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
-              This was heartbreaking for me.{" "}
-              <strong>Entrepreneurship should not come at the cost of personal well-being.</strong>
-            </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
-              I was always intrigued by how someone could thrive in their business without pushing themselves to their
-              limit…
-            </motion.p>
-            <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
-              …And every great story starts with a spark of curiosity.
-            </motion.p>
-          </motion.div>
+  <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl mb-6" variants={fadeIn}>
+    I grew up watching my father build a thriving business.  
+    He loved what he was doing, but he was working himself to the bone.
+  </motion.p>
+
+  <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl mb-6" variants={fadeIn}>
+    Even when he fractured his hand in an accident, he couldn&apos;t stop.  
+    The fear of letting down his customers kept him committed to his responsibilities—even while he was healing.
+  </motion.p>
+
+  <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl mb-6" variants={fadeIn}>
+    Despite his success, he could never truly take a break.  
+    Even during vacations, he was constantly worried about the business and its operations.
+  </motion.p>
+
+  <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl mb-6" variants={fadeIn}>
+    This was heartbreaking for me.  
+    <strong>Entrepreneurship should not come at the cost of personal well-being.</strong>
+  </motion.p>
+
+  <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl mb-6" variants={fadeIn}>
+    I was always intrigued by how someone could thrive in their business without pushing themselves to their limit…
+  </motion.p>
+
+  <motion.p className="text-amber-950 font-['poppins'] text-base md:text-xl" variants={fadeIn}>
+    …And every great story starts with a spark of curiosity.
+  </motion.p>
+</motion.div>
+
         </motion.div>
 
         {/* Right - Image */}
@@ -378,8 +388,8 @@ export default function AboutPage() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeInRight}
         >
-          <motion.h2 className="text-2xl md:text-3xl lg:text-6xl font-semibold mb-6 font-['afacad']" variants={fadeIn}>
-            This is how <span className=" ">my journey started</span>
+          <motion.h2 className="text-2xl md:text-2xl lg:text-4xl font-semibold mb-6 font-['alike_angular']" variants={fadeIn}>
+            This is how my journey started
             <span className="text-2xl">...</span>
           </motion.h2>
 
@@ -433,10 +443,10 @@ export default function AboutPage() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <motion.h2 className="text-3xl md:text-5xl font-bold mb-4 font-['afacad']" variants={fadeIn}>
+          <motion.h2 className="text-3xl md:text-4xl font-bold mb-4 font-['alike_angular']" variants={fadeIn}>
             SUCCESS THRIVES ON TIME AND ENERGY
           </motion.h2>
-          <motion.h3 className="text-2xl md:text-3xl font-light mb-6 font-['poppins']" variants={fadeIn}>
+          <motion.h3 className="text-2xl md:text-2xl font-light mb-6 font-['alike']" variants={fadeIn}>
             (NOT EXHAUSTION AND OVERWHELM)
           </motion.h3>
           <motion.p className="text-base md:text-lg font-medium font-['poppins']" variants={fadeIn}>
@@ -611,8 +621,7 @@ export default function AboutPage() {
         </motion.div>
       </section>
       <section className="relative bg-white px-6 md:px-20 border-t-2 border-[#4A3733]"></section>
-     {/* Services Section */}
-  <section className="bg-white py-10 px-4 sm:px-6 md:px-20 text-center font-['Didot',serif] mt-10 md:mt-20">
+     <section className="bg-white py-10 px-4 sm:px-6 md:px-20 text-center font-['Didot',serif] mt-10 md:mt-20">
         {/* Top Text */}
         <motion.div
           className="max-w-4xl mx-auto mb-10 md:mb-20"
@@ -665,21 +674,19 @@ export default function AboutPage() {
             {/* Description */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                VIRTUAL ASSISTANT
+                Virtual Assistant
               </motion.h4>
 
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A TRUSTED VIRTUAL ASSISTANT
-                <br />
-                TO HANDLE YOUR ADMIN AND CLIENT COMMUNICATION, FREEING YOU FROM THE DAILY GRIND SO YOU CAN FOCUS ON WHAT
-                YOU DO BEST.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[26px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a trusted virtual assistant to handle your admin and client communication, freeing you from the daily grind so you can focus on what you do best.
+</motion.p>
+
 
               <Link href="/services/#virtualassistant">
                 <motion.button
@@ -744,19 +751,18 @@ export default function AboutPage() {
             {/* Content */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal  text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                ONLINE BUSINESS MANAGER
+                Online Business Manager
               </motion.h4>
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
-                EVERYTHING RUNNING SMOOTHLY, ALLOWING YOU TO FOCUS ON SCALING YOUR BUSINESS AND ACHIEVING YOUR BROADER
-                GOALS.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[24px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+</motion.p>
+
 
               <Link href="/services/#onlinebusinessmanager">
                 <motion.button
@@ -799,18 +805,18 @@ export default function AboutPage() {
             {/* Content */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal  text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                60 MINUTE-STRATEGY CONSULTATION
+                60 Minute - Strategy Consultation
               </motion.h4>
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A STRATEGIC 60-MINUTE CONSULTATION THAT PROVIDES TAILORED ADVICE, AND A ROADMAP FOR TAKING YOUR
-                BUSINESS TO THE NEXT LEVEL.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[25px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a strategic 60-minute consultation that provides tailored advice and a roadmap for taking your business to the next level.
+</motion.p>
+
 
               <Link href="/services/#consultation">
                 <motion.button
@@ -875,19 +881,18 @@ export default function AboutPage() {
             {/* Content */}
             <motion.div variants={staggerContainer} className="flex-1">
               <motion.h4
-                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal uppercase text-black border-b border-black pb-1 mb-4 w-fit font-['afacad']"
+                className="text-[24px] sm:text-[28px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                NEED SOMETHING THAT ISN&apos;T LISTED?
+                Need Something That Inn&apos;t Listed?
               </motion.h4>
               <motion.p
-                className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
-                variants={fadeIn}
-              >
-                YOU WANT A BIG-PICTURE THINKER AND A DOER AS YOUR ONLINE BUSINESS MANAGER. THIS SUPPORT WILL KEEP
-                EVERYTHING RUNNING SMOOTHLY, ALLOWING YOU TO FOCUS ON SCALING YOUR BUSINESS AND ACHIEVING YOUR BROADER
-                GOALS.
-              </motion.p>
+  className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
+  variants={fadeIn}
+>
+  You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+</motion.p>
+
 
               <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
                 <motion.button
@@ -916,13 +921,13 @@ export default function AboutPage() {
           {/* Text Content */}
           <motion.div className="text-center lg:text-left max-w-2xl" variants={fadeInLeft}>
             <motion.h2
-              className="text-3xl sm:text-5xl font-light tracking-widest mb-7 font-['afacad']"
+              className="text-3xl sm:text-4xl font-light tracking-widest mb-7 font-['alike_angular']"
               variants={fadeIn}
             >
               I AM ALWAYS HERE FOR YOU
             </motion.h2>
             <motion.p
-              className="uppercase font-semibold tracking-wider text-lg sm:text-xl mb-8 font-['poppins']"
+              className="font-semibold tracking-wider text-lg sm:text-xl mb-8 font-['alike']"
               variants={fadeIn}
             >
               Still have big questions? Maybe even small ones? I am here to answer all of them.
