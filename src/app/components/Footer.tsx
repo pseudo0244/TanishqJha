@@ -31,7 +31,7 @@ export default function Footer() {
           ></iframe>
 
           <iframe
-            src="https://www.instagram.com/p/DDKBI2BSpGj/embed"
+            src="https://www.instagram.com/p/DKzQE-wzc4t/embed"
             width="320"
             height="400"
             frameBorder="0"

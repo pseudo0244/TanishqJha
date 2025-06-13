@@ -68,10 +68,10 @@ const ServicesPage = () => {
       transition={{ duration: 0.8, delay: 0.5 }}
       className="mt-4"
     >
-      <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold mb-2 text-[#d2b49c] drop-shadow-sm">
+      <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold mb-2 text-[#d2b49c] drop-shadow-sm font-['alike']">
         GO FROM...
       </h2>
-      <p className="text-[18px] sm:text-[20px] md:text-[24px] font-light mb-8 text-white/90 drop-shadow-sm">
+      <p className="text-[18px] sm:text-[20px] md:text-[24px] font-light mb-8 text-white/90 drop-shadow-sm font-['alike']">
         OVERWHELMED BY ENDLESS TASKS, LOST LEADS, AND BURNOUT...
       </p>
     </motion.div>
@@ -82,7 +82,7 @@ const ServicesPage = () => {
       transition={{ duration: 0.8, delay: 0.7 }}
       className="mt-4"
     >
-      <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold text-[#d2b49c] drop-shadow-sm">
+      <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold text-[#d2b49c] drop-shadow-sm font-['alike']">
         STREAMLINED OPERATIONS, STEADY GROWTH — WITHOUT THE CHAOS
       </h2>
     </motion.div>
@@ -94,7 +94,7 @@ const ServicesPage = () => {
       className="mt-10"
     >
       <a href="https://topmate.io/tanishqjha">
-  <button className="px-8 py-3 bg-[#d2b49c] hover:bg-[#bfa088] text-black font-semibold rounded-xl shadow-lg transition duration-300 transform hover:scale-105">
+  <button className="px-8 py-3 bg-[#d2b49c] hover:bg-[#bfa088] text-black font-semibold rounded-xl shadow-lg transition duration-300 transform hover:scale-105 font-['alike_angular']">
     LET&apos;S TALK
   </button>
 </a>
@@ -134,7 +134,7 @@ const ServicesPage = () => {
           {/* Right - Text box */}
           <EntryAnimation className="w-full md:w-1/2 bg-white bg-opacity-95 rounded-xl shadow-xl p-6 md:p-10 text-black flex flex-col justify-between">
             <p className="text-md md:text-lg font-semibold mb-4">
-              Tanishq was amazing as my Online Business Manager while I launched my Digital Product.
+              &quot;Tanishq was amazing as my Online Business Manager while I launched my Digital Product &quot;
             </p>
             <p className="text-sm md:text-base mb-4">
               <strong>Tanishq</strong> really helped me with everything from managing my daily tasks to making sure our
@@ -155,10 +155,10 @@ const ServicesPage = () => {
 
       <section className="flex flex-col md:flex-row justify-between items-start px-6 md:px-20 py-10 sm:py-14 font-serif text-[#141414]">
         <EntryAnimation className="w-full md:max-w-2xl">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium tracking-wide leading-snug font-['afacad']">
-            YOUR TIME AND ENERGY ARE
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium tracking-wide leading-snug font-['alike_angular']">
+            Your Time And Energy Are
             <br className="hidden sm:block" />
-            <span className="block">MY TOP PRIORITIES</span>
+            <span className="block">My Top Priorities</span>
           </h1>
           <p className="text-[#444] text-base sm:text-lg mt-4 mb-6 font-['poppins']">
             The Flexibility And Balance You Wished For Now Feel Just Out Of Reach
@@ -191,7 +191,7 @@ const ServicesPage = () => {
             height={400}
             className="rounded-md w-full h-auto object-contain"
           />
-          <p className="italic text-xl sm:text-2xl mt-4 text-center sm:text-left text-[#141414] font-['poppins'] font-semibold">
+          <p className="italic text-xl sm:text-2xl mt-4 text-center sm:text-left text-[#141414] font-semibold font-['alike_angular']">
             IT DOESN&apos;T HAVE TO BE THIS
             <br className="hidden sm:block" />
             <span className="block">WAY….</span>
@@ -211,7 +211,7 @@ const ServicesPage = () => {
         </EntryAnimation>
 
         <EntryAnimation className="w-full md:w-3/5 md:pl-12 text-left">
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold uppercase leading-snug font-['afacad']">
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold uppercase leading-snug font-['alike_angular']">
             THE MOST EFFICIENT WAY TO ACHIEVE <br className="hidden md:block" />
             THIS IS BY PARTNERING WITH AN EXPERT <br className="hidden md:block" />
             TO STREAMLINE YOUR OPERATIONS
@@ -409,7 +409,7 @@ const ServicesPage = () => {
             {/* Content */}
             <div className="flex-1">
   <h4 className="text-[28px] sm:text-[36px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular'] ">
-    Need Something That Isn&apost Listed?
+    Need Something That Isn&apos;t Listed?
   </h4>
 
   <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
@@ -428,7 +428,7 @@ const ServicesPage = () => {
       </section>
 
       <EntryAnimation className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 py-10">
-        <h1 className="text-[32px] sm:text-[40px] md:text-[50px] font-light text-black leading-none">ONGOING SUPPORT</h1>
+        <h1 className="text-[32px] sm:text-[40px] md:text-[50px] font-light text-black leading-none font-['alike_angular']">ONGOING SUPPORT</h1>
       </EntryAnimation>
 
       {/* Rest of the sections... */}
@@ -446,11 +446,11 @@ const ServicesPage = () => {
 
         {/* Text Content */}
         <EntryAnimation className="w-full md:w-[55%] text-left">
-          <h1 className="text-[22px] sm:text-[26px] md:text-[45px] font-light uppercase inline-block pb-1 mb-4 font-['afacad'] underline">
+          <h1 className="text-[22px] sm:text-[26px] md:text-[45px] font-light uppercase inline-block pb-1 mb-4 font-['alike_angular'] underline">
             ONLINE BUSINESS MANAGER
           </h1>
 
-          <p className="text-base md:text-xl mb-3 leading-relaxed font-['poppins']">
+          <p className="text-base md:text-xl mb-3 leading-relaxed font-['alike']">
             You Want Dedicated Support As Your Operations Manager To Ensure
             <br className="hidden md:block" />
             Your Business Runs Smoothly And Your Team Performs Seamlessly.
@@ -493,7 +493,7 @@ const ServicesPage = () => {
           {/* Button */}
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header" className="inline-block">
             <button className="mt-6 px-6 sm:px-15 py-2 text-white bg-[#4B3A36] hover:bg-[#362825] text-sm tracking-wide uppercase font-['poppins'] rounded transition-all transform hover:scale-105">
-              I&apos;m ready.
+              I&apos;m ready
             </button>
           </a>
         </EntryAnimation>
@@ -502,7 +502,7 @@ const ServicesPage = () => {
       <section id="virtualassistant" className="bg-white px-6 md:px-20 py-12 sm:py-16 flex flex-col md:flex-row items-start justify-between font-sans text-[#141414] gap-10">
         {/* Text Content */}
         <EntryAnimation className="w-full md:w-[55%] text-left">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-light tracking-wide mb-2 underline underline-offset-4 font-['afacad']">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-light tracking-wide mb-2 underline underline-offset-4 font-['alike_angular']">
             VIRTUAL ASSISTANT
           </h2>
 
@@ -574,7 +574,7 @@ const ServicesPage = () => {
       >
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-10 sm:mb-12">
-            <p className="text-2xl sm:text-3xl tracking-wider uppercase font-['poppins']">Consultation Support</p>
+            <p className="text-2xl sm:text-3xl tracking-wider uppercase font-['alike_angular']">Consultation Support</p>
             <br></br>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-light mt-4 font-['aboreto']">60-Minute Strategy Consultation</h2>
             <p className="mt-4 text-base md:text-lg font-light leading-relaxed font-['poppins']">
@@ -680,10 +680,10 @@ const ServicesPage = () => {
 
         {/* Footer Section */}
         <EntryAnimation className="mt-16 sm:mt-20 text-center">
-          <h3 className="text-2xl sm:text-4xl md:text-6xl font-light tracking-wide mb-2 font-['Afacad']">
+          <h3 className="text-2xl sm:text-4xl md:text-6xl font-light tracking-wide mb-2 font-['alike_angular']">
             A PEEK INTO MY <span className="font-light">OBM AND VA PROCESS:</span>
           </h3>
-          <p className="text-lg md:text-3xl py-5 sm:py-7 font-light font-['Poppins']">HOW I HELP YOUR BUSINESS THRIVE</p>
+          <p className="text-lg md:text-3xl py-5 sm:py-7 font-light font-['alike']">HOW I HELP YOUR BUSINESS THRIVE</p>
         </EntryAnimation>
       </section>
       
@@ -706,7 +706,7 @@ const ServicesPage = () => {
             {/* Testimonial Text */}
             <EntryAnimation className="text-[#3a2d2c] text-center md:text-left">
               <p className="text-base sm:text-lg font-bold mt-4 sm:mt-15 font-['poppins']">
-                If you don&apos;t have Tanishq on your team, I don&apos;t think you&apos;ll be able to work. Tanishq isn&apos;t just a team member. She works like a cofounder. She is that dedicated.
+                &quot;If you don&apos;t have Tanishq on your team, I don&apos;t think you&apos;ll be able to work. Tanishq isn&apos;t just a team member. She works like a cofounder. She is that dedicated&quot;
               </p>
               <p className="mt-4 sm:mt-6 text-sm uppercase tracking-wide text-[#7a625f]">Gargi Arya, Life & Business Coach</p>
             </EntryAnimation>
@@ -716,16 +716,15 @@ const ServicesPage = () => {
 
       <section className="py-12 sm:py-16 px-6 object-center">
         <EntryAnimation>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium tracking-wider mb-8 sm:mb-10 text-center font-['afacad']">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium tracking-wider mb-8 sm:mb-10 text-center font-['alike_angular']">
             MY UNWAVERING COMMITMENT TO YOU
           </h2>
         </EntryAnimation>
         <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8 max-w-6xl mx-auto ">
           {/* Left Content Block */}
           <EntryAnimation className="bg-[#f3e4da] rounded-xl p-6 sm:p-8 lg:p-10 flex-1">
-            <p className="text-[#3a2d2c] mb-4 sm:mb-6 font-['poppins']">
-              I&apos;M COMMITTED TO MAKING YOUR BUSINESS RUN SMOOTHLY. YOU CAN FOCUS ON GROWTH WITHOUT GETTING BOGGED
-              DOWN BY DAY-TO-DAY TASKS.
+            <p className="text-[#3a2d2c] mb-4 sm:mb-6 font-['alike']">
+              I&apos;m committed to making your business run smoothly. You can focus on growth without getting bogged down by day-to-day tasks..
             </p>
             <p className="text-[#3a2d2c] text-lg sm:text-xl mb-4 sm:mb-6 font-['poppins']">HERE&apos;S WHAT WORKING WITH ME LOOKS LIKE:</p>
             <ul className="space-y-4 sm:space-y-5 text-[#3a2d2c]">
@@ -776,7 +775,7 @@ const ServicesPage = () => {
           }}
         >
           <EntryAnimation>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl text-black mb-4 sm:mb-6 font-['afacad']">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl text-black mb-4 sm:mb-6 font-['alike_angular']">
               LET&apos;S SIMPLIFY YOUR SYSTEMS,
               <br className="hidden sm:block" />
               PROCESSES, AND DAILY OPERATIONS

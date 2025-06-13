@@ -80,7 +80,7 @@ export default function ContactPage() {
       </div>
       {/* Heading Section */}
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
-        <h1 className="text-2xl md:text-4xl font-light tracking-wide text-[#333] mb-8">
+        <h1 className="text-2xl md:text-4xl font-light tracking-wide text-[#333] mb-8 ">
           HAVE QUESTIONS? I MAY HAVE ANSWERS FOR YOU
         </h1>
         <h2 className="text-xl md:text-2xl font-medium text-[#6D5A5A] mb-12">
