@@ -808,7 +808,7 @@ export default function Home() {
                 className="text-[24px] sm:text-[28px] md:text-[50px] font-normal text-black border-b border-black pb-1 mb-4 w-fit font-['alike_angular']"
                 variants={fadeIn}
               >
-                Need Something That Inn&apos;t Listed?
+                Need Something That Isn&apos;t Listed?
               </motion.h4>
               <motion.p
   className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
