@@ -435,7 +435,7 @@ export default function Home() {
               </motion.div>
               <motion.div className="flex items-start" variants={fadeIn}>
                 <span>
-                  Imagine the mental space you'll gain when you're no longer juggling a million tasks at once. 
+                  Imagine the mental space youapos;ll gain when you&apos;re no longer juggling a million tasks at once. 
                 </span>
               </motion.div>
             </motion.div>
