@@ -59,7 +59,7 @@ const ServicesPage = () => {
       transition={{ duration: 0.8, delay: 0.3 }}
       className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] font-semibold leading-tight mb-6 text-[#e0c9b3] drop-shadow-md font-['alike_angular'] max-w-5xl"
     >
-      RECLAIM YOUR TIME AND ENERGY WITH GROWTH-DRIVEN OBM AND VA SERVICES
+      Reclaim Your Time and Energy with Growth-Driven OBM and VA Services 
     </motion.h1>
 
     <motion.div
@@ -69,10 +69,10 @@ const ServicesPage = () => {
       className="mt-4"
     >
       <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold mb-2 text-[#d2b49c] drop-shadow-sm font-['alike']">
-        GO FROM...
+        Go from...
       </h2>
       <p className="text-[18px] sm:text-[20px] md:text-[24px] font-light mb-8 text-white/90 drop-shadow-sm font-['alike']">
-        OVERWHELMED BY ENDLESS TASKS, LOST LEADS, AND BURNOUT...
+        Overwhelmed by endless tasks, lost leads, and burnout...
       </p>
     </motion.div>
 
@@ -83,7 +83,7 @@ const ServicesPage = () => {
       className="mt-4"
     >
       <h2 className="text-[22px] sm:text-[26px] md:text-[32px] font-semibold text-[#d2b49c] drop-shadow-sm font-['alike']">
-        STREAMLINED OPERATIONS, STEADY GROWTH — WITHOUT THE CHAOS
+        Streamlined operations, steady growth —without the chaos
       </h2>
     </motion.div>
 
@@ -156,7 +156,7 @@ const ServicesPage = () => {
       <section className="flex flex-col md:flex-row justify-between items-start px-6 md:px-20 py-10 sm:py-14 font-serif text-[#141414]">
         <EntryAnimation className="w-full md:max-w-2xl">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-medium tracking-wide leading-snug font-['alike_angular']">
-            Your Time And Energy Are
+            Your time and energy are
             <br className="hidden sm:block" />
             <span className="block">My Top Priorities</span>
           </h1>
@@ -428,7 +428,7 @@ const ServicesPage = () => {
       </section>
 
       <EntryAnimation className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 py-10">
-        <h1 className="text-[32px] sm:text-[40px] md:text-[50px] font-light text-black leading-none font-['alike_angular']">ONGOING SUPPORT</h1>
+        <h1 className="text-[32px] sm:text-[40px] md:text-[50px] font-light text-black leading-none font-['alike_angular']">Ongoing Support</h1>
       </EntryAnimation>
 
       {/* Rest of the sections... */}
@@ -446,47 +446,45 @@ const ServicesPage = () => {
 
         {/* Text Content */}
         <EntryAnimation className="w-full md:w-[55%] text-left">
-          <h1 className="text-[22px] sm:text-[26px] md:text-[45px] font-light uppercase inline-block pb-1 mb-4 font-['alike_angular'] underline">
-            ONLINE BUSINESS MANAGER
+          <h1 className="text-[22px] sm:text-[26px] md:text-[45px] font-light inline-block pb-1 mb-4 font-['alike_angular'] underline">
+            Online Business Manager
           </h1>
 
           <p className="text-base md:text-xl mb-3 leading-relaxed font-['alike']">
-            You Want Dedicated Support As Your Operations Manager To Ensure
+            You want dedicated support as your operations manager to ensure 
             <br className="hidden md:block" />
-            Your Business Runs Smoothly And Your Team Performs Seamlessly.
+            your business runs smoothly and your team performs seamlessly.
           </p>
 
           <p className="font-extrabold mb-6 font-['poppins'] text-lg sm:text-xl">
-            Whether You&apos;re Scaling Your Business Or Slowing Down To Take A Break And Relax.
+            Whether you&apos;re scaling your business or slowing down to take a break and relax.
           </p>
 
           {/* Bullet Points */}
           <ul className="space-y-3 sm:space-y-4 text-sm md:text-base">
             <li className="flex items-start gap-2">
               <span className="text-lg flex-shrink-0">✔</span>
-              <span>Monthly Strategy And Planning Sessions: Gain Clarity And Stay On Track With Monthly Sessions That Align
-              Your Goals And Projects.</span>
+              <span>Monthly Strategy and Planning Sessions: Gain clarity and stay on track with monthly sessions that align your goals and projects.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-lg flex-shrink-0">✔</span>
-              <span>Project Management: Keep Every Project Moving Forward Smoothly, On Time, And With Clear Direction.</span>
+              <span>Project Management: Keep every project moving forward smoothly, on time, and with clear direction.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-lg flex-shrink-0">✔</span>
-              <span>Client Communication: Ensure Seamless, Professional Communication With Your Clients, Building Stronger
-              Relationships.</span>
+              <span>Client Communication: Ensure seamless, professional communication with your clients, building stronger relationships.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-lg flex-shrink-0">✔</span>
-              <span>Daily Operations Management: Let The Day-To-Day Tasks Run Smoothly While You Focus On Big-Picture Growth.</span>
+              <span>Daily Operations Management: Let the day-to-day tasks run smoothly while you focus on big-picture growth. </span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-lg flex-shrink-0">✔</span>
-              <span>Automation: Save Time And Eliminate Manual Processes With Systems That Streamline Your Business.</span>
+              <span>Automation: Save time and eliminate manual processes with systems that streamline your business.</span>
             </li>
             <li className="flex items-start gap-2 font-semibold">
               <span className="text-lg flex-shrink-0">✔</span>
-              <span>KNOW MORE ABOUT MY DIFFERENT PACKAGES AND PRICES</span>
+              <span>Know more about my different packages and prices</span>
             </li>
           </ul>
 
@@ -503,24 +501,24 @@ const ServicesPage = () => {
         {/* Text Content */}
         <EntryAnimation className="w-full md:w-[55%] text-left">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-light tracking-wide mb-2 underline underline-offset-4 font-['alike_angular']">
-            VIRTUAL ASSISTANT
+            Virtual Assistant
           </h2>
 
           <p className="text-base md:text-lg mt-4 mb-4 leading-relaxed font-['poppins']">
-            You Want Support To Handle Day-To-Day, Tedious Tasks So You Can Focus On Growing Your Business.
+            You want support to handle day-to-day, tedious tasks so you can focus on growing your business.
           </p>
 
           <p className="text-base md:text-lg mb-4 leading-relaxed font-['poppins']">
-            As Your VA, I&apos;ll Take Care Of The Draining Admin Tasks—Like The Hours Spent
+            As your VA, I&apos;ll take care of the draining admin tasks—like the hours spent
             <br className="hidden md:block" />
-            Replying To DMs—While The Work Piles Up. You&apos;ll Finally Have Time For What
+            replying to DMs—while the work piles up. You&apos;ll finally have time for what 
             <br className="hidden md:block" />
-            Truly Matters.
+            truly matters.
           </p>
 
-          <p className="text-base md:text-lg mb-6 leading-relaxed">
-            With My Help, You Can Avoid That Stress And Stay Focused On The Bigger Picture.
-          </p>
+            <p className="text-base md:text-lg mb-6 leading-relaxed italic">
+            With my help, you can avoid that stress and stay focused on the bigger picture.
+            </p>
 
           {/* Key Features */}
           <h3 className="text-xl font-semibold underline underline-offset-4 mb-4">Key Features:</h3>
@@ -657,22 +655,20 @@ const ServicesPage = () => {
               What You Get:
             </h2>
 
-            <div className="space-y-4 text-[16px] leading-relaxed">
+            <div className="space-y-4 text-[20px] leading-relaxed">
               <p>
-                <span className="font-bold">A 60-Minute Consult Call:</span> Pure Strategy Tailored To Your Business
-                Challenges.
+                <span className="font-bold">A 60-minute consult call</span> that delivers pure strategy tailored to your business challenges.
               </p>
               <p>
-                <span className="font-bold">Recorded Call:</span> You&apos;ll Receive A Full Recording Of Our Session,
-                Allowing You To Revisit The Insights Whenever You Need A Refresher.
+                <span className="font-bold">Recorded Call:</span> You&apos;ll receive a full recording of our session so you can revisit the insights whenever you need a refresher.
               </p>
               <p>
-                <span className="font-bold">Recommendation Document:</span> Within 48 Hours, I&apos;ll Send
-                You A Personalised Guide Summarising Our Call And Providing Clear Action Steps.
+                <span className="font-bold">Recommendation Document:</span> Within 48 hours, I&apos;ll send
+                you a personalised guide summarising our call and providing clear action steps.
               </p>
               <p>
-                <span className="font-bold">7 Days Of Email Support:</span> After Our Session, You&apos;ll Have A
-                Week Of Email Access For Any Lingering Questions.
+                <span className="font-bold">7 Days Of Email Support:</span> After our session, you&apos;ll have a
+                week of email access for any lingering questions.
               </p>
             </div>
           </EntryAnimation>
@@ -680,10 +676,10 @@ const ServicesPage = () => {
 
         {/* Footer Section */}
         <EntryAnimation className="mt-16 sm:mt-20 text-center">
-          <h3 className="text-2xl sm:text-4xl md:text-6xl font-light tracking-wide mb-2 font-['alike_angular']">
-            A PEEK INTO MY <span className="font-light">OBM AND VA PROCESS:</span>
+    <h3 className="text-2xl sm:text-4xl md:text-6xl font-light tracking-wide mb-2 font-['alike_angular']">
+            A Peek Into My <span className="font-light">OBM And VA Process:</span>
           </h3>
-          <p className="text-lg md:text-3xl py-5 sm:py-7 font-light font-['alike']">HOW I HELP YOUR BUSINESS THRIVE</p>
+          <p className="text-lg md:text-3xl py-5 sm:py-7 font-light font-['alike']">How I help your business thrive</p>
         </EntryAnimation>
       </section>
       
@@ -705,7 +701,7 @@ const ServicesPage = () => {
 
             {/* Testimonial Text */}
             <EntryAnimation className="text-[#3a2d2c] text-center md:text-left">
-              <p className="text-base sm:text-lg font-bold mt-4 sm:mt-15 font-['poppins']">
+              <p className="text-base sm:text-2xl font-bold mt-4 sm:mt-15 font-['alike_angular']">
                 &quot;If you don&apos;t have Tanishq on your team, I don&apos;t think you&apos;ll be able to work. Tanishq isn&apos;t just a team member. She works like a cofounder. She is that dedicated&quot;
               </p>
               <p className="mt-4 sm:mt-6 text-sm uppercase tracking-wide text-[#7a625f]">Gargi Arya, Life & Business Coach</p>
@@ -717,7 +713,7 @@ const ServicesPage = () => {
       <section className="py-12 sm:py-16 px-6 object-center">
         <EntryAnimation>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium tracking-wider mb-8 sm:mb-10 text-center font-['alike_angular']">
-            MY UNWAVERING COMMITMENT TO YOU
+            My unwavering commitment to you
           </h2>
         </EntryAnimation>
         <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8 max-w-6xl mx-auto ">
@@ -726,7 +722,7 @@ const ServicesPage = () => {
             <p className="text-[#3a2d2c] mb-4 sm:mb-6 font-['alike']">
               I&apos;m committed to making your business run smoothly. You can focus on growth without getting bogged down by day-to-day tasks..
             </p>
-            <p className="text-[#3a2d2c] text-lg sm:text-xl mb-4 sm:mb-6 font-['poppins']">HERE&apos;S WHAT WORKING WITH ME LOOKS LIKE:</p>
+            <p className="text-[#3a2d2c] text-lg sm:text-xl mb-4 sm:mb-6 font-['poppins']">Here&apos;s what working with me looks like:</p>
             <ul className="space-y-4 sm:space-y-5 text-[#3a2d2c]">
               <li className="flex items-start gap-2">
                 <span className="text-lg mt-1 flex-shrink-0">•</span>
@@ -776,9 +772,9 @@ const ServicesPage = () => {
         >
           <EntryAnimation>
             <h2 className="text-3xl sm:text-4xl md:text-5xl text-black mb-4 sm:mb-6 font-['alike_angular']">
-              LET&apos;S SIMPLIFY YOUR SYSTEMS,
+              Let&apos;s simplify your systems,
               <br className="hidden sm:block" />
-              PROCESSES, AND DAILY OPERATIONS
+              processes, and daily operations
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-black mb-8 sm:mb-10 max-w-3xl mx-auto font-['poppins']">
               Prefer talking it out instead of reading through details? Let&apos;s connect, and I&apos;ll help you

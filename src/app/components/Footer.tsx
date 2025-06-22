@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="w-full">
       {/* Header */}
       <div className="text-center pt-12">
-        <p className="tracking-[0.2em] text-black text-[25px] uppercase">CONNECT WITH ME ON INSTAGRAM</p>
+        <p className="tracking-[0.2em] text-black text-[25px] uppercase">Connect with me on Instagram</p>
         <p className="tracking-[0.2em] text-black text-[25px] uppercase mt-2">EXCITED TO SHARE THIS JOURNEY!</p>
         <br />
       </div>
