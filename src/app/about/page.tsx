@@ -922,26 +922,29 @@ export default function AboutPage() {
           {/* Text Content */}
           <motion.div className="text-center lg:text-left max-w-2xl" variants={fadeInLeft}>
             <motion.h2
-              className="text-3xl sm:text-4xl font-light tracking-widest mb-7 font-['alike_angular']"
-              variants={fadeIn}
-            >
-              I AM ALWAYS HERE FOR YOU
-            </motion.h2>
-            <motion.p
-              className="font-semibold tracking-wider text-lg sm:text-xl mb-8 font-['alike']"
-              variants={fadeIn}
-            >
-              Still have big questions? Maybe even small ones? I am here to answer all of them.
-            </motion.p>
+  className="text-3xl sm:text-4xl font-light tracking-widest mb-7 font-['alike_angular'] text-center"
+  variants={fadeIn}
+>
+  I AM ALWAYS HERE FOR YOU
+</motion.h2>
+
+<motion.p
+  className="font-semibold tracking-wider text-lg sm:text-xl mb-8 font-['alike'] text-center"
+  variants={fadeIn}
+>
+  Still have big questions? Maybe even small ones? I am here to answer all of them.
+</motion.p>
+
             <motion.a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
-              className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins']"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              variants={fadeIn}
-            >
-              GET THE FREEDOM-FOCUSED SUPPORT YOU NEED
-            </motion.a>
+  href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header"
+  className="bg-white text-black px-6 py-3 font-medium tracking-widest rounded hover:bg-gray-200 transition font-['poppins'] text-center break-words max-w-[90%] sm:max-w-fit mx-auto block"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  variants={fadeIn}
+>
+  GET THE FREEDOM-FOCUSED SUPPORT YOU NEED
+</motion.a>
+
           </motion.div>
 
           {/* Image */}

@@ -93,7 +93,7 @@ const ServicesPage = () => {
       transition={{ duration: 0.8, delay: 0.9 }}
       className="mt-10"
     >
-      <a href="https://topmate.io/tanishqjha">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform">
   <button className="px-8 py-3 bg-[#d2b49c] hover:bg-[#bfa088] text-black font-semibold rounded-xl shadow-lg transition duration-300 transform hover:scale-105 font-['alike_angular']">
     LET&apos;S TALK
   </button>
@@ -781,7 +781,7 @@ const ServicesPage = () => {
               choose the best offer to suit your business needs.
             </p>
             <a
-              href="https://topmate.io/tanishqjha"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform"
               className="inline-block bg-[#3a2d2c] text-white text-base sm:text-lg tracking-widest px-6 sm:px-8 py-3 sm:py-4 rounded-md shadow-md hover:bg-[#2e2322] transition-all transform hover:scale-105 font-['poppins']"
             >
               I&apos;M IN! SCHEDULE THE CALL

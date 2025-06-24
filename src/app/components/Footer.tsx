@@ -59,10 +59,10 @@ export default function Footer() {
         <div className="bg-white w-full flex flex-col md:flex-row justify-between items-center px-10 py-6">
           {/* Left Nav Links */}
           <div className="flex gap-10 text-black text-[16px] tracking-[0.2em] font-light uppercase">
-            <a href="#about" className="hover:underline">About Me</a>
-            <a href="https://calendly.com/jhatanishq2504/30min" className="hover:underline">Work With Me</a>
+            <a href="/about" className="hover:underline">About Me</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSvqOwRlMADSTAiAWFsuGYmOh1rjECxErFBjeyqkzEDtHNiA/viewform?usp=header" className="hover:underline">Work With Me</a>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfSvqOwRlMADSTAiAWFsuGYmOh1rjECxErFBjeyqkzEDtHNiA/viewform?usp=header"
+              href="/contact"
               className="hover:underline"
             >
               Contact Me
