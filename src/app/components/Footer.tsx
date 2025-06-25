@@ -60,7 +60,7 @@ export default function Footer() {
           {/* Left Nav Links */}
           <div className="flex gap-10 text-black text-[16px] tracking-[0.2em] font-light uppercase">
             <a href="/about" className="hover:underline">About Me</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSvqOwRlMADSTAiAWFsuGYmOh1rjECxErFBjeyqkzEDtHNiA/viewform?usp=header" className="hover:underline">Work With Me</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform" className="hover:underline">Work With Me</a>
             <a
               href="/contact"
               className="hover:underline"
