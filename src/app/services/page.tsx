@@ -413,7 +413,8 @@ const ServicesPage = () => {
   </h4>
 
   <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
-    You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+    Whether you're looking for tailored operational support or a one-off project management solution, I'm here to assist you.
+Let's discuss how I can best meet your needs.
   </p>
 
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
@@ -594,7 +595,7 @@ const ServicesPage = () => {
                 Once your payment goes through, you&apos;ll receive an email with the link you need to:
               </p>
               <ul className="text-sm md:text-base mt-2 space-y-1 font-['poppins']">
-                <li>• Book your consult date and time.</li>
+                <li>• Book your consultation date and time.</li>
                 <li>• Access your briefing questionnaire.</li>
               </ul>
             </EntryAnimation>
@@ -657,7 +658,7 @@ const ServicesPage = () => {
 
             <div className="space-y-4 text-[20px] leading-relaxed">
               <p>
-                <span className="font-bold">A 60-minute consult call</span> that delivers pure strategy tailored to your business challenges.
+                <span className="font-bold">A 60-minute consultation call</span> that delivers pure strategy tailored to your business challenges.
               </p>
               <p>
                 <span className="font-bold">Recorded Call:</span> You&apos;ll receive a full recording of our session so you can revisit the insights whenever you need a refresher.

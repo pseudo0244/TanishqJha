@@ -891,7 +891,8 @@ export default function AboutPage() {
   className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']"
   variants={fadeIn}
 >
-  You want a big-picture thinker and a doer as your online business manager. This support will keep everything running smoothly, allowing you to focus on scaling your business and achieving your broader goals.
+ Whether you're looking for tailored operational support or a one-off project management solution, I'm here to assist you.
+Let's discuss how I can best meet your needs.
 </motion.p>
 
 
