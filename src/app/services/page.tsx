@@ -413,8 +413,8 @@ const ServicesPage = () => {
   </h4>
 
   <p className="text-[16px] sm:text-[18px] md:text-[23px] text-[#2E2E2E] leading-relaxed tracking-wide font-light font-['poppins']">
-    Whether you're looking for tailored operational support or a one-off project management solution, I'm here to assist you.
-Let's discuss how I can best meet your needs.
+    Whether you&apos;re looking for tailored operational support or a one-off project management solution, I&apos;m here to assist you.
+Let&apos;s discuss how I can best meet your needs.
   </p>
 
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUaQXeIheNXx6Z3TtMx8yQX-3FOefXzucMalGJgJ0HNiFtxA/viewform?usp=header">
