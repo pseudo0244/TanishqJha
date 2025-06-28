@@ -78,6 +78,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         ${alikeAngular.variable}
       `}
     >
+      <head>
+        {/* ✅ Umami Analytics Script */}
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="59856e91-5f7e-4988-bf2b-e1976f3b3fdf"
+        ></script>
+      </head>
       <body>{children}</body>
     </html>
   )
