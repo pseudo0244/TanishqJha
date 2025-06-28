@@ -2,14 +2,21 @@
 
 import { useEffect, useState } from 'react'
 
+type CounterStats = {
+  total: number
+  today: number
+  yesterday: number
+  average: number
+}
+
 export default function StatsPage() {
-  const [stats, setStats] = useState<any>(null)
+  const [stats, setStats] = useState<CounterStats | null>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     fetch('https://counter.dev/tanishqjha.com.json')
       .then((res) => res.json())
-      .then((data) => {
+      .then((data: CounterStats) => {
         setStats(data)
         setLoading(false)
       })
