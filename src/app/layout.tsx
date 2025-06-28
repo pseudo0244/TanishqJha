@@ -1,4 +1,5 @@
 import './globals.css'
+import Script from 'next/script'
 import {
   Great_Vibes,
   Poppins,
@@ -79,10 +80,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       `}
     >
       <head>
-        {/* ✅ Umami Analytics Script */}
-        <script src="https://cdn.counter.dev/script.js" data-id="c25c7731-8368-47f0-a551-1dc1732efd98" data-utcoffset="6"></script>
+        {/* No direct <script> here to avoid sync issues */}
       </head>
-      <body>{children}</body>
+      <body>
+        {/* ✅ Umami Analytics Script using Next.js Script component */}
+        <Script
+          src="https://cdn.counter.dev/script.js"
+          data-id="c25c7731-8368-47f0-a551-1dc1732efd98"
+          data-utcoffset="6"
+          strategy="afterInteractive"
+        />
+        {children}
+      </body>
     </html>
   )
 }
