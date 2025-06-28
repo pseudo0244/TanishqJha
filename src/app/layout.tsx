@@ -80,11 +80,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <head>
         {/* ✅ Umami Analytics Script */}
-        <script
-          defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="59856e91-5f7e-4988-bf2b-e1976f3b3fdf"
-        ></script>
+        <script data-goatcounter="https://tanishqjha.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
       </head>
       <body>{children}</body>
     </html>
