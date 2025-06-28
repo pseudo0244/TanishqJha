@@ -2,37 +2,44 @@
 
 import { useEffect, useState } from 'react'
 
-type CounterStats = {
-  total: number
-  today: number
-  yesterday: number
-  average: number
+type DailyStats = {
+  count: number
+  label: string
 }
 
-export default function StatsPage() {
-  const [stats, setStats] = useState<CounterStats | null>(null)
+export default function GoatCounterStats() {
+  const [data, setData] = useState<DailyStats[] | null>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('https://counter.dev/tanishqjha.com.json')
+    fetch('https://tanishqjha.goatcounter.com/api/v0/stats.json?req=day')
       .then((res) => res.json())
-      .then((data: CounterStats) => {
-        setStats(data)
+      .then((resData) => {
+        setData(resData.stats)
         setLoading(false)
       })
-      .catch(() => setLoading(false))
+      .catch((err) => {
+        console.error('Error fetching GoatCounter stats:', err)
+        setLoading(false)
+      })
   }, [])
 
-  if (loading) return <p>Loading stats...</p>
-  if (!stats) return <p>Failed to load stats</p>
-
   return (
-    <div className="p-8 space-y-4">
-      <h1 className="text-2xl font-bold">Website Stats</h1>
-      <p>Total Pageviews: {stats.total}</p>
-      <p>Today: {stats.today}</p>
-      <p>Yesterday: {stats.yesterday}</p>
-      <p>Average Daily: {stats.average}</p>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-white p-8">
+      <h1 className="text-3xl font-bold mb-6">GoatCounter Analytics</h1>
+      {loading ? (
+        <p>Loading...</p>
+      ) : data ? (
+        <ul className="space-y-4">
+          {data.map((day, idx) => (
+            <li key={idx} className="p-4 bg-gray-100 rounded-md">
+              <strong>{day.label}:</strong> {day.count} visits
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>No data available.</p>
+      )}
     </div>
   )
 }

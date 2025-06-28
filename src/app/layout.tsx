@@ -80,10 +80,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       `}
     >
       <head>
-        {/* No direct <script> here to avoid sync issues */}
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ETPXN5B90R"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ETPXN5B90R');
+          `}
+        </Script>
       </head>
       <body>
-        {/* ✅ Umami Analytics Script using Next.js Script component */}
+        {/* Optional: Umami or Counter.dev */}
         <Script
           src="https://cdn.counter.dev/script.js"
           data-id="c25c7731-8368-47f0-a551-1dc1732efd98"
