@@ -7,7 +7,7 @@ export default function DashboardPage() {
     <main className="p-8">
       <h1 className="text-2xl font-bold mb-6">Visitor Stats</h1>
       <div className="w-full h-[600px]">
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="59856e91-5f7e-4988-bf2b-e1976f3b3fdf"></script>
+        <script src="https://cdn.counter.dev/script.js" data-id="c25c7731-8368-47f0-a551-1dc1732efd98" data-utcoffset="6"></script>
       </div>
     </main>
   )
