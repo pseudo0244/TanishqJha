@@ -834,7 +834,45 @@ Let&apos;s discuss how I can best meet your needs.
           </motion.div>
         </motion.div>
       </section>
+<section className="font-['Didot',serif] bg-white pt-10 px-6  md:px-20 md:py-2">
+  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
+    {/* Text Section - Left side */}
+    <div className="md:w-2/3">
+      <h2 className="text-[42px] md:text-[30px] font-bold text-black mb-2 font-['alike']">
+        YOU&apos;VE BEEN DOING YOUR BEST BY <span className="font-normal">CREATING TO-DO LISTS FOR YOURSELF…</span>
+      </h2>
+      <p className="text-[22px] text-black mb-4 font-['poppins']">NOW…</p>
+      <div>
+        <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins'] font-semibold">
+          It&apos;s time for proper systems and automation to help you feel organised and clutter-free.
+        </p>
+        <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins']">
+          You&apos;ll finally be at peace and save your mental energy.
+        </p>
+        <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins']">
+          Your business will become more structured and organised.
+        </p>
+        <p className="text-[20px] text-[#2E2E2E] leading-relaxed mb-4 font-['poppins']">
+          Things will move seamlessly while you focus on what you do best.
+        </p>
+        <p className="text-[20px] text-[#2E2E2E] leading-relaxed font-bold font-['poppins']">
+          AND YES, YOU&apos;LL GET TO ENJOY LIFE, TOO.
+        </p>
+      </div>
+    </div>
 
+    {/* Image Section - Right side */}
+    <div className="md:w-1/2 flex justify-center md:justify-end">
+      <Image
+        src="https://res.cloudinary.com/dtzqrfg6q/image/upload/v1753279392/img_xtdqpp.jpg"
+        alt="Precious Time"
+        width={400}
+        height={700}
+        className="max-w-[380px] h-[450px]"
+      />
+    </div>
+  </div>
+</section>
       {/* You're Not Alone Section */}
       <section className="font-['Didot',serif] bg-white py-12 px-6 md:px-20">
   <motion.div
